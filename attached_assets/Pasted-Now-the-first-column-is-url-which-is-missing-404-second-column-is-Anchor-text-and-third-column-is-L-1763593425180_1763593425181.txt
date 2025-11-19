@@ -1,0 +1,237 @@
+Now the first column is url which is missing 404, second column is Anchor text and third column is Linked From
+keep in mind that https://alpine-academy-frontend.vercel.app/ is baseUrl of project, you need to fix each 404 link on these page , only need to fix these links please
+
+URL	Anchor Text	Linked From
+https://alpine-academy-frontend.vercel.app/site.webmanifest	link/href	https://alpine-academy-frontend.vercel.app
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/img/Freeride-Fotos/clases-particulares-nieve-virgen-Baqueira-beret-.webp	img/src	https://alpine-academy-frontend.vercel.app/clases-de-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira.html	Clases de esquí	https://alpine-academy-frontend.vercel.app/clases-empresas-colegios-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/logo1.jpg	img/src	https://alpine-academy-frontend.vercel.app/en/index.html
+https://alpine-academy-frontend.vercel.app/en/clase-particular-carv.webp	img/src	https://alpine-academy-frontend.vercel.app/en/index.html
+https://alpine-academy-frontend.vercel.app/en/dynastar.webp	img/src	https://alpine-academy-frontend.vercel.app/en/index.html
+https://alpine-academy-frontend.vercel.app/en/lange.webp	img/src	https://alpine-academy-frontend.vercel.app/en/index.html
+https://alpine-academy-frontend.vercel.app/en/rossignol.webp	img/src	https://alpine-academy-frontend.vercel.app/en/index.html
+https://alpine-academy-frontend.vercel.app/en/briko.webp	img/src	https://alpine-academy-frontend.vercel.app/en/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/clases-esquí-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/clase-de-snowboard-baqueira-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/clases-colectivas-grupo-adultos-baqueira.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/salto-snowparck-tail-grab.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/clases-de-nieve-polvo.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/esqui-empresas-team-building-baqueira.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/blog_cover_1.jpg	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/blog_cover_2.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/images/blog_cover_3.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/logo1.jpg	img/src	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/clase-particular-carv.webp	img/src	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/dynastar.webp	img/src	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/lange.webp	img/src	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/rossignol.webp	img/src	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/ca/briko.webp	img/src	https://alpine-academy-frontend.vercel.app/ca/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/clases-esquí-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/clase-de-snowboard-baqueira-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/clases-colectivas-grupo-adultos-baqueira.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/salto-snowparck-tail-grab.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/clases-de-nieve-polvo.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/esqui-empresas-team-building-baqueira.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/blog_cover_1.jpg	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/blog_cover_2.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/images/blog_cover_3.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/logo1.jpg	img/src	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/clase-particular-carv.webp	img/src	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/dynastar.webp	img/src	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/lange.webp	img/src	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/rossignol.webp	img/src	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/briko.webp	img/src	https://alpine-academy-frontend.vercel.app/fr/index.html
+https://alpine-academy-frontend.vercel.app/fr/Politique-d’annulation.html	Français	https://alpine-academy-frontend.vercel.app/politica-de-cancelacion.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-particulares-freeride-baqueira.html	Freeride	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/clases-de-snowboard.html	Snowboard	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/Nosotros.html	Nosotros	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/galeria.html	Galería	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/Viajes.html	Viajes	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/camaras.html	Cámaras	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/alquiler.html	Alquiler	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/precios.html	Precios	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/contacto.html	Reserva	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/Política-de-cancelación.html	Política de Can	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/language.js	script/src	https://alpine-academy-frontend.vercel.app/blog/mejores-restaurantes-baqueira-beret.html
+https://alpine-academy-frontend.vercel.app/pt/images/clases-esquí-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/clase-de-snowboard-baqueira-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/clases-colectivas-grupo-adultos-baqueira.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/salto-snowparck-tail-grab.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/clases-de-nieve-polvo.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/esqui-empresas-team-building-baqueira.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/blog_cover_1.jpg	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/blog_cover_2.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/images/blog_cover_3.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/logo1.jpg	img/src	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/clase-particular-carv.webp	img/src	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/dynastar.webp	img/src	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/lange.webp	img/src	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/rossignol.webp	img/src	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/pt/briko.webp	img/src	https://alpine-academy-frontend.vercel.app/pt/index.html
+https://alpine-academy-frontend.vercel.app/en/clases-esqui-baqueria-en.html	English	https://alpine-academy-frontend.vercel.app/en/ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-baqueira-ca.html	Català	https://alpine-academy-frontend.vercel.app/en/ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/clases-esqui-baqueria-fr.html	Français	https://alpine-academy-frontend.vercel.app/en/ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/clases-esqui-baqueria-pt.html	Português	https://alpine-academy-frontend.vercel.app/en/ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/clases-esqui-baqueria-en.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-de-ski-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-baqueira-ca.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-de-ski-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/clases-esqui-baqueria-fr.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-de-ski-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/clases-esqui-baqueria-pt.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-de-ski-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/clases-esqui-baqueria-en.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-de-esqui-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-baqueira-ca.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-de-esqui-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/clases-esqui-baqueria-fr.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-de-esqui-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/clases-esqui-baqueria-pt.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-de-esqui-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-particulars-families-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-families-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-prives-familles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-families-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-privadas-familias-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-families-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/private-ski-lessons-families-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-familles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-particulars-families-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-familles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-prives-familles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-familles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-privadas-familias-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-familles-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/private-ski-lessons-families-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-familias-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-particulars-families-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-familias-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-prives-familles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-familias-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-privadas-familias-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-familias-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-particulars-carv-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-prives-carv-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-privadas-carv-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/private-ski-lessons-carv-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-technologie-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-particulars-carv-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-technologie-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-prives-carv-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-technologie-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-privadas-carv-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-technologie-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/private-ski-lessons-carv-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-tecnologia-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-particulars-carv-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-tecnologia-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-prives-carv-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-tecnologia-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-privadas-carv-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-tecnologia-carv-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-freeride-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/freeride-ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-freeride-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/freeride-ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-freeride-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/freeride-ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/freeride-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-freeride-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-freeride-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-freeride-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/freeride-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-freeride-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-freeride-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-freeride-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-freeride-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-freestyle-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/freestyle-ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-freestyle-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/freestyle-ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-freestyle-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/freestyle-ski-lessons-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/freestyle-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-freestyle-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-freestyle-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-freestyle-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/freestyle-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-freestyle-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-freestyle-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-freestyle-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-freestyle-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-children-baqueira.html	English	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-kids-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-grup-nens-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-kids-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-groupe-enfants-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-kids-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-grupo-criancas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-kids-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/group-ski-lessons-children-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-enfants-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-grup-nens-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-enfants-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-groupe-enfants-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-enfants-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-grupo-criancas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-enfants-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/group-ski-lessons-children-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-criancas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-grup-nens-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-criancas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-groupe-enfants-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-criancas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-grupo-criancas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-criancas-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-particulars-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-particuliers-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-particulares-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/private-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/private-ski-lessons-adults-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-particulars-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-particulares-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-particuliers-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/private-ski-lessons-adults-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-particulars-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-particuliers-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-particulares-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/adult-group-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-grup-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-groupe-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-grupo-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-adults-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/adult-group-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-grup-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-groupe-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-grupo-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-groupe-adultes-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/adult-group-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-grup-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-groupe-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-grupo-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-grupo-adultos-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/group-ski-lessons-businesses-schools-baqueira.html	English	https://alpine-academy-frontend.vercel.app/en/ski-lessons-companies-schools-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/classes-esqui-grup-empreses-collegis-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/en/ski-lessons-companies-schools-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/cours-ski-groupe-entreprises-ecoles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/en/ski-lessons-companies-schools-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/aulas-esqui-grupo-empresas-escolas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/en/ski-lessons-companies-schools-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/clases-esqui-baqueira.html	Clases de esquí	https://alpine-academy-frontend.vercel.app/en/ski-lessons-companies-schools-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/group-ski-lessons-businesses-schools-baqueira.html	English	https://alpine-academy-frontend.vercel.app/fr/cours-entreprises-ecoles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/classes-esqui-grup-empreses-collegis-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/fr/cours-entreprises-ecoles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/cours-ski-groupe-entreprises-ecoles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/fr/cours-entreprises-ecoles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/aulas-esqui-grupo-empresas-escolas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/fr/cours-entreprises-ecoles-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/clases-esqui-baqueira.html	Clases de esquí	https://alpine-academy-frontend.vercel.app/fr/cours-entreprises-ecoles-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/group-ski-lessons-businesses-schools-baqueira.html	English	https://alpine-academy-frontend.vercel.app/pt/aulas-empresas-escolas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/classes-esqui-grup-empreses-collegis-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/pt/aulas-empresas-escolas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/cours-ski-groupe-entreprises-ecoles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/pt/aulas-empresas-escolas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/aulas-esqui-grupo-empresas-escolas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/pt/aulas-empresas-escolas-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/clases-esqui-baqueira.html	Clases de esquí	https://alpine-academy-frontend.vercel.app/pt/aulas-empresas-escolas-baqueira.html
+https://alpine-academy-frontend.vercel.app/ca/images/Precios/clase-particular-esquí-pareja-baqueira-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/ca/preus-i-tarifes-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/images/Precios/clase-particular-esquí-pareja-baqueira-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/fr/prix-et-tarifs-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/images/Precios/clase-particular-esquí-pareja-baqueira-alpine-ski-academy.webp	inline style	https://alpine-academy-frontend.vercel.app/pt/precos-e-tarifas-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/clases de esquí	clases de esquí	https://alpine-academy-frontend.vercel.app/en/ski-snowboard-rental-baqueira.html
+https://alpine-academy-frontend.vercel.app/en/o snow	o snow	https://alpine-academy-frontend.vercel.app/en/ski-snowboard-rental-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/clases de esquí	clases de esquí	https://alpine-academy-frontend.vercel.app/fr/location-de-materiel-baqueira.html
+https://alpine-academy-frontend.vercel.app/fr/o snow	o snow	https://alpine-academy-frontend.vercel.app/fr/location-de-materiel-baqueira.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/contacto.html	Reserva	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/index.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/animation.js	script/src	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/index.html
+https://alpine-academy-frontend.vercel.app/en.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-ninos.html
+https://alpine-academy-frontend.vercel.app/ca.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-ninos.html
+https://alpine-academy-frontend.vercel.app/fr.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-ninos.html
+https://alpine-academy-frontend.vercel.app/pt.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-ninos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/private-ski-lessons-families-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-familias.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-particulars-families-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-familias.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-prives-familles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-familias.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-privadas-familias-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-familias.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/private-ski-lessons-adults-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-particulars-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-particuliers-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-particulares-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/private-ski-lessons-carv-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-carv.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-particulars-carv-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-carv.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-prives-carv-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-carv.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-privadas-carv-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-carv.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/freestyle-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freestyle.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-freestyle-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freestyle.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-freestyle-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freestyle.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-freestyle-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freestyle.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/group-ski-lessons-children-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-ninos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-grup-nens-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-ninos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-groupe-enfants-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-ninos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-grupo-criancas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-ninos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/adult-group-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-grup-adults-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-groupe-adultes-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-grupo-adultos-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/grupo-adultos.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/group-ski-lessons-businesses-schools-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/empresas-colegios.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-grup-empreses-collegis-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/empresas-colegios.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-groupe-entreprises-ecoles-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/empresas-colegios.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-grupo-empresas-escolas-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/empresas-colegios.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueira.html	Clases de esquí	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/empresas-colegios.html
+https://alpine-academy-frontend.vercel.app/pt/clases de esquí	clases de esquí	https://alpine-academy-frontend.vercel.app/pt/aluguel-de-equipamento-baqueira.html
+https://alpine-academy-frontend.vercel.app/pt/o snow	o snow	https://alpine-academy-frontend.vercel.app/pt/aluguel-de-equipamento-baqueira.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en/freeride-ski-lessons-baqueira.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freeride.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca/classes-esqui-freeride-baqueira.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freeride.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr/cours-ski-freeride-baqueira.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freeride.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt/aulas-esqui-freeride-baqueira.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/particulares-freeride.html
+https://alpine-academy-frontend.vercel.app/en/gallery.html	Gallery	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/en/webcams-baqueria.html	Cameras	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/en/ski-snowboard-equipment-hire-baqueira.html	Rentals	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/en/contact-bookings.html	Contact	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/en.html	English	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/ca.html	Català	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/fr.html	Français	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/pt.html	Português	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/contacto-reservas.html	Book Now	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/precios-clases-esqui-baqueira.html	View Prices & Rates	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-en.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/esqui-baqueria-profesor-alumna.webp	style: .hero-section	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/styles.css
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/img/fotos-clases\ en\ grupo-niños/clases-colectivas-niños-baqueira-beret-fuera-pista.webp	style: .page-hero	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/styles.css
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/img/Fotos-esqui-familias/familia\ clases\ particulares\ alpine\ ski\ academy.jpg	style: .family-hero	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/styles.css
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/es.html	Español	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-fr.html
+https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/precos.html	Ver preços e tarifas	https://alpine-academy-frontend.vercel.app/clases-esqui-baqueira/clases-esqui-baqueria-pt.html
