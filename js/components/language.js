@@ -3,32 +3,46 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to handle language switching
   function switchLanguage(lang) {
     const currentPath = window.location.pathname;
-    let targetPage = 'index.html'; // Default to Spanish
     
+    // Get the current page filename without language prefix
+    let pageName = currentPath.split('/').pop() || 'index.html';
+    
+    // If we're in a language subdirectory, get just the filename
+    if (currentPath.includes('/en/') || currentPath.includes('/fr/') || 
+        currentPath.includes('/pt/') || currentPath.includes('/ca/')) {
+      pageName = currentPath.split('/').pop();
+    }
+    
+    // Default to index.html if no page specified
+    if (!pageName || pageName === '' || pageName.endsWith('/')) {
+      pageName = 'index.html';
+    }
+    
+    // Build target path based on language
+    let targetPath;
     switch(lang) {
       case 'en':
-        targetPage = 'en.html';
+        targetPath = '/en/' + pageName;
         break;
       case 'fr':
-        targetPage = 'fr.html';
+        targetPath = '/fr/' + pageName;
         break;
       case 'pt':
-        targetPage = 'pt.html';
+        targetPath = '/pt/' + pageName;
         break;
       case 'ca':
-        targetPage = 'ca.html';
+        targetPath = '/ca/' + pageName;
         break;
       default:
-        targetPage = 'index.html'; // Spanish
+        // Spanish is in root
+        targetPath = '/' + pageName;
     }
     
     // Store language preference
     localStorage.setItem('preferredLanguage', lang);
     
     // Redirect to the target page
-    if (!window.location.pathname.includes(targetPage)) {
-      window.location.href = targetPage;
-    }
+    window.location.href = targetPath;
   }
   
   // Set up language option click handlers
