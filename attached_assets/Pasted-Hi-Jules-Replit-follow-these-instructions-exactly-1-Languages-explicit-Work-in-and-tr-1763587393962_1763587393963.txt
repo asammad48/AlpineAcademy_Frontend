@@ -1,0 +1,135 @@
+Hi Jules / Replit — follow these instructions exactly.
+
+1) Languages (explicit)
+
+Work in (and translate into) these languages only:
+
+Spanish — root (no /es/)
+
+English — /en/
+
+Portuguese — /pt/
+
+Catalan — /ca/
+
+French — /fr/
+
+Do not add other language folders.
+
+2) Primary Goals & Order of Work
+
+Spanish first — update/create every Spanish HTML file in the root with finalized Spanish copy and correct links.
+
+Then copy Spanish structure to /en/, /pt/, /ca/, /fr/ and replace text with correct translations.
+
+Fix all internal links in every HTML file so they point to the correct language-specific URL (see Rules below).
+
+Run the link-checker (instructions and a JS snippet below) to detect any 404s or broken internal links. Fix each broken link by either:
+
+creating the missing page (with correct SEO title/meta and Spanish-based structure), or
+
+correcting the href to the proper language path / file.
+
+Confirm every site page loads without 404.
+
+3) Link rules (strict — follow exactly)
+
+All internal links must use language-aware absolute paths:
+
+Spanish (root pages): links must point to /page.html (e.g. /clases-de-esqui-baqueira.html)
+
+English: links must point to /en/page.html (e.g. /en/ski-lessons-baqueira.html)
+
+Portuguese: /pt/page.html
+
+Catalan: /ca/page.html
+
+French: /fr/page.html
+
+Do not use relative ../ tricks across languages. Always use the absolute path format above to avoid mistakes.
+
+For language switcher links (header/footer):
+
+When on Spanish page /clases-de-esqui-baqueira.html, the language-switch links must be:
+
+English → /en/ski-lessons-baqueira.html
+
+Portuguese → /pt/aulas-de-esqui-baqueira.html
+
+Catalan → /ca/classes-desqui-baqueira.html
+
+French → /fr/cours-de-ski-baqueira.html
+
+When on English page /en/ski-lessons-baqueira.html, link back to Spanish → /clases-de-esqui-baqueira.html, and so on.
+
+Social/contact links (email, WhatsApp, Instagram, Facebook, TikTok, YouTube, Google Business) are global — same URL in every page.
+
+4) Translation & Content rules
+
+Use the Spanish root page as the master/layout/template. Copy the full HTML structure (head tags, header, footer, markup/classes). Only change the textual content and the <title> / <meta description> to the target language.
+
+Do not change CSS classes or JS filenames.
+
+Keep the same markup semantics (semantic tags, heading order) for accessibility and SEO consistency.
+
+Add lang attribute on <html> for each file:
+
+Spanish pages: <html lang="es">
+
+English: <html lang="en">
+
+Portuguese: <html lang="pt">
+
+Catalan: <html lang="ca">
+
+French: <html lang="fr">
+
+5) File creation policy when a link points to a missing page
+
+If the link points to /en/some-page.html and that file does not exist, create /en/some-page.html using the Spanish version as template and translate the content.
+
+If a link should instead point to a different page, fix the href instead of creating duplicate content.
+
+7) Quick developer checklist (one-per-page)
+
+For each page in each language, tick off:
+
+ File exists at the exact path (see master file list you already have).
+
+ <html lang="..."> set correctly.
+
+ <title> and <meta name="description"> translated.
+
+ Header / footer language links point to the matched-language paths (use absolute paths as above).
+
+ Internal links point to same-language pages (or to global social/contact URLs).
+
+ Page returns 200 on HTTP HEAD (not 404).
+
+ Social links present and correct.
+
+ No console errors on page load (open console and check).
+
+8) If you prefer an automated fix flow (for Replit / local)
+
+Option A (manual): Use the browser link-checker above, and fix pages manually in Replit (copy Spanish, translate, update href).
+
+Option B (automated script in Replit): If you allow JS execution (small Node script), I can provide a Node-based crawler that:
+
+Crawls the site,
+
+Reports broken links,
+
+Optionally creates placeholder HTML files in the correct folders (must be run in project repository with write access).
+
+Note: this is optional — you previously required HTML/CSS/JS only; a Node script is JS but may require running on Replit shell. Tell me if you want this and I'll produce it.
+
+9) Deliverable expectations
+
+Spanish (root) pages — all content translated and final.
+
+For each other language: same HTML structure + content translated.
+
+All internal links fixed so no 404s remain for internal pages.
+
+Final report: a small JSON or CSV list of any broken links found & actions taken (created file / updated href).
