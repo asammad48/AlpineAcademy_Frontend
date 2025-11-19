@@ -138,16 +138,19 @@
         overflow: visible !important;
     }
     
-    /* Fix dropdown menu visibility on mobile */
+    /* Fix dropdown menu to float above navbar on mobile */
     .nav-item.dropdown .dropdown-menu {
-        position: static !important; /* Normal document flow */
-        float: none !important;
-        width: 100% !important;
-        margin-top: 0 !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        width: auto !important;
+        min-width: 250px !important;
+        margin-top: 0.5rem !important;
         background-color: #fff !important;
         border: 1px solid rgba(0,0,0,.15) !important;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-        z-index: 1000 !important; /* Ensure it's above other content */
+        z-index: 1050 !important; /* Ensure it's above navbar and other content */
+        border-radius: 10px !important;
     }
     
     .nav-item.dropdown.show .dropdown-menu {
@@ -264,16 +267,18 @@
         max-height: none !important;
     }
     
-    /* Fix dropdown menu visibility on mobile - Let Bootstrap handle display */
+    /* Fix dropdown menu to float above navbar on mobile */
     .nav-item.dropdown .dropdown-menu {
-        position: static !important; /* Normal document flow */
-        float: none !important;
-        width: 100% !important;
-        margin-top: 0 !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        width: auto !important;
+        min-width: 250px !important;
+        margin-top: 0.5rem !important;
         background-color: #fff !important;
         border: 1px solid rgba(0,0,0,.15) !important;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-        z-index: 1000 !important; /* Ensure it's above other content */
+        z-index: 1050 !important;
         border-radius: 10px;
         padding: 8px 0;
     }
@@ -324,11 +329,6 @@
     
     /* Ensure all dropdowns close when main menu closes */
     .navbar-collapse:not(.show) .dropdown-menu {
-        display: none !important;
-    }
-    
-    /* Prevent hover from interfering on mobile */
-    .navbar .nav-item.dropdown:hover .dropdown-menu {
         display: none !important;
     }
 }
@@ -1382,54 +1382,21 @@ body {
             }
         }
 
-        /* Hover dropdown styles */
-.navbar .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
+        /* Click-based dropdown styles - Bootstrap handles the behavior */
 .navbar .dropdown-menu {
-    display: block;
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(10px);
+    margin-top: 0;
     transition: all 0.3s ease;
 }
 
-/* Language switcher specific hover styles */
-.language-switcher:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
-/* Prevent dropdown from closing when moving cursor to dropdown */
-.navbar .dropdown-menu {
-    margin-top: 0;
-    pointer-events: auto;
-}
-
-/* Adjust for mobile devices */
+/* Mobile dropdown behavior - click only */
 @media (max-width: 991px) {
-    .navbar .nav-item.dropdown:hover .dropdown-menu {
-        display: none;
-    }
-    
     .navbar .nav-item.dropdown.show .dropdown-menu {
         display: block !important;
         opacity: 1 !important;
         visibility: visible !important;
         transform: translateY(0) !important;
-        max-height: none !important; /* Show all items */
-        overflow: visible !important; /* Ensure all items are visible */
-        position: static !important; /* Normal flow on mobile */
-    }
-    
-    .language-switcher:hover .dropdown-menu {
-        display: none;
+        max-height: none !important;
+        overflow: visible !important;
     }
     
     .language-switcher.show .dropdown-menu {
@@ -1448,25 +1415,20 @@ body {
 
 .language-switcher .dropdown-menu {
     position: absolute;
-    top: 100%; /* Positions dropdown below the button */
+    top: 100%;
     left: 0;
     right: auto;
     margin-top: 0.5rem;
 }
 
-/* Ensure dropdown is visible on hover */
-.language-switcher:hover .dropdown-menu {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-}
-
-/* Adjust for mobile view */
+/* Mobile view - language switcher also floats */
 @media (max-width: 991px) {
     .language-switcher .dropdown-menu {
-        position: static;
-        margin-top: 0;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        margin-top: 0.5rem;
+        min-width: 200px;
     }
 }
 
