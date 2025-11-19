@@ -1,0 +1,169 @@
+✅ INSTRUCTIONS FOR REPLIT — HTML ONLY
+
+Hi Replit,
+You will work ONLY with HTML files (NO backend, NO frameworks, NO folder changes).
+
+Your tasks:
+1️⃣ First — Update / Fix / Create ALL Spanish (root folder) HTML pages
+
+Spanish lives in the root directory → NO /es/ folder.
+
+Make sure every page listed below exists.
+
+If a page exists in another language, copy its structure, but translate content into Spanish.
+
+Maintain the design and layout the website already uses.
+
+2️⃣ After Spanish is 100% complete — work on EN, PT, CA, FR
+
+Use the Spanish version as the master.
+
+Translate content.
+
+Keep filenames and URLs EXACTLY as listed.
+
+Do not add, rename, or move folders.
+
+📄 HTML FILE LIST — EXACT REQUIRED STRUCTURE
+🇪🇸 SPANISH (ROOT — NO FOLDER)
+index.html
+clases-de-esqui-baqueira.html
+clases-de-snowboard-baqueira.html
+sobre-nosotros.html
+viajes-de-esqui.html
+camaras-baqueira.html
+alquiler-de-material-baqueira.html
+precios-y-tarifas-baqueira.html
+contacto-reservas.html
+blog.html
+
+# Ski Lesson Child Pages
+clases-particulares-ninos-baqueira.html
+clases-particulares-familias-baqueira.html
+clases-particulares-adultos-baqueira.html
+clases-de-freeride-baqueira.html
+clases-de-freestyle-baqueira.html
+clases-tecnologia-carv-baqueira.html
+
+# Group Lessons
+clases-grupo-ninos-baqueira.html
+clases-grupo-adultos-baqueira.html
+clases-empresas-colegios-baqueira.html
+
+# Legal
+aviso-legal.html
+politica-de-privacidad.html
+politica-de-cookies.html
+politica-de-cancelacion.html
+
+🇬🇧 ENGLISH — /en/
+/en/index.html
+/en/ski-lessons-baqueira.html
+/en/snowboard-lessons-baqueira.html
+/en/about-us.html
+/en/ski-trips.html
+/en/webcams-baqueira.html
+/en/ski-snowboard-rental-baqueira.html
+/en/ski-snowboard-lessons-prices-baqueira.html
+/en/contact-booking.html
+/en/blog.html
+
+/en/private-ski-lessons-kids-baqueira.html
+/en/private-ski-lessons-families-baqueira.html
+/en/private-ski-lessons-adults-baqueira.html
+/en/freeride-ski-lessons-baqueira.html
+/en/freestyle-ski-lessons-baqueira.html
+/en/private-ski-lessons-carv-baqueira.html
+
+/en/group-ski-lessons-kids-baqueira.html
+/en/group-ski-lessons-adults-baqueira.html
+/en/ski-lessons-companies-schools-baqueira.html
+
+/en/legal-notice.html
+/en/privacy-policy.html
+/en/cookie-policy.html
+/en/cancellation-policy.html
+
+🇵🇹 PORTUGUESE — /pt/
+/pt/index.html
+/pt/aulas-de-esqui-baqueira.html
+/pt/aulas-de-snowboard-baqueira.html
+/pt/sobre-nos.html
+/pt/viagens-de-esqui.html
+/pt/cameras-baqueira.html
+/pt/aluguel-de-equipamento-baqueira.html
+/pt/precos-e-tarifas-baqueira.html
+/pt/contato-reservas.html
+/pt/blog.html
+
+/pt/aulas-particulares-criancas-baqueira.html
+/pt/aulas-particulares-familias-baqueira.html
+/pt/aulas-particulares-adultos-baqueira.html
+/pt/aulas-freeride-baqueira.html
+/pt/aulas-freestyle-baqueira.html
+/pt/aulas-tecnologia-carv-baqueira.html
+
+/pt/aulas-grupo-criancas-baqueira.html
+/pt/aulas-grupo-adultos-baqueira.html
+/pt/aulas-empresas-escolas-baqueira.html
+
+/pt/aviso-legal.html
+/pt/politica-de-privacidade.html
+/pt/politica-de-cookies.html
+/pt/politica-de-cancelamento.html
+
+🇦🇩 CATALAN — /ca/
+/ca/index.html
+/ca/classes-desqui-baqueira.html
+/ca/classes-de-snowboard-baqueira.html
+/ca/nosaltres.html
+/ca/viatges-desqui.html
+/ca/cameres-baqueira.html
+/ca/lloguer-de-material-baqueira.html
+/ca/preus-i-tarifes-baqueira.html
+/ca/contacte-reserves.html
+/ca/blog.html
+
+/ca/classes-particulars-nens-baqueira.html
+/ca/classes-particulars-families-baqueira.html
+/ca/classes-particulars-adults-baqueira.html
+/ca/classes-freeride-baqueira.html
+/ca/classes-freestyle-baqueira.html
+/ca/classes-tecnologia-carv-baqueira.html
+
+/ca/classes-grup-nens-baqueira.html
+/ca/classes-grup-adults-baqueira.html
+/ca/classes-empreses-escoles-baqueira.html
+
+/ca/avis-legal.html
+/ca/politica-de-privacitat.html
+/ca/politica-de-cookies.html
+/ca/politica-de-cancel-lacio.html
+
+🇫🇷 FRENCH — /fr/
+/fr/index.html
+/fr/cours-de-ski-baqueira.html
+/fr/cours-de-snowboard-baqueira.html
+/fr/a-propos-de-nous.html
+/fr/voyages-de-ski.html
+/fr/cameras-baqueira.html
+/fr/location-de-materiel-baqueira.html
+/fr/prix-et-tarifs-baqueira.html
+/fr/contact-reservations.html
+/fr/blog.html
+
+/fr/cours-particuliers-enfants-baqueira.html
+/fr/cours-particuliers-familles-baqueira.html
+/fr/cours-particuliers-adultes-baqueira.html
+/fr/cours-freeride-baqueira.html
+/fr/cours-freestyle-baqueira.html
+/fr/cours-technologie-carv-baqueira.html
+
+/fr/cours-groupe-enfants-baqueira.html
+/fr/cours-groupe-adultes-baqueira.html
+/fr/cours-entreprises-ecoles-baqueira.html
+
+/fr/mentions-legales.html
+/fr/politique-de-confidentialite.html
+/fr/politique-de-cookies.html
+/fr/politique-dannulation.html
