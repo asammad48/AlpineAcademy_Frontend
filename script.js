@@ -64,6 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (countersAnimated) return;
         
         const whyUsSection = $('#why-us');
+        
+        // Check if why-us section exists on this page
+        if (!whyUsSection.length) return;
+        
         const scrollPos = $(window).scrollTop();
         const whyUsPos = whyUsSection.offset().top;
         const windowHeight = $(window).height();
