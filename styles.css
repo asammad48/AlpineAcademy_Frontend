@@ -138,19 +138,17 @@
         overflow: visible !important;
     }
     
-    /* Fix dropdown menu to float above navbar on mobile */
+    /* Fix dropdown menu to flow naturally on mobile (no overlap) */
     .nav-item.dropdown .dropdown-menu {
-        position: absolute !important;
-        top: 100% !important;
-        left: 0 !important;
-        width: auto !important;
-        min-width: 250px !important;
-        margin-top: 0.5rem !important;
+        position: static !important;
+        width: 100% !important;
+        margin-top: 0 !important;
+        margin-bottom: 0.5rem !important;
         background-color: #fff !important;
         border: 1px solid rgba(0,0,0,.15) !important;
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-        z-index: 1050 !important; /* Ensure it's above navbar and other content */
-        border-radius: 10px !important;
+        box-shadow: 0 .25rem .5rem rgba(0,0,0,.1) !important;
+        border-radius: 8px !important;
+        float: none !important;
     }
     
     .nav-item.dropdown.show .dropdown-menu {
@@ -267,19 +265,17 @@
         max-height: none !important;
     }
     
-    /* Fix dropdown menu to float above navbar on mobile */
+    /* Fix dropdown menu to flow naturally on mobile (no overlap) */
     .nav-item.dropdown .dropdown-menu {
-        position: absolute !important;
-        top: 100% !important;
-        left: 0 !important;
-        width: auto !important;
-        min-width: 250px !important;
-        margin-top: 0.5rem !important;
+        position: static !important;
+        width: 100% !important;
+        margin-top: 0 !important;
+        margin-bottom: 0.5rem !important;
         background-color: #fff !important;
         border: 1px solid rgba(0,0,0,.15) !important;
-        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
-        z-index: 1050 !important;
-        border-radius: 10px;
+        box-shadow: 0 .25rem .5rem rgba(0,0,0,.1) !important;
+        border-radius: 8px !important;
+        float: none !important;
         padding: 8px 0;
     }
     
