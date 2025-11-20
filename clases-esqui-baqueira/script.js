@@ -1,10 +1,4 @@
-
-// Bootstrap & jQuery JS
-document.addEventListener('DOMContentLoaded', function() {
-    // Set current year in footer
-    document.getElementById('currentYear').textContent = new Date().getFullYear();
-    
-  // Toggle FAQ answers - Fixed version
+// Toggle FAQ answers - Global function for inline onclick handlers
 function toggleFaq(element) {
     // Get the answer element
     const answer = element.nextElementSibling;
@@ -22,13 +16,15 @@ function toggleFaq(element) {
     icon.classList.toggle('fa-chevron-up');
 }
 
-// Initialize FAQ items when DOM is loaded
+// Bootstrap & jQuery JS
 document.addEventListener('DOMContentLoaded', function() {
-    // Make sure all FAQ answers start as hidden
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+    
+    // Initialize FAQ items - Make sure all FAQ answers start as hidden
     document.querySelectorAll('.faq-answer').forEach(answer => {
         answer.style.display = 'none';
     });
-});
     
     // Navbar scroll effect
     $(window).scroll(function() {
