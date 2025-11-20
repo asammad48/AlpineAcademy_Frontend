@@ -116,35 +116,35 @@ document.addEventListener('DOMContentLoaded', function() {
     // Article 4: Best apps for skiing
     'las-mejores-apps-para-esquiar-en-baqueira-beret.html': {
       es: 'las-mejores-apps-para-esquiar-en-baqueira-beret.html',
-      en: 'best-ski-apps-baqueira-beret.html',
+      en: 'best-apps-for-skiing-baqueira-beret.html',
       ca: 'millors-apps-per-esquiar-baqueira-beret.html',
       fr: 'meilleures-apps-pour-skier-baqueira-beret.html',
       pt: 'melhores-apps-para-esquiar-baqueira-beret.html'
     },
-    'best-ski-apps-baqueira-beret.html': {
+    'best-apps-for-skiing-baqueira-beret.html': {
       es: 'las-mejores-apps-para-esquiar-en-baqueira-beret.html',
-      en: 'best-ski-apps-baqueira-beret.html',
+      en: 'best-apps-for-skiing-baqueira-beret.html',
       ca: 'millors-apps-per-esquiar-baqueira-beret.html',
       fr: 'meilleures-apps-pour-skier-baqueira-beret.html',
       pt: 'melhores-apps-para-esquiar-baqueira-beret.html'
     },
     'millors-apps-per-esquiar-baqueira-beret.html': {
       es: 'las-mejores-apps-para-esquiar-en-baqueira-beret.html',
-      en: 'best-ski-apps-baqueira-beret.html',
+      en: 'best-apps-for-skiing-baqueira-beret.html',
       ca: 'millors-apps-per-esquiar-baqueira-beret.html',
       fr: 'meilleures-apps-pour-skier-baqueira-beret.html',
       pt: 'melhores-apps-para-esquiar-baqueira-beret.html'
     },
     'meilleures-apps-pour-skier-baqueira-beret.html': {
       es: 'las-mejores-apps-para-esquiar-en-baqueira-beret.html',
-      en: 'best-ski-apps-baqueira-beret.html',
+      en: 'best-apps-for-skiing-baqueira-beret.html',
       ca: 'millors-apps-per-esquiar-baqueira-beret.html',
       fr: 'meilleures-apps-pour-skier-baqueira-beret.html',
       pt: 'melhores-apps-para-esquiar-baqueira-beret.html'
     },
     'melhores-apps-para-esquiar-baqueira-beret.html': {
       es: 'las-mejores-apps-para-esquiar-en-baqueira-beret.html',
-      en: 'best-ski-apps-baqueira-beret.html',
+      en: 'best-apps-for-skiing-baqueira-beret.html',
       ca: 'millors-apps-per-esquiar-baqueira-beret.html',
       fr: 'meilleures-apps-pour-skier-baqueira-beret.html',
       pt: 'melhores-apps-para-esquiar-baqueira-beret.html'
