@@ -4254,3 +4254,44 @@ body {
         font-size: 18px;
     }
 }
+
+/* Adults Private Lessons Hero Section */
+.adults-private-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('clases-esqui-baqueira/img/Fotos-Clases-Particulares-adultos/clase-esqui-mujer-baqueira.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0 100px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+}
+
+.adults-private-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.adults-private-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive adjustments for adults private hero */
+@media (max-width: 768px) {
+    .adults-private-hero {
+        padding: 120px 0 80px;
+        background-attachment: scroll;
+    }
+    
+    .adults-private-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .adults-private-hero .lead {
+        font-size: 1.2rem;
+    }
+}
