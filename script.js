@@ -101,6 +101,31 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initial check in case page is loaded with section already in view
     setTimeout(checkCounterAnimation, 500);
+    
+    // Scroll to Top Button functionality
+    // Create the button element dynamically
+    const scrollToTopBtn = document.createElement('button');
+    scrollToTopBtn.id = 'scrollToTop';
+    scrollToTopBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
+    scrollToTopBtn.setAttribute('aria-label', 'Scroll to top');
+    scrollToTopBtn.setAttribute('title', 'Back to top');
+    document.body.appendChild(scrollToTopBtn);
+    
+    // Show/hide scroll to top button based on scroll position
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            $('#scrollToTop').addClass('show');
+        } else {
+            $('#scrollToTop').removeClass('show');
+        }
+    });
+    
+    // Scroll to top when button is clicked
+    $('#scrollToTop').on('click', function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 600, 'swing');
+    });
 });
 
 // Bootstrap dropdown functionality - Click-based behavior for both desktop and mobile
