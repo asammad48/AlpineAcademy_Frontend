@@ -64,6 +64,16 @@ Alpine Ski Academy is a professional ski and snowboard school website based in B
 
 ## Recent Changes
 
+### November 20, 2025 - Language Selector Fix
+- **Fixed Critical Language Switcher Issue** across all subdirectory pages (fr, ca, en, pt)
+  - **Problem:** Spanish language option incorrectly had `href="#"` and was marked as `active` in subdirectory pages
+  - **Impact:** Users couldn't switch back to Spanish version from other language pages
+  - **Solution:** Created automated Python script to fix all affected HTML files
+  - **Files Fixed:** 55 HTML files across all language subdirectories
+  - **Verification:** Confirmed zero files remaining with broken Spanish language links
+  - Spanish language option now correctly links to root Spanish pages (e.g., `/politica-de-cookies.html`)
+  - Each language page now properly marks only itself as active with `href="#"`
+
 ### November 20, 2025 - Navigation Enhancements
 - **Added Main Ski Lessons Link to Dropdown Menus** across all 171 HTML files
   - Added "Clases de Esquí" / "Ski Lessons" / "Aulas de Esqui" / "Classes d'Esquí" / "Cours de Ski" as first dropdown option
