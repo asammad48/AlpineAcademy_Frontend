@@ -64,6 +64,19 @@ Alpine Ski Academy is a professional ski and snowboard school website based in B
 
 ## Recent Changes
 
+### November 20, 2025 - Navigation Enhancements
+- **Added Main Ski Lessons Link to Dropdown Menus** across all 171 HTML files
+  - Added "Clases de Esquí" / "Ski Lessons" / "Aulas de Esqui" / "Classes d'Esquí" / "Cours de Ski" as first dropdown option
+  - Implemented smart language detection for both directory-based (`/en/`, `/pt/`, `/ca/`, `/fr/`) and filename-based (`-en.html`, `-pt.html`, etc.) language markers
+  - Fixed initial implementation issue where files in `clases-esqui-baqueira/` directory had incorrect Spanish links
+  - All navigation links now properly localized for their respective language versions
+- **Fixed Navbar Text Wrapping Issues** in French, Portuguese, and Catalan versions
+  - French: "À Propos" → "Nous", "Location d'Équipement" → "Location"
+  - Portuguese: "Sobre Nós" → "Sobre", "Aluguel de Equipamento" → "Aluguel"
+  - Catalan: "Càmeres web" → "Webcams", "Lloguer de Material" → "Lloguer"
+  - Updated 85 files across FR (30), PT (29), and CA (26) language directories
+  - Navigation now displays cleanly on single lines across all languages
+
 ### November 19, 2025 - Major Multilingual Restructuring
 - **Restructured entire website** from mixed root/subdirectory structure to organized multilingual architecture
 - **Created 127 HTML pages** across 5 languages (24 Spanish + 23 each for EN/PT/CA/FR)
