@@ -3,12 +3,8 @@ function toggleFaq(element) {
     // Get the answer element
     const answer = element.nextElementSibling;
     
-    // Toggle answer visibility
-    if (answer.style.display === 'block') {
-        answer.style.display = 'none';
-    } else {
-        answer.style.display = 'block';
-    }
+    // Toggle active class for smooth animation
+    answer.classList.toggle('active');
     
     // Toggle chevron icon
     const icon = element.querySelector('i');
@@ -23,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize FAQ items - Make sure all FAQ answers start as hidden
     document.querySelectorAll('.faq-answer').forEach(answer => {
-        answer.style.display = 'none';
+        answer.classList.remove('active');
     });
     
     // Navbar scroll effect
