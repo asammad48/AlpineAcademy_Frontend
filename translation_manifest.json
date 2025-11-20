@@ -1,0 +1,73 @@
+{
+  "blog_articles": [
+    {
+      "spanish_file": "blog/como-llegar-baqueira-beret.html",
+      "translations": {
+        "en": "en/blog/how-to-get-to-baqueira-beret.html",
+        "pt": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "ca": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "fr": "fr/blog/comment-arriver-a-baqueira-beret.html"
+      }
+    },
+    {
+      "spanish_file": "blog/mejores-restaurantes-baqueira-beret.html",
+      "translations": {
+        "en": "en/blog/best-restaurants-baqueira-beret.html",
+        "pt": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "ca": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "fr": "fr/blog/meilleurs-restaurants-baqueira-beret.html"
+      }
+    },
+    {
+      "spanish_file": "blog/mejores-hoteles-familias-baqueira-beret.html",
+      "translations": {
+        "en": "en/blog/best-family-hotels-baqueira-beret.html",
+        "pt": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "ca": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "fr": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html"
+      }
+    },
+    {
+      "spanish_file": "blog/las-mejores-apps-para-esquiar-en-baqueira-beret.html",
+      "translations": {
+        "en": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "pt": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "ca": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "fr": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html"
+      }
+    },
+    {
+      "spanish_file": "blog/alquiler-esqui-snowboard-baqueira.html",
+      "translations": {
+        "en": "en/blog/ski-snowboard-rental-baqueira.html",
+        "pt": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "ca": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "fr": "fr/blog/location-ski-snowboard-baqueira.html"
+      }
+    },
+    {
+      "spanish_file": "blog/como-aprender-esquiar-baqueira.html",
+      "translations": {
+        "en": "en/blog/how-to-learn-skiing-baqueira.html",
+        "pt": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "ca": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "fr": "fr/blog/comment-apprendre-skier-baqueira.html"
+      }
+    },
+    {
+      "spanish_file": "blog/zonas-principiantes-baqueira-beret.html",
+      "translations": {
+        "en": "en/blog/beginner-areas-baqueira-beret.html",
+        "pt": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "ca": "ca/blog/zones-principiants-baqueira-beret.html",
+        "fr": "fr/blog/zones-debutants-baqueira-beret.html"
+      }
+    }
+  ],
+  "target_languages": [
+    "en",
+    "pt",
+    "ca",
+    "fr"
+  ]
+}
