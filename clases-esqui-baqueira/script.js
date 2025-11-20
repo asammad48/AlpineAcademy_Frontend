@@ -44,17 +44,25 @@ document.addEventListener('DOMContentLoaded', function() {
         checkCounterAnimation();
     });
     
-    // Smooth scrolling for anchor links
-    $('a[href*="#"]').on('click', function(e) {
-        e.preventDefault();
+    // Smooth scrolling for anchor links (only same-page anchors)
+    $('a[href^="#"]').on('click', function(e) {
+        const href = $(this).attr('href');
         
-        $('html, body').animate(
-            {
-                scrollTop: $($(this).attr('href')).offset().top - 70,
-            },
-            500,
-            'linear'
-        );
+        // Only prevent default for same-page anchors (#section)
+        // Don't prevent for links to other pages with anchors (/page.html#section)
+        if (href.startsWith('#') && href.length > 1) {
+            const target = $(href);
+            if (target.length) {
+                e.preventDefault();
+                $('html, body').animate(
+                    {
+                        scrollTop: target.offset().top - 70,
+                    },
+                    500,
+                    'linear'
+                );
+            }
+        }
     });
 
     // Counter animation functionality
