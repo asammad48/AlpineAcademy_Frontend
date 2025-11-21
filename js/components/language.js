@@ -523,6 +523,27 @@ document.addEventListener('DOMContentLoaded', function() {
       fr: 'blog.html',
       pt: 'blog.html'
     },
+    'galeria.html': {
+      es: 'galeria.html',
+      en: 'gallery.html',
+      ca: 'galeria.html',
+      fr: 'galerie.html',
+      pt: 'galeria.html'
+    },
+    'gallery.html': {
+      es: 'galeria.html',
+      en: 'gallery.html',
+      ca: 'galeria.html',
+      fr: 'galerie.html',
+      pt: 'galeria.html'
+    },
+    'galerie.html': {
+      es: 'galeria.html',
+      en: 'gallery.html',
+      ca: 'galeria.html',
+      fr: 'galerie.html',
+      pt: 'galeria.html'
+    },
     'clases-particulares-ninos-baqueira.html': {
       es: 'clases-particulares-ninos-baqueira.html',
       en: 'private-ski-lessons-kids-baqueira.html',

@@ -3,12 +3,8 @@ function toggleFaq(element) {
     // Get the answer element
     const answer = element.nextElementSibling;
     
-    // Toggle answer visibility
-    if (answer.style.display === 'block') {
-        answer.style.display = 'none';
-    } else {
-        answer.style.display = 'block';
-    }
+    // Toggle active class for smooth animation
+    answer.classList.toggle('active');
     
     // Toggle chevron icon
     const icon = element.querySelector('i');
@@ -23,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize FAQ items - Make sure all FAQ answers start as hidden
     document.querySelectorAll('.faq-answer').forEach(answer => {
-        answer.style.display = 'none';
+        answer.classList.remove('active');
     });
     
     // Navbar scroll effect
@@ -68,6 +64,10 @@ document.addEventListener('DOMContentLoaded', function() {
         if (countersAnimated) return;
         
         const whyUsSection = $('#why-us');
+        
+        // Check if why-us section exists on this page
+        if (!whyUsSection.length) return;
+        
         const scrollPos = $(window).scrollTop();
         const whyUsPos = whyUsSection.offset().top;
         const windowHeight = $(window).height();
@@ -105,6 +105,31 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initial check in case page is loaded with section already in view
     setTimeout(checkCounterAnimation, 500);
+    
+    // Scroll to Top Button functionality
+    // Create the button element dynamically
+    const scrollToTopBtn = document.createElement('button');
+    scrollToTopBtn.id = 'scrollToTop';
+    scrollToTopBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
+    scrollToTopBtn.setAttribute('aria-label', 'Scroll to top');
+    scrollToTopBtn.setAttribute('title', 'Back to top');
+    document.body.appendChild(scrollToTopBtn);
+    
+    // Show/hide scroll to top button based on scroll position
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+            $('#scrollToTop').addClass('show');
+        } else {
+            $('#scrollToTop').removeClass('show');
+        }
+    });
+    
+    // Scroll to top when button is clicked
+    $('#scrollToTop').on('click', function() {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 600, 'swing');
+    });
 });
 
 // Bootstrap dropdown functionality - Click-based behavior for both desktop and mobile

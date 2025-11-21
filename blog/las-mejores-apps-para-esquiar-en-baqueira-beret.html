@@ -12,9 +12,9 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!--Custom JS files -->
-    <script src="../script.js"></script>
-    <script src="../animation.js"></script>
-    <script src="../js/components/language.js"></script>
+    <script src="/script.js"></script>
+    <script src="/animation.js"></script>
+    <script src="/js/components/language.js"></script>
     <!-- Schema.org markup for Google -->
     <script type="application/ld+json">
     {
@@ -93,7 +93,7 @@
 
     <!-- Preload -->
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
-    <link rel="preload" href="../styles.css" as="style">
+    <link rel="preload" href="/styles.css" as="style">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -115,12 +115,12 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="/styles.css">
 
     <style>
         .blog-hero {
             background: linear-gradient(135deg, rgba(42, 76, 102, 0.9) 0%, rgba(135, 206, 235, 0.8) 100%),
-                url('../blog/ARTICULO4-fotos-blog/apps-esquiar-baqueira-beret-portada-es.webp') center/cover;
+                url('/blog/ARTICULO4-fotos-blog/apps-esquiar-baqueira-beret-portada-es.webp') center/cover;
             padding: 120px 0 80px;
             color: white;
             text-align: center;
@@ -285,8 +285,8 @@
     <!-- Header with Navigation and Language Switcher -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../logo1.jpg"
+            <a class="navbar-brand" href="/index.html">
+                <img src="/logo1.jpg"
                     alt="Alpine Ski Academy – Escuela de esquí y snowboard en Baqueira">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -295,62 +295,65 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="../clases-esqui-baqueira/index.html" id="skiLessonsDropdown" role="button"
+                        <a class="nav-link dropdown-toggle" href="/clases-de-esqui-baqueira.html" id="skiLessonsDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
                             Clases Esquí
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="skiLessonsDropdown">
+                            <!-- Opción principal -->
+                            <li><a class="dropdown-item" href="/clases-de-esqui-baqueira.html">Clases de Esquí</a></li>
+                            <li><hr class="dropdown-divider"></li>
                             <li>
                                 <h6 class="dropdown-header">Clases Particulares</h6>
                             </li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/particulares-ninos.html">Niños</a></li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html">Familias</a></li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/particulares-adultos.html">Adultos</a></li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/particulares-carv.html">Con Carv</a></li>
+                            <li><a class="dropdown-item" href="/clases-particulares-ninos-baqueira.html">Niños</a></li>
+                            <li><a class="dropdown-item" href="/clases-particulares-familias-baqueira.html">Familias</a></li>
+                            <li><a class="dropdown-item" href="/clases-particulares-adultos-baqueira.html">Adultos</a></li>
+                            <li><a class="dropdown-item" href="/clases-tecnologia-carv-baqueira.html">Con Carv</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="../clases-de-freeride-baqueira.html">Freeride</a></li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/particulares-freestyle.html">Freestyle</a></li>
+                            <li><a class="dropdown-item" href="/clases-de-freeride-baqueira.html">Freeride</a></li>
+                            <li><a class="dropdown-item" href="/clases-de-freestyle-baqueira.html">Freestyle</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li>
                                 <h6 class="dropdown-header">Clases en Grupo</h6>
                             </li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/grupo-ninos.html">Grupo Niños</a></li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/grupo-adultos.html">Grupo Adultos</a></li>
-                            <li><a class="dropdown-item" href="../clases-esqui-baqueira/empresas-colegios.html">Empresas/Colegios</a></li>
+                            <li><a class="dropdown-item" href="/clases-grupo-ninos-baqueira.html">Grupo Niños</a></li>
+                            <li><a class="dropdown-item" href="/clases-grupo-adultos-baqueira.html">Grupo Adultos</a></li>
+                            <li><a class="dropdown-item" href="/clases-empresas-colegios-baqueira.html">Empresas/Colegios</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../clases-de-snowboard-baqueira.html">Snowboard</a>
+                        <a class="nav-link" href="/clases-de-snowboard-baqueira.html">Snowboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../sobre-nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="/sobre-nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../blog.html">Galería</a>
+                        <a class="nav-link" href="/galeria.html">Galería</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../viajes-de-esqui.html">Viajes</a>
+                        <a class="nav-link" href="/viajes-de-esqui.html">Viajes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../camaras-baqueira.html">Cámaras</a>
+                        <a class="nav-link" href="/camaras-baqueira.html">Cámaras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../alquiler-de-material-baqueira.html">Alquiler</a>
+                        <a class="nav-link" href="/alquiler-de-material-baqueira.html">Alquiler</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../precios-y-tarifas-baqueira.html">Precios</a>
+                        <a class="nav-link" href="/precios-y-tarifas-baqueira.html">Precios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../blog.html">Blog</a>
+                        <a class="nav-link" href="/blog.html">Blog</a>
                     </li>
                 </ul>
                 <!-- Book Now Button -->
                 <div class="nav-cta ms-3">
-                    <a href="../contacto-reservas.html" class="btn btn-primary btn-book-now">
+                    <a href="/contacto-reservas.html" class="btn btn-primary btn-book-now">
                         <i class="fas fa-calendar-check me-1"></i>Reserva
                     </a>
                 </div>
@@ -398,8 +401,8 @@
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="../index.html">Inicio</a></li>
-                    <li class="breadcrumb-item"><a href="../blog.html">Blog</a></li>
+                    <li class="breadcrumb-item"><a href="/index.html">Inicio</a></li>
+                    <li class="breadcrumb-item"><a href="/blog.html">Blog</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Las Mejores Apps para Esquiar en Baqueira Beret</li>
                 </ol>
             </nav>
@@ -414,10 +417,10 @@
                     <p>La tecnología se ha convertido en un aliado indispensable para los amantes del esquí, facilitando desde la planificación del viaje hasta el monitoreo en tiempo real del clima y el estado de las pistas. Si eres de los que visita Baqueira Beret u otras estaciones, contar con las apps adecuadas puede mejorar notablemente tu experiencia, dándote mayor seguridad y permitiéndote aprovechar al máximo cada jornada en la nieve.</p>
                     <p>Desde nuestra perspectiva como instructores de Alpine Ski Academy, hemos seleccionado algunas de las mejores aplicaciones para esquiar, diseñadas para ayudarte a estar informado, mantener el control de tus progresos y disfrutar al máximo de la montaña.</p>
 
-                    <h2>1. Baqueira Beret (App Oficial)</h2>
+                    <h2 id="1-baqueira-beret-app-oficial">1. Baqueira Beret (App Oficial)</h2>
                     <p>Comenzamos con una app imprescindible para quienes visitan Baqueira Beret. La aplicación oficial de la estación proporciona información en tiempo real sobre el estado de las pistas, los remontes y las condiciones meteorológicas. Además, incluye un mapa interactivo que te permite ver las rutas abiertas y te ayuda a orientarte en las diferentes zonas de la estación. La app también notifica sobre eventos, promociones y actividades, lo cual es ideal para quienes buscan una experiencia completa en Baqueira Beret.</p>
 
-                    <img src="../blog/ARTICULO4-fotos-blog/app-oficial-baqueira-beret-es.webp" 
+                    <img src="/blog/ARTICULO4-fotos-blog/app-oficial-baqueira-beret-es.webp" 
                          alt="Aplicación oficial de Baqueira Beret mostrando estado de pistas y remontes." 
                          class="blog-image">
 
@@ -433,10 +436,10 @@
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>2. Snow Forecast: La mejor app de previsión de nieve</h2>
+                    <h2 id="2-snow-forecast-la-mejor-app-de-prevision-de-nieve">2. Snow Forecast: La mejor app de previsión de nieve</h2>
                     <p>Saber cómo estará el clima en la montaña es esencial para disfrutar de una jornada de esquí segura y placentera. Snow Forecast es una app muy popular entre esquiadores y snowboarders, ya que proporciona pronósticos meteorológicos detallados y específicos para estaciones de esquí de todo el mundo, incluida Baqueira Beret. Podrás conocer las predicciones de nieve, temperatura y velocidad del viento, permitiéndote decidir qué días son los mejores para esquiar.</p>
 
-                    <img src="../blog/ARTICULO4-fotos-blog/app-snow-forecast-baqueira-es.webp" 
+                    <img src="/blog/ARTICULO4-fotos-blog/app-snow-forecast-baqueira-es.webp" 
                          alt="App Snow Forecast mostrando pronóstico de nieve para Baqueira Beret." 
                          class="blog-image">
 
@@ -452,7 +455,7 @@
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>3. OpenSnow: Pronóstico de nieve de precisión</h2>
+                    <h2 id="3-opensnow-pronostico-de-nieve-de-precision">3. OpenSnow: Pronóstico de nieve de precisión</h2>
                     <p>Otra app meteorológica, OpenSnow, está diseñada específicamente para aquellos que buscan predicciones detalladas y de alta calidad. La app proporciona pronósticos de hasta 10 días y permite configurar alertas de nieve para que siempre estés informado de las condiciones en Baqueira Beret. Además, la interfaz es fácil de navegar y muy visual, lo cual es perfecto para entender rápidamente el pronóstico sin perderte en detalles técnicos.</p>
 
                     <div class="app-card">
@@ -467,7 +470,7 @@
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>4. FATMAP: Explora la montaña con mapas 3D</h2>
+                    <h2 id="4-fatmap-explora-la-montana-con-mapas-3d">4. FATMAP: Explora la montaña con mapas 3D</h2>
                     <p>Para aquellos que aman explorar la montaña, FATMAP es una de las mejores opciones disponibles. Esta app ofrece mapas 3D detallados que incluyen senderos, rutas de esquí y terrenos fuera de pista. FATMAP también permite ver la altitud, pendiente y orientación de cada ruta, lo que es fundamental para esquiadores más avanzados o para quienes desean descubrir rutas menos transitadas en Baqueira Beret. Adicionalmente, la aplicación tiene una función de GPS que rastrea tu ubicación, lo cual es útil para asegurarte de que siempre estás en el camino correcto.</p>
 
                     <div class="app-card">
@@ -482,10 +485,10 @@
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>5. Ski Tracks: La app para monitorear tu rendimiento</h2>
+                    <h2 id="5-ski-tracks-la-app-para-monitorear-tu-rendimiento">5. Ski Tracks: La app para monitorear tu rendimiento</h2>
                     <p>Si te interesa medir tu rendimiento en las pistas, Ski Tracks es la app ideal. Utiliza el GPS de tu teléfono para monitorear tus estadísticas en tiempo real, como la distancia recorrida, la velocidad máxima, el tiempo en movimiento y el desnivel acumulado. Al finalizar el día, puedes ver un resumen completo de tu actividad, perfecto para quienes buscan mejorar su técnica y establecer metas de rendimiento. Además, Ski Tracks funciona sin necesidad de conexión a Internet, lo cual es un gran plus en áreas montañosas con poca cobertura.</p>
 
-                    <img src="../blog/ARTICULO4-fotos-blog/app-ski-tracks-baqueira-es.webp" 
+                    <img src="/blog/ARTICULO4-fotos-blog/app-ski-tracks-baqueira-es.webp" 
                          alt="App Ski Tracks mostrando estadísticas de esquí en Baqueira Beret." 
                          class="blog-image">
 
@@ -501,7 +504,7 @@
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>6. OnTheSnow Ski & Snow Report: Información global de las estaciones</h2>
+                    <h2 id="6-onthesnow-ski-snow-report-informacion-global-de-las-estaciones">6. OnTheSnow Ski & Snow Report: Información global de las estaciones</h2>
                     <p>OnTheSnow es una app bastante completa que reúne tanto información meteorológica como el estado de las pistas en estaciones de todo el mundo. Con esta app, puedes conocer la cantidad de nieve caída, la profundidad de la misma, y las condiciones actuales de las pistas en Baqueira Beret. También permite acceder a reseñas y fotografías de otros esquiadores, lo que brinda una idea real de la experiencia en cada estación. OnTheSnow es perfecta si quieres tener una visión más amplia de lo que te espera antes de planear un día de esquí.</p>
 
                     <div class="app-card">
@@ -516,10 +519,10 @@
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>7. Carv Digital Ski Coach: Tu entrenador personal de bolsillo</h2>
+                    <h2 id="7-carv-digital-ski-coach-tu-entrenador-personal-de-bolsillo">7. Carv Digital Ski Coach: Tu entrenador personal de bolsillo</h2>
                     <p>Para quienes buscan mejorar su técnica de esquí, Carv es como tener un entrenador personal en el bolsillo. Con sensores especiales que se colocan en las botas (vendidos por separado) y la app en tu móvil, Carv analiza tus movimientos y te proporciona retroalimentación en tiempo real. Es ideal para esquiadores de nivel intermedio y avanzado que desean mejorar su técnica con una guía detallada. La app ofrece consejos, instrucciones y hasta ejercicios para perfeccionar tu estilo.</p>
 
-                    <img src="../blog/ARTICULO4-fotos-blog/app-carv-digital-ski-coach-es.webp" 
+                    <img src="/blog/ARTICULO4-fotos-blog/app-carv-digital-ski-coach-es.webp" 
                          alt="App Carv Digital Ski Coach mostrando análisis de técnica de esquí." 
                          class="blog-image">
 
@@ -533,24 +536,24 @@
                             <li>Ideal para esquiadores de nivel intermedio y avanzado</li>
                         </ul>
                         <div class="instructor-tip">
-                            <p><strong>Tip del instructor:</strong> En Alpine Ski Academy, somos pioneros en la integración de esta tecnología. Utilizamos Carv en nuestras clases particulares para adultos para ofrecer un aprendizaje preciso y personalizado. Si quieres experimentar la técnica de la mano de la tecnología, <a href="../clases-esqui-baqueira/particulares-carv.html">consulta nuestras clases de esquí con tecnología Carv</a>.</p>
+                            <p><strong>Tip del instructor:</strong> En Alpine Ski Academy, somos pioneros en la integración de esta tecnología. Utilizamos Carv en nuestras clases particulares para adultos para ofrecer un aprendizaje preciso y personalizado. Si quieres experimentar la técnica de la mano de la tecnología, <a href="/clases-tecnologia-carv-baqueira.html">consulta nuestras clases de esquí con tecnología Carv</a>.</p>
                         </div>
                         <p class="availability"><strong>Disponible en:</strong> iOS y Android.</p>
                     </div>
 
-                    <h2>Conclusión</h2>
+                    <h2 id="conclusion">Conclusión</h2>
                     <p>Las aplicaciones móviles pueden convertir cualquier experiencia de esquí en una jornada informada y segura, permitiéndote disfrutar aún más de las increíbles pistas de Baqueira Beret. Desde apps de pronóstico del clima hasta herramientas de análisis y mejora de rendimiento, estas aplicaciones están diseñadas para todos los niveles y estilos de esquí.</p>
                     <p>Ahora que ya sabes cómo prepararte con las mejores herramientas digitales, solo queda que te lances a la aventura. Si buscas más consejos para planificar tu viaje, mejorar tu técnica o conocer a fondo la estación, no dudes en explorar otros artículos en nuestro blog.</p>
 
                     <div class="blog-cta">
                         <h3>¿Listo para Mejorar tu Técnica con Tecnología de Vanguardia?</h3>
                         <p>En Alpine Ski Academy combinamos la experiencia de nuestros instructores con tecnología avanzada como Carv para ofrecerte el mejor aprendizaje posible.</p>
-                        <a href="../contacto-reservas.html" class="btn btn-warning btn-lg">
+                        <a href="/contacto-reservas.html" class="btn btn-warning btn-lg">
                             <i class="fas fa-calendar-check me-2"></i>Reserva tu clase con tecnología Carv
                         </a>
                     </div>
 
-                    <h2>También te puede interesar</h2>
+                    <h2 id="tambien-te-puede-interesar">También te puede interesar</h2>
                     <ul>
                         <li><a href="#">Guía para aprender a esquiar en Baqueira (principiantes)</a></li>
                         <li><a href="como-llegar-baqueira-beret.html">Cómo llegar a Baqueira Beret</a></li>
@@ -567,7 +570,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 mb-4">
-                   <h5 class="footer-title" href="../index.html">Alpine Ski Academy</h5>
+                   <h5 class="footer-title" href="/index.html">Alpine Ski Academy</h5>
                     <p class="footer-description">Tu escuela de esquí y snowboard en Baqueira Beret. Clases
                         personalizadas para todos los niveles y edades, progreso garantizado y experiencias inolvidables
                         en la nieve.</p>
@@ -579,22 +582,22 @@
                 <div class="col-lg-2 col-md-4 mb-4">
                     <h5 class="footer-title">Servicios</h5>
                     <ul class="footer-links">
-                        <li><a href="../clases-esqui-baqueira/index.html" style="text-decoration: none; color: inherit;">Clases Esquí</a></li>
-                        <li><a href="../clases-de-snowboard-baqueira.html" style="text-decoration: none; color: inherit;">Clases Snowboard</a></li>
-                        <li><a href="../camaras-baqueira.html" style="text-decoration: none; color: inherit;">Cámaras</a></li>
-                        <li><a href="../alquiler-de-material-baqueira.html" style="text-decoration: none; color: inherit;">Alquiler Material</a></li>
-                        <li><a href="../precios-y-tarifas-baqueira.html" style="text-decoration: none; color: inherit;">Precios</a></li>
-                        <li><a href="../contacto-reservas.html" style="text-decoration: none; color: inherit;">Contacto / Reserva</a></li>
+                        <li><a href="/clases-de-esqui-baqueira.html" style="text-decoration: none; color: inherit;">Clases Esquí</a></li>
+                        <li><a href="/clases-de-snowboard-baqueira.html" style="text-decoration: none; color: inherit;">Clases Snowboard</a></li>
+                        <li><a href="/camaras-baqueira.html" style="text-decoration: none; color: inherit;">Cámaras</a></li>
+                        <li><a href="/alquiler-de-material-baqueira.html" style="text-decoration: none; color: inherit;">Alquiler Material</a></li>
+                        <li><a href="/precios-y-tarifas-baqueira.html" style="text-decoration: none; color: inherit;">Precios</a></li>
+                        <li><a href="/contacto-reservas.html" style="text-decoration: none; color: inherit;">Contacto / Reserva</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-4 mb-4">
                     <h5 class="footer-title">Company</h5>
                     <ul class="footer-links">
-                        <li><a href="../sobre-nosotros.html" style="text-decoration: none; color: inherit;">Nosotros</a></li>
-                          <li><a href="../viajes-de-esqui.html" style="text-decoration: none; color: inherit;">Viajes</a></li>
-                        <li><a href="../precios-y-tarifas-baqueira.html" style="text-decoration: none; color: inherit;">Precios</a></li>
-                        <li><a href="../blog.html" style="text-decoration: none; color: inherit;">Blog</a></li>
-                        <li><a href="../contacto-reservas.html" style="text-decoration: none; color: inherit;">Contacto</a></li>
+                        <li><a href="/sobre-nosotros.html" style="text-decoration: none; color: inherit;">Nosotros</a></li>
+                          <li><a href="/viajes-de-esqui.html" style="text-decoration: none; color: inherit;">Viajes</a></li>
+                        <li><a href="/precios-y-tarifas-baqueira.html" style="text-decoration: none; color: inherit;">Precios</a></li>
+                        <li><a href="/blog.html" style="text-decoration: none; color: inherit;">Blog</a></li>
+                        <li><a href="/contacto-reservas.html" style="text-decoration: none; color: inherit;">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-4 mb-4">
@@ -609,10 +612,10 @@
 
                     <h5 class="footer-title mt-4">Enlaces legales</h5>
                     <ul class="footer-links">
-                        <li><a href="../aviso-legal.html" style="text-decoration: none; color: inherit;">Aviso Legal</a></li>
-                        <li><a href="../politica-de-privacidad.html" style="text-decoration: none; color: inherit;">Política de Privacidad</a></li>
-                        <li><a href="../politica-de-cookies.html" style="text-decoration: none; color: inherit;">Política de Cookies</a></li>
-                        <li><a href="../politica-de-cancelacion.html" style="text-decoration: none; color: inherit;">Política de Can</a></li>
+                        <li><a href="/aviso-legal.html" style="text-decoration: none; color: inherit;">Aviso Legal</a></li>
+                        <li><a href="/politica-de-privacidad.html" style="text-decoration: none; color: inherit;">Política de Privacidad</a></li>
+                        <li><a href="/politica-de-cookies.html" style="text-decoration: none; color: inherit;">Política de Cookies</a></li>
+                        <li><a href="/politica-de-cancelacion.html" style="text-decoration: none; color: inherit;">Política de Can</a></li>
                     </ul>
                 </div>
             </div>

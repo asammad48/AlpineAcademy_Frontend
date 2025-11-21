@@ -21,6 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create snowflake elements
             function createSnowflakes() {
                 const section = document.querySelector('.why-us-section');
+                if (!section) return;
+                
                 const snowflakes = ['❄', '❅', '❆'];
                 
                 for (let i = 0; i < 15; i++) {
