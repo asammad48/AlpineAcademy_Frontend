@@ -874,6 +874,64 @@ body {
     top: 28px; /* Height of top info bar */
 }
 
+/* Mobile responsive styling for top-info-bar */
+@media (max-width: 768px) {
+    .top-info-bar {
+        padding: 8px 0;
+        font-size: 0.75rem;
+    }
+    
+    .top-info-bar .container {
+        padding: 0 10px;
+    }
+    
+    .top-info-bar .d-flex {
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center !important;
+    }
+    
+    .top-info-item {
+        margin-left: 0;
+        margin-right: 10px;
+        font-size: 0.7rem;
+    }
+    
+    .top-info-item i {
+        font-size: 0.75rem;
+        margin-right: 3px;
+    }
+    
+    .top-info-item span a {
+        white-space: nowrap;
+    }
+    
+    /* Adjust body and navbar positioning for mobile */
+    body {
+        padding-top: 120px;
+    }
+    
+    .navbar {
+        top: 45px;
+    }
+}
+
+@media (max-width: 480px) {
+    .top-info-bar {
+        padding: 10px 0;
+    }
+    
+    .top-info-bar .d-flex {
+        flex-direction: column;
+        align-items: center !important;
+        gap: 8px;
+    }
+    
+    .top-info-item {
+        margin: 0;
+    }
+}
+
 /* Book Now CTA Button */
 .nav-cta {
     display: flex;
