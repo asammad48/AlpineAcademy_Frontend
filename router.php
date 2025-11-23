@@ -18,11 +18,13 @@ if (file_exists(__DIR__ . $uri)) {
     if (is_dir(__DIR__ . $uri)) {
         $indexFile = rtrim($uri, '/') . '/index.html';
         if (file_exists(__DIR__ . $indexFile)) {
-            $uri = $indexFile;
+            return false;
         }
+        // Directory exists but no index.html, continue to try .html extension
+    } else {
+        // It's a file, let PHP built-in server handle it
+        return false;
     }
-    // Let PHP built-in server handle the file
-    return false;
 }
 
 // If the file doesn't exist, try adding .html extension

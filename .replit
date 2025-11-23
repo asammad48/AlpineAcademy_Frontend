@@ -4,6 +4,7 @@ expertMode = true
 
 [nix]
 channel = "stable-25_05"
+packages = ["apacheHttpd", "php82", "php82Extensions.opcache"]
 
 [workflows]
 runButton = "Project"
@@ -34,20 +35,12 @@ localPort = 5000
 externalPort = 80
 
 [[ports]]
-localPort = 35875
+localPort = 38759
 externalPort = 3000
-
-[[ports]]
-localPort = 39117
-externalPort = 5173
 
 [[ports]]
 localPort = 41189
 externalPort = 3003
-
-[[ports]]
-localPort = 42021
-externalPort = 4200
 
 [[ports]]
 localPort = 42975
