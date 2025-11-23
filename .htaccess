@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# If your project is in a subfolder, update this:
+# RewriteBase /yourfolder/
+
+# Serve real files/folders normally
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route everything else to router.php
+RewriteRule ^(.*)$ router.php [QSA,L]
