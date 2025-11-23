@@ -1,0 +1,19 @@
+1. en/private-ski-lessons-kids-baqueira.html on this page background image , on section kids-private-hero is not working , that why text is not visible , some image are small and some are large , please fix them at same size but i should be responsive also to support mobile 
+
+2. Testimonial and FAQs section should be same on all pages as we have on en/private-ski-lessons-adults-baqueira.html in all the pages ,
+en/private-ski-lessons-families-baqueira.html
+en/group-ski-lessons-kids-baqueira.html
+en/group-ski-lessons-adults-baqueira.html
+en/ski-lessons-companies-schools-baqueira.html
+these four pages have issue with testimonials and FAQs style you need to that style according to this page en/private-ski-lessons-adults-baqueira.html
+Also once you fix english you need to Spanish in the folder and other three language (fr,pt and ca)
+
+3. this div pricing-card p-4 rounded-3 bg-light mb-4 is appearing on the top of footer and making footer invisible please it page length increase so that footer can accessible please , once you fix it please fix all of other languages pages on en/private-ski-lessons-families-baqueira.html.
+4. on carv-hero section its background image is missing please fix it. and do this on other languages please in page en/private-ski-lessons-carv-baqueira.html.
+5. en/freeride-ski-lessons-baqueira.html images are not aligned one is big other small please make it fix , also make page length flexible please as some of the text appear under the footer which is worong , please make fixes in other languages as well.
+6. on freestyle-hero section its background image is missing please fix it. and do this on other languages please in page en/freestyle-ski-lessons-baqueira.html
+7. on page-hero section its background image is missing please fix it. and do this on other languages please in page en/group-ski-lessons-kids-baqueira.html
+8. on groups-hero section  its background image is missing please fix it. and do this on other languages please in page en/ski-lessons-companies-schools-baqueira.html and please fix that some of the images are appering small and some are large please fix them
+
+Please first take screenshot of whole page , then fix it , then take screenshot to verify it, if wrong then agains fix it. also please make sure that style changes does not affect other pages please
+

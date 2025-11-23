@@ -4353,3 +4353,296 @@ body {
         font-size: 1.2rem;
     }
 }
+
+/* Kids Private Lessons Hero Section */
+.kids-private-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('clases-esqui-baqueira/img/FOTOS-niños-particulares-webp/clase-esqui-nina-baqueira.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0 100px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+}
+
+.kids-private-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.kids-private-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .kids-private-hero {
+        padding: 120px 0 80px;
+        background-attachment: scroll;
+    }
+    
+    .kids-private-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .kids-private-hero .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Kids Images Grid - Responsive Equal Height Cards */
+.kids-images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.kids-card-equal {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kids-card-equal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.kids-card-equal img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.kids-card-equal h4 {
+    padding: 1rem 1rem 0.5rem;
+    margin: 0;
+}
+
+.kids-card-equal p {
+    padding: 0 1rem 1rem;
+    margin: 0;
+    flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+    .kids-images-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .kids-card-equal img {
+        height: 200px;
+    }
+}
+
+/* Carv Hero Section */
+.carv-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('clase-particular-carv.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0 100px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+}
+
+.carv-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.carv-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .carv-hero {
+        padding: 120px 0 80px;
+        background-attachment: scroll;
+    }
+    
+    .carv-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .carv-hero .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Freestyle Hero Section */
+.freestyle-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('clases-esqui-baqueira/img/Fotos-freestyle/freestyle-baqueira-alpine-ski-academy.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0 100px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+}
+
+.freestyle-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.freestyle-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .freestyle-hero {
+        padding: 120px 0 80px;
+        background-attachment: scroll;
+    }
+    
+    .freestyle-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .freestyle-hero .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Page Hero Section (Group Kids) */
+.page-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('clases-esqui-baqueira/img/fotos-clases en grupo-niños/clases-grupo-niños-baqieira-beret.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0 100px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+}
+
+.page-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.page-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .page-hero {
+        padding: 120px 0 80px;
+        background-attachment: scroll;
+    }
+    
+    .page-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .page-hero .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Groups Hero Section (Companies/Schools) */
+.groups-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/esqui-empresas-team-building-baqueira.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 150px 0 100px;
+    text-align: center;
+    color: white;
+    margin-top: -76px;
+}
+
+.groups-hero h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.groups-hero .lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+    .groups-hero {
+        padding: 120px 0 80px;
+        background-attachment: scroll;
+    }
+    
+    .groups-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .groups-hero .lead {
+        font-size: 1.2rem;
+    }
+}
+
+/* Fix pricing card footer overlap */
+.pricing-card {
+    margin-bottom: 2rem;
+}
+
+/* Ensure adequate spacing before footer */
+section:last-of-type {
+    margin-bottom: 3rem;
+}
+
+/* Responsive image styles for all pages */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Grid layouts for images should be responsive */
+.row img, .col img, .col-md-6 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Ensure consistent image heights in grid layouts */
+.benefits-grid img,
+.features-grid img,
+.freeride-images img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .benefits-grid img,
+    .features-grid img,
+    .freeride-images img {
+        height: 200px;
+    }
+}
