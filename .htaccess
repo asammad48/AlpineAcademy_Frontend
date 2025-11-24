@@ -786,3 +786,14 @@ RewriteRule ^en/blog/?$ /en/blog.html [L]
 RewriteRule ^ca/blog/?$ /ca/blog.html [L]
 RewriteRule ^fr/blog/?$ /fr/blog.html [L]
 RewriteRule ^pt/blog/?$ /pt/blog.html [L]
+
+# ========================================
+# 7. GENERAL FALLBACK - Try .html extension
+# ========================================
+# This handles clean URLs for any page not matched above
+# Example: /some-page -> /some-page.html
+# Example: /en/some-page -> /en/some-page.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ /$1.html [L]
