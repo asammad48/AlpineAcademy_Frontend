@@ -1,43 +1,67 @@
-# Alpine Ski Academy Website
+# Alpine Ski Academy - Baqueira Beret
 
 ## Overview
-The Alpine Ski Academy website is a professional, multilingual static HTML site with a PHP backend for form handling. It serves as a marketing and booking platform for ski and snowboard lessons in Baqueira Beret, Spain, targeting a broad international audience. The project aims to provide comprehensive information, facilitate bookings, and establish a strong online presence for the academy.
+Alpine Ski Academy is a multilingual static website for a ski and snowboard school located in Baqueira Beret, Spain. The site offers information about ski lessons, snowboard classes, equipment rental, and travel packages in multiple languages (Spanish, Catalan, English, French, and Portuguese).
 
-## User Preferences
-I want iterative development. Ask before making major changes.
+## Project Type
+Static HTML/PHP website with clean URL routing
 
-## System Architecture
-The website is built on a static HTML, CSS, and JavaScript frontend with a PHP backend for contact form processing. It features a responsive design using Bootstrap 5 and jQuery.
+## Technology Stack
+- **Backend**: PHP 8.2.29 (built-in development server)
+- **Frontend**: HTML, CSS, JavaScript (jQuery, Bootstrap 5.3)
+- **Routing**: Custom PHP router for clean URLs (removes .html extensions)
+- **Languages**: Multi-language support (ES, CA, EN, FR, PT)
 
-### UI/UX Decisions
--   **Multilingual Interface**: Full localization across five languages (Spanish, English, Catalan, French, Portuguese) with dedicated subdirectories for each.
--   **Responsive Design**: Utilizes Bootstrap 5 for a mobile-first approach, ensuring optimal viewing across devices.
--   **Navigation**: Dynamic dropdown menus and a scroll-to-top button enhance user experience.
--   **Styling**: Custom CSS variables, Font Awesome for icons, and Google Fonts (Montserrat, Open Sans) for typography.
--   **Image Handling**: All content images are responsive (`img-fluid`) while logos and flag icons maintain fixed sizes.
+## Project Structure
+```
+/
+├── index.html              # Main homepage (Spanish)
+├── router.php              # URL routing script
+├── styles.css              # Global styles
+├── script.js               # Main JavaScript
+├── animation.js            # Animation scripts
+├── /ca/                    # Catalan language pages
+├── /en/                    # English language pages
+├── /fr/                    # French language pages
+├── /pt/                    # Portuguese language pages
+├── /blog/                  # Blog articles with images
+├── /images/                # Image assets
+└── /js/components/         # JavaScript components
+```
 
-### Technical Implementations
--   **Multilingual Structure**: The site employs a consistent subdirectory structure for each language (e.g., `/en/`, `/pt/`). Spanish is the default language in the root directory.
--   **Clean URLs**: All pages use clean URLs without `.html` extensions (e.g., `/sobre-nosotros` instead of `/sobre-nosotros.html`). A custom PHP router (`router.php`) handles URL rewriting to serve the appropriate HTML files.
--   **Contact Form**: Frontend validation and submission handled by `js/contact-form-handler.js`, with `send-email.php` on the backend processing email submissions.
--   **Asset Management**: All languages share root-relative paths for CSS, JavaScript, and image assets to ensure consistency and efficient caching.
--   **SEO**: Implements Schema.org markup, meta tags, and Open Graph protocols, with SEO-friendly, language-specific clean URLs.
+## Key Features
+- Multilingual support (5 languages)
+- Clean URL routing (extensionless URLs)
+- SEO optimized with Schema.org markup
+- Responsive design with Bootstrap
+- Blog section with articles about skiing in Baqueira
+- Online booking system integration
 
-### Feature Specifications
--   **Lesson Categories**: Comprehensive listings for private ski (kids, adults, families), group ski (kids, adults), specialty (Freeride, Freestyle, CARV technology), and snowboard lessons.
--   **Additional Services**: Information on equipment rental, ski trips, webcams, and corporate/school programs.
--   **Blog**: A dedicated section for blog articles.
+## Running the Project
+The project runs on PHP's built-in development server on port 5000:
+```bash
+php -S 0.0.0.0:5000 router.php
+```
 
-### System Design Choices
--   **Deployment**: Configured for autoscale deployment, running on PHP's built-in development server.
--   **Static Site Generation**: Primarily a static site, reducing server load and improving performance, with dynamic elements limited to the contact form.
+## Current State
+- ✅ Web server running successfully
+- ✅ All static assets loading correctly
+- ✅ Multi-language routing functional
+- ✅ Blog section integrated
+- ✅ No external dependencies required
 
-## External Dependencies
--   **Frontend Libraries**:
-    -   Bootstrap 5.3.0
-    -   Font Awesome 6.4.0
-    -   jQuery 3.6.0
--   **Fonts**:
-    -   Google Fonts (Montserrat, Open Sans)
--   **Backend**:
-    -   PHP 8.2 (for `send-email.php`)
+## Recent Changes
+- **2025-11-24**: Project imported to Replit environment
+- Configured workflow to run PHP development server
+- Verified all pages and assets load correctly
+
+## Contact Information
+- **Phone**: +34669911342
+- **Email**: reservas@alpineskiacademy.com
+- **Social**: Instagram, Facebook, TikTok
+
+## Notes
+- This is a static website with no database requirements
+- The router.php handles clean URLs by serving .html files without extensions
+- All images are optimized in WebP format for better performance
+- The site includes structured data for improved SEO
