@@ -1,6 +1,6 @@
 /* Classes Page Specific Styles - FIXED VERSION */
 .classes-hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/clase-esqui-debutante-baqueira.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/clase-esqui-debutante-baqueira.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
