@@ -1,7 +1,7 @@
 <?php
 /**
- * Router script for PHP built-in server
- * Handles clean URLs by removing .html extension requirement
+ * Router script for clean URLs
+ * Handles language-specific routing and .html extension removal
  * Matches .htaccess logic for consistent behavior
  */
 
@@ -18,15 +18,40 @@ if (file_exists(__DIR__ . $uri) && is_file(__DIR__ . $uri)) {
     return false; // Let PHP built-in server handle it
 }
 
-// 2. Try adding .html extension first (prioritize .html files over directories)
-// This resolves conflicts like blog.html vs blog/ folder
+// 2. Try adding .html extension first (exact match)
 $htmlFile = __DIR__ . $uri . '.html';
 if (file_exists($htmlFile) && is_file($htmlFile)) {
     include $htmlFile;
     return true;
 }
 
-// 3. If it's a directory, try serving index.html from it
+// 3. Handle language-specific word variations (e.g., galeria/galerie/gallery)
+// Map of common word variations across languages
+$wordMap = [
+    'galeria' => ['galeria', 'galerie', 'gallery'],
+    'galerie' => ['galeria', 'galerie', 'gallery'],
+    'gallery' => ['galeria', 'galerie', 'gallery'],
+];
+
+// Extract the last segment of the URI
+$segments = explode('/', trim($uri, '/'));
+$lastSegment = end($segments);
+
+// If the last segment has known variations, try them
+if (isset($wordMap[$lastSegment])) {
+    $basePath = dirname($uri);
+    if ($basePath === '.') $basePath = '';
+    
+    foreach ($wordMap[$lastSegment] as $variation) {
+        $variantFile = __DIR__ . $basePath . '/' . $variation . '.html';
+        if (file_exists($variantFile) && is_file($variantFile)) {
+            include $variantFile;
+            return true;
+        }
+    }
+}
+
+// 4. If it's a directory, try serving index.html from it
 $cleanUri = rtrim($uri, '/');
 $indexFile = __DIR__ . $cleanUri . '/index.html';
 if (is_dir(__DIR__ . $cleanUri) && file_exists($indexFile)) {
