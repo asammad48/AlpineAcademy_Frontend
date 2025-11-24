@@ -2,6 +2,7 @@
 /**
  * Router script for PHP built-in server
  * Handles clean URLs by removing .html extension requirement
+ * Matches .htaccess logic for consistent behavior
  */
 
 // Get the requested URI
@@ -9,39 +10,28 @@ $uri = urldecode(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH));
 
 // If the URI is exactly '/', serve index.html
 if ($uri === '/') {
-    $uri = '/index.html';
+    return false; // Let PHP server handle it normally
 }
 
-// Check if the requested file exists
-if (file_exists(__DIR__ . $uri)) {
-    // If it's a directory, try to serve index.html from it
-    if (is_dir(__DIR__ . $uri)) {
-        $indexFile = rtrim($uri, '/') . '/index.html';
-        if (file_exists(__DIR__ . $indexFile)) {
-            return false;
-        }
-        // Directory exists but no index.html, continue to try .html extension
-    } else {
-        // It's a file, let PHP built-in server handle it
-        return false;
-    }
+// 1. Serve existing files directly (CSS, JS, images, etc.)
+if (file_exists(__DIR__ . $uri) && is_file(__DIR__ . $uri)) {
+    return false; // Let PHP built-in server handle it
 }
 
-// If the file doesn't exist, try adding .html extension
-$htmlFile = $uri . '.html';
-if (file_exists(__DIR__ . $htmlFile)) {
-    // Serve the HTML file
-    include __DIR__ . $htmlFile;
+// 2. Try adding .html extension first (prioritize .html files over directories)
+// This resolves conflicts like blog.html vs blog/ folder
+$htmlFile = __DIR__ . $uri . '.html';
+if (file_exists($htmlFile) && is_file($htmlFile)) {
+    include $htmlFile;
     return true;
 }
 
-// If still not found, check if it's a directory with index.html
-if (is_dir(__DIR__ . $uri)) {
-    $indexFile = rtrim($uri, '/') . '/index.html';
-    if (file_exists(__DIR__ . $indexFile)) {
-        include __DIR__ . $indexFile;
-        return true;
-    }
+// 3. If it's a directory, try serving index.html from it
+$cleanUri = rtrim($uri, '/');
+$indexFile = __DIR__ . $cleanUri . '/index.html';
+if (is_dir(__DIR__ . $cleanUri) && file_exists($indexFile)) {
+    include $indexFile;
+    return true;
 }
 
 // If nothing found, let the server return 404

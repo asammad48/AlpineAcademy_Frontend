@@ -3,18 +3,19 @@ RewriteEngine On
 # If your project is in a subfolder, update this:
 # RewriteBase /yourfolder/
 
-# Serve existing files and directories directly
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
+# Serve existing files directly (images, CSS, JS, etc.)
+RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# If it's a directory, try serving index.html
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^(.*)$ $1/index.html [L]
-
-# Try adding .html extension to the requested URI
+# Try adding .html extension first (prioritize .html files over directories)
+# This resolves conflicts like blog.html vs blog/ folder
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [L]
+
+# If it's a directory, try serving index.html from it
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*)$ $1/index.html [L]
 
 # If still not found, route to router.php (for PHP dev server compatibility)
 RewriteCond %{REQUEST_FILENAME} !-f
