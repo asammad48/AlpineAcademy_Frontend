@@ -4,17 +4,40 @@ RewriteEngine On
 # RewriteBase /yourfolder/
 
 # 1. Serve static files directly (CSS, JS, images, fonts, etc.)
-RewriteCond %{REQUEST_URI} \.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2|ttf|eot|pdf|zip|mp4|webm)$ [NC]
+RewriteCond %{REQUEST_URI} \.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2|ttf|eot|pdf|zip|mp4|webm|txt|xml)$ [NC]
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# 2. Serve existing .html files directly if accessed with extension
-RewriteCond %{REQUEST_URI} \.html$ [NC]
+# 2. Serve existing files directly
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# 3. Send all other requests to router.php for clean URL handling
-# This includes paths without extensions and allows PHP to find the right .html file
+# 3. Serve directories with index.html
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*)$ $1/index.html [L]
+
+# 4. Try adding .html extension
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# 5. Handle language-specific variations for gallery pages
+# /fr/galeria -> /fr/galerie.html (French uses "galerie")
+RewriteCond %{REQUEST_URI} ^/fr/galeria$
+RewriteCond %{DOCUMENT_ROOT}/fr/galerie.html -f
+RewriteRule ^fr/galeria$ /fr/galerie.html [L]
+
+# /en/galeria -> /en/gallery.html (English uses "gallery")
+RewriteCond %{REQUEST_URI} ^/en/galeria$
+RewriteCond %{DOCUMENT_ROOT}/en/gallery.html -f
+RewriteRule ^en/galeria$ /en/gallery.html [L]
+
+# /en/galerie -> /en/gallery.html (English uses "gallery")
+RewriteCond %{REQUEST_URI} ^/en/galerie$
+RewriteCond %{DOCUMENT_ROOT}/en/gallery.html -f
+RewriteRule ^en/galerie$ /en/gallery.html [L]
+
+# 6. Fallback to router.php for development server or additional handling
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ router.php [QSA,L]
