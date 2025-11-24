@@ -3,41 +3,254 @@ RewriteEngine On
 # If your project is in a subfolder, update this:
 # RewriteBase /yourfolder/
 
-# 1. Serve static files directly (CSS, JS, images, fonts, etc.)
+# ========================================
+# 1. STATIC FILES - Serve directly
+# ========================================
 RewriteCond %{REQUEST_URI} \.(css|js|jpg|jpeg|png|gif|webp|svg|ico|woff|woff2|ttf|eot|pdf|zip|mp4|webm|txt|xml)$ [NC]
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# 2. Serve existing files directly
+# ========================================
+# 2. EXACT FILE MATCHES - Serve directly
+# ========================================
 RewriteCond %{REQUEST_FILENAME} -f
 RewriteRule ^ - [L]
 
-# 3. Serve directories with index.html
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteCond %{REQUEST_FILENAME}/index.html -f
-RewriteRule ^(.*)$ $1/index.html [L]
+# ========================================
+# 3. DIRECTORY INDEX - Serve index.html
+# ========================================
+# Spanish root
+RewriteRule ^$ /index.html [L]
 
-# 4. Try adding .html extension
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [L]
+# Language directories
+RewriteRule ^en/?$ /en/index.html [L]
+RewriteRule ^fr/?$ /fr/index.html [L]
+RewriteRule ^ca/?$ /ca/index.html [L]
+RewriteRule ^pt/?$ /pt/index.html [L]
 
-# 5. Handle language-specific variations for gallery pages
-# /fr/galeria -> /fr/galerie.html (French uses "galerie")
-RewriteCond %{REQUEST_URI} ^/fr/galeria$
-RewriteCond %{DOCUMENT_ROOT}/fr/galerie.html -f
-RewriteRule ^fr/galeria$ /fr/galerie.html [L]
+# ========================================
+# 4. BLOG ARTICLES - Clean URLs
+# ========================================
 
-# /en/galeria -> /en/gallery.html (English uses "gallery")
-RewriteCond %{REQUEST_URI} ^/en/galeria$
-RewriteCond %{DOCUMENT_ROOT}/en/gallery.html -f
-RewriteRule ^en/galeria$ /en/gallery.html [L]
+# Article 1: How to get to Baqueira
+RewriteRule ^blog/como-llegar-baqueira-beret/?$ /blog/como-llegar-baqueira-beret.html [L]
+RewriteRule ^en/blog/how-to-get-to-baqueira-beret/?$ /en/blog/how-to-get-to-baqueira-beret.html [L]
+RewriteRule ^ca/blog/com-arribar-a-baqueira-beret/?$ /ca/blog/com-arribar-a-baqueira-beret.html [L]
+RewriteRule ^fr/blog/comment-arriver-a-baqueira-beret/?$ /fr/blog/comment-arriver-a-baqueira-beret.html [L]
+RewriteRule ^pt/blog/como-chegar-a-baqueira-beret/?$ /pt/blog/como-chegar-a-baqueira-beret.html [L]
 
-# /en/galerie -> /en/gallery.html (English uses "gallery")
-RewriteCond %{REQUEST_URI} ^/en/galerie$
-RewriteCond %{DOCUMENT_ROOT}/en/gallery.html -f
-RewriteRule ^en/galerie$ /en/gallery.html [L]
+# Article 2: Best restaurants
+RewriteRule ^blog/mejores-restaurantes-baqueira-beret/?$ /blog/mejores-restaurantes-baqueira-beret.html [L]
+RewriteRule ^en/blog/best-restaurants-baqueira-beret/?$ /en/blog/best-restaurants-baqueira-beret.html [L]
+RewriteRule ^ca/blog/millors-restaurants-baqueira-beret/?$ /ca/blog/millors-restaurants-baqueira-beret.html [L]
+RewriteRule ^fr/blog/meilleurs-restaurants-baqueira-beret/?$ /fr/blog/meilleurs-restaurants-baqueira-beret.html [L]
+RewriteRule ^pt/blog/melhores-restaurantes-baqueira-beret/?$ /pt/blog/melhores-restaurantes-baqueira-beret.html [L]
 
-# 6. Fallback to router.php for development server or additional handling
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ router.php [QSA,L]
+# Article 3: Best family hotels
+RewriteRule ^blog/mejores-hoteles-familias-baqueira-beret/?$ /blog/mejores-hoteles-familias-baqueira-beret.html [L]
+RewriteRule ^en/blog/best-family-hotels-baqueira-beret/?$ /en/blog/best-family-hotels-baqueira-beret.html [L]
+RewriteRule ^ca/blog/millors-hotels-families-baqueira-beret/?$ /ca/blog/millors-hotels-families-baqueira-beret.html [L]
+RewriteRule ^fr/blog/meilleurs-hotels-familles-baqueira-beret/?$ /fr/blog/meilleurs-hotels-familles-baqueira-beret.html [L]
+RewriteRule ^pt/blog/melhores-hoteis-familias-baqueira-beret/?$ /pt/blog/melhores-hoteis-familias-baqueira-beret.html [L]
+
+# Article 4: Best apps for skiing
+RewriteRule ^blog/las-mejores-apps-para-esquiar-en-baqueira-beret/?$ /blog/las-mejores-apps-para-esquiar-en-baqueira-beret.html [L]
+RewriteRule ^en/blog/best-apps-for-skiing-baqueira-beret/?$ /en/blog/best-apps-for-skiing-baqueira-beret.html [L]
+RewriteRule ^ca/blog/millors-apps-per-esquiar-baqueira-beret/?$ /ca/blog/millors-apps-per-esquiar-baqueira-beret.html [L]
+RewriteRule ^fr/blog/meilleures-apps-pour-skier-baqueira-beret/?$ /fr/blog/meilleures-apps-pour-skier-baqueira-beret.html [L]
+RewriteRule ^pt/blog/melhores-apps-para-esquiar-baqueira-beret/?$ /pt/blog/melhores-apps-para-esquiar-baqueira-beret.html [L]
+
+# Article 5: Ski rental
+RewriteRule ^blog/alquiler-esqui-snowboard-baqueira/?$ /blog/alquiler-esqui-snowboard-baqueira.html [L]
+RewriteRule ^en/blog/ski-snowboard-rental-baqueira/?$ /en/blog/ski-snowboard-rental-baqueira.html [L]
+RewriteRule ^ca/blog/lloguer-esqui-snowboard-baqueira/?$ /ca/blog/lloguer-esqui-snowboard-baqueira.html [L]
+RewriteRule ^fr/blog/location-ski-snowboard-baqueira/?$ /fr/blog/location-ski-snowboard-baqueira.html [L]
+RewriteRule ^pt/blog/aluguel-esqui-snowboard-baqueira/?$ /pt/blog/aluguel-esqui-snowboard-baqueira.html [L]
+
+# Article 6: How to learn skiing
+RewriteRule ^blog/como-aprender-esquiar-baqueira/?$ /blog/como-aprender-esquiar-baqueira.html [L]
+RewriteRule ^en/blog/how-to-learn-skiing-baqueira/?$ /en/blog/how-to-learn-skiing-baqueira.html [L]
+RewriteRule ^ca/blog/com-aprendre-esquiar-baqueira/?$ /ca/blog/com-aprendre-esquiar-baqueira.html [L]
+RewriteRule ^fr/blog/comment-apprendre-skier-baqueira/?$ /fr/blog/comment-apprendre-skier-baqueira.html [L]
+RewriteRule ^pt/blog/como-aprender-esquiar-baqueira/?$ /pt/blog/como-aprender-esquiar-baqueira.html [L]
+
+# Article 7: Beginner areas
+RewriteRule ^blog/zonas-principiantes-baqueira-beret/?$ /blog/zonas-principiantes-baqueira-beret.html [L]
+RewriteRule ^en/blog/beginner-areas-baqueira-beret/?$ /en/blog/beginner-areas-baqueira-beret.html [L]
+RewriteRule ^ca/blog/zones-principiants-baqueira-beret/?$ /ca/blog/zones-principiants-baqueira-beret.html [L]
+RewriteRule ^fr/blog/zones-debutants-baqueira-beret/?$ /fr/blog/zones-debutants-baqueira-beret.html [L]
+RewriteRule ^pt/blog/zonas-iniciantes-baqueira-beret/?$ /pt/blog/zonas-iniciantes-baqueira-beret.html [L]
+
+# ========================================
+# 5. MAIN PAGES - Clean URLs
+# ========================================
+
+# About Us / Sobre Nosotros
+RewriteRule ^sobre-nosotros/?$ /sobre-nosotros.html [L]
+RewriteRule ^en/about-us/?$ /en/about-us.html [L]
+RewriteRule ^ca/nosaltres/?$ /ca/nosaltres.html [L]
+RewriteRule ^fr/a-propos-de-nous/?$ /fr/a-propos-de-nous.html [L]
+RewriteRule ^pt/sobre-nos/?$ /pt/sobre-nos.html [L]
+
+# Ski Lessons
+RewriteRule ^clases-de-esqui-baqueira/?$ /clases-de-esqui-baqueira.html [L]
+RewriteRule ^en/ski-lessons-baqueira/?$ /en/ski-lessons-baqueira.html [L]
+RewriteRule ^ca/classes-desqui-baqueira/?$ /ca/classes-desqui-baqueira.html [L]
+RewriteRule ^fr/cours-de-ski-baqueira/?$ /fr/cours-de-ski-baqueira.html [L]
+RewriteRule ^pt/aulas-de-esqui-baqueira/?$ /pt/aulas-de-esqui-baqueira.html [L]
+
+# Snowboard Lessons
+RewriteRule ^clases-de-snowboard-baqueira/?$ /clases-de-snowboard-baqueira.html [L]
+RewriteRule ^en/snowboard-lessons-baqueira/?$ /en/snowboard-lessons-baqueira.html [L]
+RewriteRule ^ca/classes-de-snowboard-baqueira/?$ /ca/classes-de-snowboard-baqueira.html [L]
+RewriteRule ^fr/cours-de-snowboard-baqueira/?$ /fr/cours-de-snowboard-baqueira.html [L]
+RewriteRule ^pt/aulas-de-snowboard-baqueira/?$ /pt/aulas-de-snowboard-baqueira.html [L]
+
+# Private Lessons - Kids
+RewriteRule ^clases-particulares-ninos-baqueira/?$ /clases-particulares-ninos-baqueira.html [L]
+RewriteRule ^en/private-ski-lessons-kids-baqueira/?$ /en/private-ski-lessons-kids-baqueira.html [L]
+RewriteRule ^ca/classes-particulars-nens-baqueira/?$ /ca/classes-particulars-nens-baqueira.html [L]
+RewriteRule ^fr/cours-particuliers-enfants-baqueira/?$ /fr/cours-particuliers-enfants-baqueira.html [L]
+RewriteRule ^pt/aulas-particulares-criancas-baqueira/?$ /pt/aulas-particulares-criancas-baqueira.html [L]
+
+# Private Lessons - Adults
+RewriteRule ^clases-particulares-adultos-baqueira/?$ /clases-particulares-adultos-baqueira.html [L]
+RewriteRule ^en/private-ski-lessons-adults-baqueira/?$ /en/private-ski-lessons-adults-baqueira.html [L]
+RewriteRule ^ca/classes-particulars-adults-baqueira/?$ /ca/classes-particulars-adults-baqueira.html [L]
+RewriteRule ^fr/cours-particuliers-adultes-baqueira/?$ /fr/cours-particuliers-adultes-baqueira.html [L]
+RewriteRule ^pt/aulas-particulares-adultos-baqueira/?$ /pt/aulas-particulares-adultos-baqueira.html [L]
+
+# Private Lessons - Families
+RewriteRule ^clases-particulares-familias-baqueira/?$ /clases-particulares-familias-baqueira.html [L]
+RewriteRule ^en/private-ski-lessons-families-baqueira/?$ /en/private-ski-lessons-families-baqueira.html [L]
+RewriteRule ^ca/classes-particulars-families-baqueira/?$ /ca/classes-particulars-families-baqueira.html [L]
+RewriteRule ^fr/cours-particuliers-familles-baqueira/?$ /fr/cours-particuliers-familles-baqueira.html [L]
+RewriteRule ^pt/aulas-particulares-familias-baqueira/?$ /pt/aulas-particulares-familias-baqueira.html [L]
+
+# CARV Technology Lessons
+RewriteRule ^clases-tecnologia-carv-baqueira/?$ /clases-tecnologia-carv-baqueira.html [L]
+RewriteRule ^en/private-ski-lessons-carv-baqueira/?$ /en/private-ski-lessons-carv-baqueira.html [L]
+RewriteRule ^ca/classes-tecnologia-carv-baqueira/?$ /ca/classes-tecnologia-carv-baqueira.html [L]
+RewriteRule ^fr/cours-technologie-carv-baqueira/?$ /fr/cours-technologie-carv-baqueira.html [L]
+RewriteRule ^pt/aulas-tecnologia-carv-baqueira/?$ /pt/aulas-tecnologia-carv-baqueira.html [L]
+
+# Freeride Lessons
+RewriteRule ^clases-de-freeride-baqueira/?$ /clases-de-freeride-baqueira.html [L]
+RewriteRule ^en/freeride-ski-lessons-baqueira/?$ /en/freeride-ski-lessons-baqueira.html [L]
+RewriteRule ^ca/classes-freeride-baqueira/?$ /ca/classes-freeride-baqueira.html [L]
+RewriteRule ^fr/cours-freeride-baqueira/?$ /fr/cours-freeride-baqueira.html [L]
+RewriteRule ^pt/aulas-freeride-baqueira/?$ /pt/aulas-freeride-baqueira.html [L]
+
+# Freestyle Lessons
+RewriteRule ^clases-de-freestyle-baqueira/?$ /clases-de-freestyle-baqueira.html [L]
+RewriteRule ^en/freestyle-ski-lessons-baqueira/?$ /en/freestyle-ski-lessons-baqueira.html [L]
+RewriteRule ^ca/classes-freestyle-baqueira/?$ /ca/classes-freestyle-baqueira.html [L]
+RewriteRule ^fr/cours-freestyle-baqueira/?$ /fr/cours-freestyle-baqueira.html [L]
+RewriteRule ^pt/aulas-freestyle-baqueira/?$ /pt/aulas-freestyle-baqueira.html [L]
+
+# Group Lessons - Kids
+RewriteRule ^clases-grupo-ninos-baqueira/?$ /clases-grupo-ninos-baqueira.html [L]
+RewriteRule ^en/group-ski-lessons-kids-baqueira/?$ /en/group-ski-lessons-kids-baqueira.html [L]
+RewriteRule ^ca/classes-grup-nens-baqueira/?$ /ca/classes-grup-nens-baqueira.html [L]
+RewriteRule ^fr/cours-groupe-enfants-baqueira/?$ /fr/cours-groupe-enfants-baqueira.html [L]
+RewriteRule ^pt/aulas-grupo-criancas-baqueira/?$ /pt/aulas-grupo-criancas-baqueira.html [L]
+
+# Group Lessons - Adults
+RewriteRule ^clases-grupo-adultos-baqueira/?$ /clases-grupo-adultos-baqueira.html [L]
+RewriteRule ^en/group-ski-lessons-adults-baqueira/?$ /en/group-ski-lessons-adults-baqueira.html [L]
+RewriteRule ^ca/classes-grup-adults-baqueira/?$ /ca/classes-grup-adults-baqueira.html [L]
+RewriteRule ^fr/cours-groupe-adultes-baqueira/?$ /fr/cours-groupe-adultes-baqueira.html [L]
+RewriteRule ^pt/aulas-grupo-adultos-baqueira/?$ /pt/aulas-grupo-adultos-baqueira.html [L]
+
+# Companies & Schools
+RewriteRule ^clases-empresas-colegios-baqueira/?$ /clases-empresas-colegios-baqueira.html [L]
+RewriteRule ^en/ski-lessons-companies-schools-baqueira/?$ /en/ski-lessons-companies-schools-baqueira.html [L]
+RewriteRule ^ca/classes-empreses-escoles-baqueira/?$ /ca/classes-empreses-escoles-baqueira.html [L]
+RewriteRule ^fr/cours-entreprises-ecoles-baqueira/?$ /fr/cours-entreprises-ecoles-baqueira.html [L]
+RewriteRule ^pt/aulas-empresas-escolas-baqueira/?$ /pt/aulas-empresas-escolas-baqueira.html [L]
+
+# Contact / Reservations
+RewriteRule ^contacto-reservas/?$ /contacto-reservas.html [L]
+RewriteRule ^en/contact-booking/?$ /en/contact-booking.html [L]
+RewriteRule ^ca/contacte-reserves/?$ /ca/contacte-reserves.html [L]
+RewriteRule ^fr/contact-reservations/?$ /fr/contact-reservations.html [L]
+RewriteRule ^pt/contato-reservas/?$ /pt/contato-reservas.html [L]
+
+# Prices & Rates
+RewriteRule ^precios-y-tarifas-baqueira/?$ /precios-y-tarifas-baqueira.html [L]
+RewriteRule ^en/ski-snowboard-lessons-prices-baqueira/?$ /en/ski-snowboard-lessons-prices-baqueira.html [L]
+RewriteRule ^ca/preus-i-tarifes-baqueira/?$ /ca/preus-i-tarifes-baqueira.html [L]
+RewriteRule ^fr/prix-et-tarifs-baqueira/?$ /fr/prix-et-tarifs-baqueira.html [L]
+RewriteRule ^pt/precos-e-tarifas-baqueira/?$ /pt/precos-e-tarifas-baqueira.html [L]
+
+# Equipment Rental
+RewriteRule ^alquiler-de-material-baqueira/?$ /alquiler-de-material-baqueira.html [L]
+RewriteRule ^en/ski-snowboard-rental-baqueira/?$ /en/ski-snowboard-rental-baqueira.html [L]
+RewriteRule ^ca/lloguer-de-material-baqueira/?$ /ca/lloguer-de-material-baqueira.html [L]
+RewriteRule ^fr/location-de-materiel-baqueira/?$ /fr/location-de-materiel-baqueira.html [L]
+RewriteRule ^pt/aluguel-de-equipamento-baqueira/?$ /pt/aluguel-de-equipamento-baqueira.html [L]
+
+# Webcams
+RewriteRule ^camaras-baqueira/?$ /camaras-baqueira.html [L]
+RewriteRule ^en/webcams-baqueira/?$ /en/webcams-baqueira.html [L]
+RewriteRule ^ca/cameres-baqueira/?$ /ca/cameres-baqueira.html [L]
+RewriteRule ^fr/cameras-baqueira/?$ /fr/cameras-baqueira.html [L]
+RewriteRule ^pt/cameras-baqueira/?$ /pt/cameras-baqueira.html [L]
+
+# Ski Trips
+RewriteRule ^viajes-de-esqui/?$ /viajes-de-esqui.html [L]
+RewriteRule ^en/ski-trips/?$ /en/ski-trips.html [L]
+RewriteRule ^ca/viatges-desqui/?$ /ca/viatges-desqui.html [L]
+RewriteRule ^fr/voyages-de-ski/?$ /fr/voyages-de-ski.html [L]
+RewriteRule ^pt/viagens-de-esqui/?$ /pt/viagens-de-esqui.html [L]
+
+# Blog
+RewriteRule ^blog/?$ /blog.html [L]
+RewriteRule ^en/blog/?$ /en/blog.html [L]
+RewriteRule ^ca/blog/?$ /ca/blog.html [L]
+RewriteRule ^fr/blog/?$ /fr/blog.html [L]
+RewriteRule ^pt/blog/?$ /pt/blog.html [L]
+
+# Gallery - WITH LANGUAGE VARIATIONS
+RewriteRule ^galeria/?$ /galeria.html [L]
+RewriteRule ^en/gallery/?$ /en/gallery.html [L]
+RewriteRule ^ca/galeria/?$ /ca/galeria.html [L]
+RewriteRule ^fr/galerie/?$ /fr/galerie.html [L]
+RewriteRule ^pt/galeria/?$ /pt/galeria.html [L]
+
+# Gallery cross-language support
+RewriteRule ^fr/galeria/?$ /fr/galerie.html [L]
+RewriteRule ^en/galeria/?$ /en/gallery.html [L]
+RewriteRule ^en/galerie/?$ /en/gallery.html [L]
+
+# ========================================
+# 6. LEGAL PAGES - Clean URLs
+# ========================================
+
+# Legal Notice
+RewriteRule ^aviso-legal/?$ /aviso-legal.html [L]
+RewriteRule ^en/legal-notice/?$ /en/legal-notice.html [L]
+RewriteRule ^ca/avis-legal/?$ /ca/avis-legal.html [L]
+RewriteRule ^fr/mentions-legales/?$ /fr/mentions-legales.html [L]
+RewriteRule ^pt/aviso-legal/?$ /pt/aviso-legal.html [L]
+
+# Privacy Policy
+RewriteRule ^politica-de-privacidad/?$ /politica-de-privacidad.html [L]
+RewriteRule ^en/privacy-policy/?$ /en/privacy-policy.html [L]
+RewriteRule ^ca/politica-de-privacitat/?$ /ca/politica-de-privacitat.html [L]
+RewriteRule ^fr/politique-de-confidentialite/?$ /fr/politique-de-confidentialite.html [L]
+RewriteRule ^pt/politica-de-privacidade/?$ /pt/politica-de-privacidade.html [L]
+
+# Cookie Policy
+RewriteRule ^politica-de-cookies/?$ /politica-de-cookies.html [L]
+RewriteRule ^en/cookie-policy/?$ /en/cookie-policy.html [L]
+RewriteRule ^ca/politica-de-cookies/?$ /ca/politica-de-cookies.html [L]
+RewriteRule ^fr/politique-de-cookies/?$ /fr/politique-de-cookies.html [L]
+RewriteRule ^pt/politica-de-cookies/?$ /pt/politica-de-cookies.html [L]
+
+# Cancellation Policy
+RewriteRule ^politica-de-cancelacion/?$ /politica-de-cancelacion.html [L]
+RewriteRule ^en/cancellation-policy/?$ /en/cancellation-policy.html [L]
+RewriteRule ^ca/politica-de-cancel-lacio/?$ /ca/politica-de-cancel-lacio.html [L]
+RewriteRule ^fr/politique-dannulation/?$ /fr/politique-dannulation.html [L]
+RewriteRule ^pt/politica-de-cancelamento/?$ /pt/politica-de-cancelamento.html [L]
