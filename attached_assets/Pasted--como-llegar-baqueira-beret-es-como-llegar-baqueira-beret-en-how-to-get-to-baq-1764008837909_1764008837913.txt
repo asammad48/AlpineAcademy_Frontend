@@ -1,0 +1,976 @@
+'como-llegar-baqueira-beret': {
+      es: 'como-llegar-baqueira-beret',
+      en: 'how-to-get-to-baqueira-beret',
+      ca: 'com-arribar-a-baqueira-beret',
+      fr: 'comment-arriver-a-baqueira-beret',
+      pt: 'como-chegar-a-baqueira-beret'
+    },
+    'how-to-get-to-baqueira-beret': {
+      es: 'como-llegar-baqueira-beret',
+      en: 'how-to-get-to-baqueira-beret',
+      ca: 'com-arribar-a-baqueira-beret',
+      fr: 'comment-arriver-a-baqueira-beret',
+      pt: 'como-chegar-a-baqueira-beret'
+    },
+    'com-arribar-a-baqueira-beret': {
+      es: 'como-llegar-baqueira-beret',
+      en: 'how-to-get-to-baqueira-beret',
+      ca: 'com-arribar-a-baqueira-beret',
+      fr: 'comment-arriver-a-baqueira-beret',
+      pt: 'como-chegar-a-baqueira-beret'
+    },
+    'comment-arriver-a-baqueira-beret': {
+      es: 'como-llegar-baqueira-beret',
+      en: 'how-to-get-to-baqueira-beret',
+      ca: 'com-arribar-a-baqueira-beret',
+      fr: 'comment-arriver-a-baqueira-beret',
+      pt: 'como-chegar-a-baqueira-beret'
+    },
+    'como-chegar-a-baqueira-beret': {
+      es: 'como-llegar-baqueira-beret',
+      en: 'how-to-get-to-baqueira-beret',
+      ca: 'com-arribar-a-baqueira-beret',
+      fr: 'comment-arriver-a-baqueira-beret',
+      pt: 'como-chegar-a-baqueira-beret'
+    },
+    
+    // Article 2: Best restaurants
+    'mejores-restaurantes-baqueira-beret': {
+      es: 'mejores-restaurantes-baqueira-beret',
+      en: 'best-restaurants-baqueira-beret',
+      ca: 'millors-restaurants-baqueira-beret',
+      fr: 'meilleurs-restaurants-baqueira-beret',
+      pt: 'melhores-restaurantes-baqueira-beret'
+    },
+    'best-restaurants-baqueira-beret': {
+      es: 'mejores-restaurantes-baqueira-beret',
+      en: 'best-restaurants-baqueira-beret',
+      ca: 'millors-restaurants-baqueira-beret',
+      fr: 'meilleurs-restaurants-baqueira-beret',
+      pt: 'melhores-restaurantes-baqueira-beret'
+    },
+    'millors-restaurants-baqueira-beret': {
+      es: 'mejores-restaurantes-baqueira-beret',
+      en: 'best-restaurants-baqueira-beret',
+      ca: 'millors-restaurants-baqueira-beret',
+      fr: 'meilleurs-restaurants-baqueira-beret',
+      pt: 'melhores-restaurantes-baqueira-beret'
+    },
+    'meilleurs-restaurants-baqueira-beret': {
+      es: 'mejores-restaurantes-baqueira-beret',
+      en: 'best-restaurants-baqueira-beret',
+      ca: 'millors-restaurants-baqueira-beret',
+      fr: 'meilleurs-restaurants-baqueira-beret',
+      pt: 'melhores-restaurantes-baqueira-beret'
+    },
+    'melhores-restaurantes-baqueira-beret': {
+      es: 'mejores-restaurantes-baqueira-beret',
+      en: 'best-restaurants-baqueira-beret',
+      ca: 'millors-restaurants-baqueira-beret',
+      fr: 'meilleurs-restaurants-baqueira-beret',
+      pt: 'melhores-restaurantes-baqueira-beret'
+    },
+    
+    // Article 3: Best family hotels
+    'mejores-hoteles-familias-baqueira-beret': {
+      es: 'mejores-hoteles-familias-baqueira-beret',
+      en: 'best-family-hotels-baqueira-beret',
+      ca: 'millors-hotels-families-baqueira-beret',
+      fr: 'meilleurs-hotels-familles-baqueira-beret',
+      pt: 'melhores-hoteis-familias-baqueira-beret'
+    },
+    'best-family-hotels-baqueira-beret': {
+      es: 'mejores-hoteles-familias-baqueira-beret',
+      en: 'best-family-hotels-baqueira-beret',
+      ca: 'millors-hotels-families-baqueira-beret',
+      fr: 'meilleurs-hotels-familles-baqueira-beret',
+      pt: 'melhores-hoteis-familias-baqueira-beret'
+    },
+    'millors-hotels-families-baqueira-beret': {
+      es: 'mejores-hoteles-familias-baqueira-beret',
+      en: 'best-family-hotels-baqueira-beret',
+      ca: 'millors-hotels-families-baqueira-beret',
+      fr: 'meilleurs-hotels-familles-baqueira-beret',
+      pt: 'melhores-hoteis-familias-baqueira-beret'
+    },
+    'meilleurs-hotels-familles-baqueira-beret': {
+      es: 'mejores-hoteles-familias-baqueira-beret',
+      en: 'best-family-hotels-baqueira-beret',
+      ca: 'millors-hotels-families-baqueira-beret',
+      fr: 'meilleurs-hotels-familles-baqueira-beret',
+      pt: 'melhores-hoteis-familias-baqueira-beret'
+    },
+    'melhores-hoteis-familias-baqueira-beret': {
+      es: 'mejores-hoteles-familias-baqueira-beret',
+      en: 'best-family-hotels-baqueira-beret',
+      ca: 'millors-hotels-families-baqueira-beret',
+      fr: 'meilleurs-hotels-familles-baqueira-beret',
+      pt: 'melhores-hoteis-familias-baqueira-beret'
+    },
+    
+    // Article 4: Best apps for skiing
+    'las-mejores-apps-para-esquiar-en-baqueira-beret': {
+      es: 'las-mejores-apps-para-esquiar-en-baqueira-beret',
+      en: 'best-apps-for-skiing-baqueira-beret',
+      ca: 'millors-apps-per-esquiar-baqueira-beret',
+      fr: 'meilleures-apps-pour-skier-baqueira-beret',
+      pt: 'melhores-apps-para-esquiar-baqueira-beret'
+    },
+    'best-apps-for-skiing-baqueira-beret': {
+      es: 'las-mejores-apps-para-esquiar-en-baqueira-beret',
+      en: 'best-apps-for-skiing-baqueira-beret',
+      ca: 'millors-apps-per-esquiar-baqueira-beret',
+      fr: 'meilleures-apps-pour-skier-baqueira-beret',
+      pt: 'melhores-apps-para-esquiar-baqueira-beret'
+    },
+    'millors-apps-per-esquiar-baqueira-beret': {
+      es: 'las-mejores-apps-para-esquiar-en-baqueira-beret',
+      en: 'best-apps-for-skiing-baqueira-beret',
+      ca: 'millors-apps-per-esquiar-baqueira-beret',
+      fr: 'meilleures-apps-pour-skier-baqueira-beret',
+      pt: 'melhores-apps-para-esquiar-baqueira-beret'
+    },
+    'meilleures-apps-pour-skier-baqueira-beret': {
+      es: 'las-mejores-apps-para-esquiar-en-baqueira-beret',
+      en: 'best-apps-for-skiing-baqueira-beret',
+      ca: 'millors-apps-per-esquiar-baqueira-beret',
+      fr: 'meilleures-apps-pour-skier-baqueira-beret',
+      pt: 'melhores-apps-para-esquiar-baqueira-beret'
+    },
+    'melhores-apps-para-esquiar-baqueira-beret': {
+      es: 'las-mejores-apps-para-esquiar-en-baqueira-beret',
+      en: 'best-apps-for-skiing-baqueira-beret',
+      ca: 'millors-apps-per-esquiar-baqueira-beret',
+      fr: 'meilleures-apps-pour-skier-baqueira-beret',
+      pt: 'melhores-apps-para-esquiar-baqueira-beret'
+    },
+    
+    // Article 5: Ski rental
+    'alquiler-esqui-snowboard-baqueira': {
+      es: 'alquiler-esqui-snowboard-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-esqui-snowboard-baqueira',
+      fr: 'location-ski-snowboard-baqueira',
+      pt: 'aluguel-esqui-snowboard-baqueira'
+    },
+    'ski-snowboard-rental-baqueira': {
+      es: 'alquiler-esqui-snowboard-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-esqui-snowboard-baqueira',
+      fr: 'location-ski-snowboard-baqueira',
+      pt: 'aluguel-esqui-snowboard-baqueira'
+    },
+    'lloguer-esqui-snowboard-baqueira': {
+      es: 'alquiler-esqui-snowboard-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-esqui-snowboard-baqueira',
+      fr: 'location-ski-snowboard-baqueira',
+      pt: 'aluguel-esqui-snowboard-baqueira'
+    },
+    'location-ski-snowboard-baqueira': {
+      es: 'alquiler-esqui-snowboard-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-esqui-snowboard-baqueira',
+      fr: 'location-ski-snowboard-baqueira',
+      pt: 'aluguel-esqui-snowboard-baqueira'
+    },
+    'aluguel-esqui-snowboard-baqueira': {
+      es: 'alquiler-esqui-snowboard-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-esqui-snowboard-baqueira',
+      fr: 'location-ski-snowboard-baqueira',
+      pt: 'aluguel-esqui-snowboard-baqueira'
+    },
+    
+    // Article 6: How to learn skiing
+    'como-aprender-esquiar-baqueira': {
+      es: 'como-aprender-esquiar-baqueira',
+      en: 'how-to-learn-skiing-baqueira',
+      ca: 'com-aprendre-esquiar-baqueira',
+      fr: 'comment-apprendre-skier-baqueira',
+      pt: 'como-aprender-esquiar-baqueira'
+    },
+    'how-to-learn-skiing-baqueira': {
+      es: 'como-aprender-esquiar-baqueira',
+      en: 'how-to-learn-skiing-baqueira',
+      ca: 'com-aprendre-esquiar-baqueira',
+      fr: 'comment-apprendre-skier-baqueira',
+      pt: 'como-aprender-esquiar-baqueira'
+    },
+    'com-aprendre-esquiar-baqueira': {
+      es: 'como-aprender-esquiar-baqueira',
+      en: 'how-to-learn-skiing-baqueira',
+      ca: 'com-aprendre-esquiar-baqueira',
+      fr: 'comment-apprendre-skier-baqueira',
+      pt: 'como-aprender-esquiar-baqueira'
+    },
+    'comment-apprendre-skier-baqueira': {
+      es: 'como-aprender-esquiar-baqueira',
+      en: 'how-to-learn-skiing-baqueira',
+      ca: 'com-aprendre-esquiar-baqueira',
+      fr: 'comment-apprendre-skier-baqueira',
+      pt: 'como-aprender-esquiar-baqueira'
+    },
+    
+    // Article 7: Beginner areas
+    'zonas-principiantes-baqueira-beret': {
+      es: 'zonas-principiantes-baqueira-beret',
+      en: 'beginner-areas-baqueira-beret',
+      ca: 'zones-principiants-baqueira-beret',
+      fr: 'zones-debutants-baqueira-beret',
+      pt: 'zonas-iniciantes-baqueira-beret'
+    },
+    'beginner-areas-baqueira-beret': {
+      es: 'zonas-principiantes-baqueira-beret',
+      en: 'beginner-areas-baqueira-beret',
+      ca: 'zones-principiants-baqueira-beret',
+      fr: 'zones-debutants-baqueira-beret',
+      pt: 'zonas-iniciantes-baqueira-beret'
+    },
+    'zones-principiants-baqueira-beret': {
+      es: 'zonas-principiantes-baqueira-beret',
+      en: 'beginner-areas-baqueira-beret',
+      ca: 'zones-principiants-baqueira-beret',
+      fr: 'zones-debutants-baqueira-beret',
+      pt: 'zonas-iniciantes-baqueira-beret'
+    },
+    'zones-debutants-baqueira-beret': {
+      es: 'zonas-principiantes-baqueira-beret',
+      en: 'beginner-areas-baqueira-beret',
+      ca: 'zones-principiants-baqueira-beret',
+      fr: 'zones-debutants-baqueira-beret',
+      pt: 'zonas-iniciantes-baqueira-beret'
+    },
+    'zonas-iniciantes-baqueira-beret': {
+      es: 'zonas-principiantes-baqueira-beret',
+      en: 'beginner-areas-baqueira-beret',
+      ca: 'zones-principiants-baqueira-beret',
+      fr: 'zones-debutants-baqueira-beret',
+      pt: 'zonas-iniciantes-baqueira-beret'
+    }
+  };
+  
+  // Page filename mappings across languages (clean URLs without .html)
+  const pageMappings = {
+    'index': {
+      es: 'index',
+      en: 'index',
+      ca: 'index',
+      fr: 'index',
+      pt: 'index'
+    },
+    'sobre-nosotros': {
+      es: 'sobre-nosotros',
+      en: 'about-us',
+      ca: 'nosaltres',
+      fr: 'a-propos-de-nous',
+      pt: 'sobre-nos'
+    },
+    'about-us': {
+      es: 'sobre-nosotros',
+      en: 'about-us',
+      ca: 'nosaltres',
+      fr: 'a-propos-de-nous',
+      pt: 'sobre-nos'
+    },
+    'nosaltres': {
+      es: 'sobre-nosotros',
+      en: 'about-us',
+      ca: 'nosaltres',
+      fr: 'a-propos-de-nous',
+      pt: 'sobre-nos'
+    },
+    'a-propos-de-nous': {
+      es: 'sobre-nosotros',
+      en: 'about-us',
+      ca: 'nosaltres',
+      fr: 'a-propos-de-nous',
+      pt: 'sobre-nos'
+    },
+    'sobre-nos': {
+      es: 'sobre-nosotros',
+      en: 'about-us',
+      ca: 'nosaltres',
+      fr: 'a-propos-de-nous',
+      pt: 'sobre-nos'
+    },
+    'clases-de-esqui-baqueira': {
+      es: 'clases-de-esqui-baqueira',
+      en: 'ski-lessons-baqueira',
+      ca: 'classes-desqui-baqueira',
+      fr: 'cours-de-ski-baqueira',
+      pt: 'aulas-de-esqui-baqueira'
+    },
+    'ski-lessons-baqueira': {
+      es: 'clases-de-esqui-baqueira',
+      en: 'ski-lessons-baqueira',
+      ca: 'classes-desqui-baqueira',
+      fr: 'cours-de-ski-baqueira',
+      pt: 'aulas-de-esqui-baqueira'
+    },
+    'classes-desqui-baqueira': {
+      es: 'clases-de-esqui-baqueira',
+      en: 'ski-lessons-baqueira',
+      ca: 'classes-desqui-baqueira',
+      fr: 'cours-de-ski-baqueira',
+      pt: 'aulas-de-esqui-baqueira'
+    },
+    'cours-de-ski-baqueira': {
+      es: 'clases-de-esqui-baqueira',
+      en: 'ski-lessons-baqueira',
+      ca: 'classes-desqui-baqueira',
+      fr: 'cours-de-ski-baqueira',
+      pt: 'aulas-de-esqui-baqueira'
+    },
+    'aulas-de-esqui-baqueira': {
+      es: 'clases-de-esqui-baqueira',
+      en: 'ski-lessons-baqueira',
+      ca: 'classes-desqui-baqueira',
+      fr: 'cours-de-ski-baqueira',
+      pt: 'aulas-de-esqui-baqueira'
+    },
+    'clases-de-snowboard-baqueira': {
+      es: 'clases-de-snowboard-baqueira',
+      en: 'snowboard-lessons-baqueira',
+      ca: 'classes-de-snowboard-baqueira',
+      fr: 'cours-de-snowboard-baqueira',
+      pt: 'aulas-de-snowboard-baqueira'
+    },
+    'snowboard-lessons-baqueira': {
+      es: 'clases-de-snowboard-baqueira',
+      en: 'snowboard-lessons-baqueira',
+      ca: 'classes-de-snowboard-baqueira',
+      fr: 'cours-de-snowboard-baqueira',
+      pt: 'aulas-de-snowboard-baqueira'
+    },
+    'contacto-reservas': {
+      es: 'contacto-reservas',
+      en: 'contact-booking',
+      ca: 'contacte-reserves',
+      fr: 'contact-reservations',
+      pt: 'contato-reservas'
+    },
+    'contact-booking': {
+      es: 'contacto-reservas',
+      en: 'contact-booking',
+      ca: 'contacte-reserves',
+      fr: 'contact-reservations',
+      pt: 'contato-reservas'
+    },
+    'contacte-reserves': {
+      es: 'contacto-reservas',
+      en: 'contact-booking',
+      ca: 'contacte-reserves',
+      fr: 'contact-reservations',
+      pt: 'contato-reservas'
+    },
+    'contact-reservations': {
+      es: 'contacto-reservas',
+      en: 'contact-booking',
+      ca: 'contacte-reserves',
+      fr: 'contact-reservations',
+      pt: 'contato-reservas'
+    },
+    'contato-reservas': {
+      es: 'contacto-reservas',
+      en: 'contact-booking',
+      ca: 'contacte-reserves',
+      fr: 'contact-reservations',
+      pt: 'contato-reservas'
+    },
+    'precios-y-tarifas-baqueira': {
+      es: 'precios-y-tarifas-baqueira',
+      en: 'ski-snowboard-lessons-prices-baqueira',
+      ca: 'preus-i-tarifes-baqueira',
+      fr: 'prix-et-tarifs-baqueira',
+      pt: 'precos-e-tarifas-baqueira'
+    },
+    'ski-snowboard-lessons-prices-baqueira': {
+      es: 'precios-y-tarifas-baqueira',
+      en: 'ski-snowboard-lessons-prices-baqueira',
+      ca: 'preus-i-tarifes-baqueira',
+      fr: 'prix-et-tarifs-baqueira',
+      pt: 'precos-e-tarifas-baqueira'
+    },
+    'preus-i-tarifes-baqueira': {
+      es: 'precios-y-tarifas-baqueira',
+      en: 'ski-snowboard-lessons-prices-baqueira',
+      ca: 'preus-i-tarifes-baqueira',
+      fr: 'prix-et-tarifs-baqueira',
+      pt: 'precos-e-tarifas-baqueira'
+    },
+    'prix-et-tarifs-baqueira': {
+      es: 'precios-y-tarifas-baqueira',
+      en: 'ski-snowboard-lessons-prices-baqueira',
+      ca: 'preus-i-tarifes-baqueira',
+      fr: 'prix-et-tarifs-baqueira',
+      pt: 'precos-e-tarifas-baqueira'
+    },
+    'precos-e-tarifas-baqueira': {
+      es: 'precios-y-tarifas-baqueira',
+      en: 'ski-snowboard-lessons-prices-baqueira',
+      ca: 'preus-i-tarifes-baqueira',
+      fr: 'prix-et-tarifs-baqueira',
+      pt: 'precos-e-tarifas-baqueira'
+    },
+    'alquiler-de-material-baqueira': {
+      es: 'alquiler-de-material-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-de-material-baqueira',
+      fr: 'location-de-materiel-baqueira',
+      pt: 'aluguel-de-equipamento-baqueira'
+    },
+    'ski-snowboard-rental-baqueira': {
+      es: 'alquiler-de-material-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-de-material-baqueira',
+      fr: 'location-de-materiel-baqueira',
+      pt: 'aluguel-de-equipamento-baqueira'
+    },
+    'lloguer-de-material-baqueira': {
+      es: 'alquiler-de-material-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-de-material-baqueira',
+      fr: 'location-de-materiel-baqueira',
+      pt: 'aluguel-de-equipamento-baqueira'
+    },
+    'location-de-materiel-baqueira': {
+      es: 'alquiler-de-material-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-de-material-baqueira',
+      fr: 'location-de-materiel-baqueira',
+      pt: 'aluguel-de-equipamento-baqueira'
+    },
+    'aluguel-de-equipamento-baqueira': {
+      es: 'alquiler-de-material-baqueira',
+      en: 'ski-snowboard-rental-baqueira',
+      ca: 'lloguer-de-material-baqueira',
+      fr: 'location-de-materiel-baqueira',
+      pt: 'aluguel-de-equipamento-baqueira'
+    },
+    'camaras-baqueira': {
+      es: 'camaras-baqueira',
+      en: 'webcams-baqueira',
+      ca: 'cameres-baqueira',
+      fr: 'cameras-baqueira',
+      pt: 'cameras-baqueira'
+    },
+    'webcams-baqueira': {
+      es: 'camaras-baqueira',
+      en: 'webcams-baqueira',
+      ca: 'cameres-baqueira',
+      fr: 'cameras-baqueira',
+      pt: 'cameras-baqueira'
+    },
+    'cameres-baqueira': {
+      es: 'camaras-baqueira',
+      en: 'webcams-baqueira',
+      ca: 'cameres-baqueira',
+      fr: 'cameras-baqueira',
+      pt: 'cameras-baqueira'
+    },
+    'cameras-baqueira': {
+      es: 'camaras-baqueira',
+      en: 'webcams-baqueira',
+      ca: 'cameres-baqueira',
+      fr: 'cameras-baqueira',
+      pt: 'cameras-baqueira'
+    },
+    'viajes-de-esqui': {
+      es: 'viajes-de-esqui',
+      en: 'ski-trips',
+      ca: 'viatges-desqui',
+      fr: 'voyages-de-ski',
+      pt: 'viagens-de-esqui'
+    },
+    'ski-trips': {
+      es: 'viajes-de-esqui',
+      en: 'ski-trips',
+      ca: 'viatges-desqui',
+      fr: 'voyages-de-ski',
+      pt: 'viagens-de-esqui'
+    },
+    'viatges-desqui': {
+      es: 'viajes-de-esqui',
+      en: 'ski-trips',
+      ca: 'viatges-desqui',
+      fr: 'voyages-de-ski',
+      pt: 'viagens-de-esqui'
+    },
+    'voyages-de-ski': {
+      es: 'viajes-de-esqui',
+      en: 'ski-trips',
+      ca: 'viatges-desqui',
+      fr: 'voyages-de-ski',
+      pt: 'viagens-de-esqui'
+    },
+    'viagens-de-esqui': {
+      es: 'viajes-de-esqui',
+      en: 'ski-trips',
+      ca: 'viatges-desqui',
+      fr: 'voyages-de-ski',
+      pt: 'viagens-de-esqui'
+    },
+    'blog': {
+      es: 'blog',
+      en: 'blog',
+      ca: 'blog',
+      fr: 'blog',
+      pt: 'blog'
+    },
+    'galeria': {
+      es: 'galeria',
+      en: 'gallery',
+      ca: 'galeria',
+      fr: 'galerie',
+      pt: 'galeria'
+    },
+    'gallery': {
+      es: 'galeria',
+      en: 'gallery',
+      ca: 'galeria',
+      fr: 'galerie',
+      pt: 'galeria'
+    },
+    'galerie': {
+      es: 'galeria',
+      en: 'gallery',
+      ca: 'galeria',
+      fr: 'galerie',
+      pt: 'galeria'
+    },
+    'clases-particulares-ninos-baqueira': {
+      es: 'clases-particulares-ninos-baqueira',
+      en: 'private-ski-lessons-kids-baqueira',
+      ca: 'classes-particulars-nens-baqueira',
+      fr: 'cours-particuliers-enfants-baqueira',
+      pt: 'aulas-particulares-criancas-baqueira'
+    },
+    'private-ski-lessons-kids-baqueira': {
+      es: 'clases-particulares-ninos-baqueira',
+      en: 'private-ski-lessons-kids-baqueira',
+      ca: 'classes-particulars-nens-baqueira',
+      fr: 'cours-particuliers-enfants-baqueira',
+      pt: 'aulas-particulares-criancas-baqueira'
+    },
+    'classes-particulars-nens-baqueira': {
+      es: 'clases-particulares-ninos-baqueira',
+      en: 'private-ski-lessons-kids-baqueira',
+      ca: 'classes-particulars-nens-baqueira',
+      fr: 'cours-particuliers-enfants-baqueira',
+      pt: 'aulas-particulares-criancas-baqueira'
+    },
+    'cours-particuliers-enfants-baqueira': {
+      es: 'clases-particulares-ninos-baqueira',
+      en: 'private-ski-lessons-kids-baqueira',
+      ca: 'classes-particulars-nens-baqueira',
+      fr: 'cours-particuliers-enfants-baqueira',
+      pt: 'aulas-particulares-criancas-baqueira'
+    },
+    'aulas-particulares-criancas-baqueira': {
+      es: 'clases-particulares-ninos-baqueira',
+      en: 'private-ski-lessons-kids-baqueira',
+      ca: 'classes-particulars-nens-baqueira',
+      fr: 'cours-particuliers-enfants-baqueira',
+      pt: 'aulas-particulares-criancas-baqueira'
+    },
+    'clases-particulares-adultos-baqueira': {
+      es: 'clases-particulares-adultos-baqueira',
+      en: 'private-ski-lessons-adults-baqueira',
+      ca: 'classes-particulars-adults-baqueira',
+      fr: 'cours-particuliers-adultes-baqueira',
+      pt: 'aulas-particulares-adultos-baqueira'
+    },
+    'private-ski-lessons-adults-baqueira': {
+      es: 'clases-particulares-adultos-baqueira',
+      en: 'private-ski-lessons-adults-baqueira',
+      ca: 'classes-particulars-adults-baqueira',
+      fr: 'cours-particuliers-adultes-baqueira',
+      pt: 'aulas-particulares-adultos-baqueira'
+    },
+    'classes-particulars-adults-baqueira': {
+      es: 'clases-particulares-adultos-baqueira',
+      en: 'private-ski-lessons-adults-baqueira',
+      ca: 'classes-particulars-adults-baqueira',
+      fr: 'cours-particuliers-adultes-baqueira',
+      pt: 'aulas-particulares-adultos-baqueira'
+    },
+    'cours-particuliers-adultes-baqueira': {
+      es: 'clases-particulares-adultos-baqueira',
+      en: 'private-ski-lessons-adults-baqueira',
+      ca: 'classes-particulars-adults-baqueira',
+      fr: 'cours-particuliers-adultes-baqueira',
+      pt: 'aulas-particulares-adultos-baqueira'
+    },
+    'aulas-particulares-adultos-baqueira': {
+      es: 'clases-particulares-adultos-baqueira',
+      en: 'private-ski-lessons-adults-baqueira',
+      ca: 'classes-particulars-adults-baqueira',
+      fr: 'cours-particuliers-adultes-baqueira',
+      pt: 'aulas-particulares-adultos-baqueira'
+    },
+    'clases-particulares-familias-baqueira': {
+      es: 'clases-particulares-familias-baqueira',
+      en: 'private-ski-lessons-families-baqueira',
+      ca: 'classes-particulars-families-baqueira',
+      fr: 'cours-particuliers-familles-baqueira',
+      pt: 'aulas-particulares-familias-baqueira'
+    },
+    'private-ski-lessons-families-baqueira': {
+      es: 'clases-particulares-familias-baqueira',
+      en: 'private-ski-lessons-families-baqueira',
+      ca: 'classes-particulars-families-baqueira',
+      fr: 'cours-particuliers-familles-baqueira',
+      pt: 'aulas-particulares-familias-baqueira'
+    },
+    'classes-particulars-families-baqueira': {
+      es: 'clases-particulares-familias-baqueira',
+      en: 'private-ski-lessons-families-baqueira',
+      ca: 'classes-particulars-families-baqueira',
+      fr: 'cours-particuliers-familles-baqueira',
+      pt: 'aulas-particulares-familias-baqueira'
+    },
+    'cours-particuliers-familles-baqueira': {
+      es: 'clases-particulares-familias-baqueira',
+      en: 'private-ski-lessons-families-baqueira',
+      ca: 'classes-particulars-families-baqueira',
+      fr: 'cours-particuliers-familles-baqueira',
+      pt: 'aulas-particulares-familias-baqueira'
+    },
+    'aulas-particulares-familias-baqueira': {
+      es: 'clases-particulares-familias-baqueira',
+      en: 'private-ski-lessons-families-baqueira',
+      ca: 'classes-particulars-families-baqueira',
+      fr: 'cours-particuliers-familles-baqueira',
+      pt: 'aulas-particulares-familias-baqueira'
+    },
+    'clases-tecnologia-carv-baqueira': {
+      es: 'clases-tecnologia-carv-baqueira',
+      en: 'private-ski-lessons-carv-baqueira',
+      ca: 'classes-tecnologia-carv-baqueira',
+      fr: 'cours-technologie-carv-baqueira',
+      pt: 'aulas-tecnologia-carv-baqueira'
+    },
+    'private-ski-lessons-carv-baqueira': {
+      es: 'clases-tecnologia-carv-baqueira',
+      en: 'private-ski-lessons-carv-baqueira',
+      ca: 'classes-tecnologia-carv-baqueira',
+      fr: 'cours-technologie-carv-baqueira',
+      pt: 'aulas-tecnologia-carv-baqueira'
+    },
+    'classes-tecnologia-carv-baqueira': {
+      es: 'clases-tecnologia-carv-baqueira',
+      en: 'private-ski-lessons-carv-baqueira',
+      ca: 'classes-tecnologia-carv-baqueira',
+      fr: 'cours-technologie-carv-baqueira',
+      pt: 'aulas-tecnologia-carv-baqueira'
+    },
+    'cours-technologie-carv-baqueira': {
+      es: 'clases-tecnologia-carv-baqueira',
+      en: 'private-ski-lessons-carv-baqueira',
+      ca: 'classes-tecnologia-carv-baqueira',
+      fr: 'cours-technologie-carv-baqueira',
+      pt: 'aulas-tecnologia-carv-baqueira'
+    },
+    'aulas-tecnologia-carv-baqueira': {
+      es: 'clases-tecnologia-carv-baqueira',
+      en: 'private-ski-lessons-carv-baqueira',
+      ca: 'classes-tecnologia-carv-baqueira',
+      fr: 'cours-technologie-carv-baqueira',
+      pt: 'aulas-tecnologia-carv-baqueira'
+    },
+    'clases-de-freeride-baqueira': {
+      es: 'clases-de-freeride-baqueira',
+      en: 'freeride-ski-lessons-baqueira',
+      ca: 'classes-freeride-baqueira',
+      fr: 'cours-freeride-baqueira',
+      pt: 'aulas-freeride-baqueira'
+    },
+    'freeride-ski-lessons-baqueira': {
+      es: 'clases-de-freeride-baqueira',
+      en: 'freeride-ski-lessons-baqueira',
+      ca: 'classes-freeride-baqueira',
+      fr: 'cours-freeride-baqueira',
+      pt: 'aulas-freeride-baqueira'
+    },
+    'classes-freeride-baqueira': {
+      es: 'clases-de-freeride-baqueira',
+      en: 'freeride-ski-lessons-baqueira',
+      ca: 'classes-freeride-baqueira',
+      fr: 'cours-freeride-baqueira',
+      pt: 'aulas-freeride-baqueira'
+    },
+    'cours-freeride-baqueira': {
+      es: 'clases-de-freeride-baqueira',
+      en: 'freeride-ski-lessons-baqueira',
+      ca: 'classes-freeride-baqueira',
+      fr: 'cours-freeride-baqueira',
+      pt: 'aulas-freeride-baqueira'
+    },
+    'aulas-freeride-baqueira': {
+      es: 'clases-de-freeride-baqueira',
+      en: 'freeride-ski-lessons-baqueira',
+      ca: 'classes-freeride-baqueira',
+      fr: 'cours-freeride-baqueira',
+      pt: 'aulas-freeride-baqueira'
+    },
+    'clases-de-freestyle-baqueira': {
+      es: 'clases-de-freestyle-baqueira',
+      en: 'freestyle-ski-lessons-baqueira',
+      ca: 'classes-freestyle-baqueira',
+      fr: 'cours-freestyle-baqueira',
+      pt: 'aulas-freestyle-baqueira'
+    },
+    'freestyle-ski-lessons-baqueira': {
+      es: 'clases-de-freestyle-baqueira',
+      en: 'freestyle-ski-lessons-baqueira',
+      ca: 'classes-freestyle-baqueira',
+      fr: 'cours-freestyle-baqueira',
+      pt: 'aulas-freestyle-baqueira'
+    },
+    'classes-freestyle-baqueira': {
+      es: 'clases-de-freestyle-baqueira',
+      en: 'freestyle-ski-lessons-baqueira',
+      ca: 'classes-freestyle-baqueira',
+      fr: 'cours-freestyle-baqueira',
+      pt: 'aulas-freestyle-baqueira'
+    },
+    'cours-freestyle-baqueira': {
+      es: 'clases-de-freestyle-baqueira',
+      en: 'freestyle-ski-lessons-baqueira',
+      ca: 'classes-freestyle-baqueira',
+      fr: 'cours-freestyle-baqueira',
+      pt: 'aulas-freestyle-baqueira'
+    },
+    'aulas-freestyle-baqueira': {
+      es: 'clases-de-freestyle-baqueira',
+      en: 'freestyle-ski-lessons-baqueira',
+      ca: 'classes-freestyle-baqueira',
+      fr: 'cours-freestyle-baqueira',
+      pt: 'aulas-freestyle-baqueira'
+    },
+    'clases-grupo-ninos-baqueira': {
+      es: 'clases-grupo-ninos-baqueira',
+      en: 'group-ski-lessons-kids-baqueira',
+      ca: 'classes-grup-nens-baqueira',
+      fr: 'cours-groupe-enfants-baqueira',
+      pt: 'aulas-grupo-criancas-baqueira'
+    },
+    'group-ski-lessons-kids-baqueira': {
+      es: 'clases-grupo-ninos-baqueira',
+      en: 'group-ski-lessons-kids-baqueira',
+      ca: 'classes-grup-nens-baqueira',
+      fr: 'cours-groupe-enfants-baqueira',
+      pt: 'aulas-grupo-criancas-baqueira'
+    },
+    'classes-grup-nens-baqueira': {
+      es: 'clases-grupo-ninos-baqueira',
+      en: 'group-ski-lessons-kids-baqueira',
+      ca: 'classes-grup-nens-baqueira',
+      fr: 'cours-groupe-enfants-baqueira',
+      pt: 'aulas-grupo-criancas-baqueira'
+    },
+    'cours-groupe-enfants-baqueira': {
+      es: 'clases-grupo-ninos-baqueira',
+      en: 'group-ski-lessons-kids-baqueira',
+      ca: 'classes-grup-nens-baqueira',
+      fr: 'cours-groupe-enfants-baqueira',
+      pt: 'aulas-grupo-criancas-baqueira'
+    },
+    'aulas-grupo-criancas-baqueira': {
+      es: 'clases-grupo-ninos-baqueira',
+      en: 'group-ski-lessons-kids-baqueira',
+      ca: 'classes-grup-nens-baqueira',
+      fr: 'cours-groupe-enfants-baqueira',
+      pt: 'aulas-grupo-criancas-baqueira'
+    },
+    'clases-grupo-adultos-baqueira': {
+      es: 'clases-grupo-adultos-baqueira',
+      en: 'group-ski-lessons-adults-baqueira',
+      ca: 'classes-grup-adults-baqueira',
+      fr: 'cours-groupe-adultes-baqueira',
+      pt: 'aulas-grupo-adultos-baqueira'
+    },
+    'group-ski-lessons-adults-baqueira': {
+      es: 'clases-grupo-adultos-baqueira',
+      en: 'group-ski-lessons-adults-baqueira',
+      ca: 'classes-grup-adults-baqueira',
+      fr: 'cours-groupe-adultes-baqueira',
+      pt: 'aulas-grupo-adultos-baqueira'
+    },
+    'classes-grup-adults-baqueira': {
+      es: 'clases-grupo-adultos-baqueira',
+      en: 'group-ski-lessons-adults-baqueira',
+      ca: 'classes-grup-adults-baqueira',
+      fr: 'cours-groupe-adultes-baqueira',
+      pt: 'aulas-grupo-adultos-baqueira'
+    },
+    'cours-groupe-adultes-baqueira': {
+      es: 'clases-grupo-adultos-baqueira',
+      en: 'group-ski-lessons-adults-baqueira',
+      ca: 'classes-grup-adults-baqueira',
+      fr: 'cours-groupe-adultes-baqueira',
+      pt: 'aulas-grupo-adultos-baqueira'
+    },
+    'aulas-grupo-adultos-baqueira': {
+      es: 'clases-grupo-adultos-baqueira',
+      en: 'group-ski-lessons-adults-baqueira',
+      ca: 'classes-grup-adults-baqueira',
+      fr: 'cours-groupe-adultes-baqueira',
+      pt: 'aulas-grupo-adultos-baqueira'
+    },
+    'clases-empresas-colegios-baqueira': {
+      es: 'clases-empresas-colegios-baqueira',
+      en: 'ski-lessons-companies-schools-baqueira',
+      ca: 'classes-empreses-escoles-baqueira',
+      fr: 'cours-entreprises-ecoles-baqueira',
+      pt: 'aulas-empresas-escolas-baqueira'
+    },
+    'ski-lessons-companies-schools-baqueira': {
+      es: 'clases-empresas-colegios-baqueira',
+      en: 'ski-lessons-companies-schools-baqueira',
+      ca: 'classes-empreses-escoles-baqueira',
+      fr: 'cours-entreprises-ecoles-baqueira',
+      pt: 'aulas-empresas-escolas-baqueira'
+    },
+    'classes-empreses-escoles-baqueira': {
+      es: 'clases-empresas-colegios-baqueira',
+      en: 'ski-lessons-companies-schools-baqueira',
+      ca: 'classes-empreses-escoles-baqueira',
+      fr: 'cours-entreprises-ecoles-baqueira',
+      pt: 'aulas-empresas-escolas-baqueira'
+    },
+    'cours-entreprises-ecoles-baqueira': {
+      es: 'clases-empresas-colegios-baqueira',
+      en: 'ski-lessons-companies-schools-baqueira',
+      ca: 'classes-empreses-escoles-baqueira',
+      fr: 'cours-entreprises-ecoles-baqueira',
+      pt: 'aulas-empresas-escolas-baqueira'
+    },
+    'aulas-empresas-escolas-baqueira': {
+      es: 'clases-empresas-colegios-baqueira',
+      en: 'ski-lessons-companies-schools-baqueira',
+      ca: 'classes-empreses-escoles-baqueira',
+      fr: 'cours-entreprises-ecoles-baqueira',
+      pt: 'aulas-empresas-escolas-baqueira'
+    },
+    'aviso-legal': {
+      es: 'aviso-legal',
+      en: 'legal-notice',
+      ca: 'avis-legal',
+      fr: 'mentions-legales',
+      pt: 'aviso-legal'
+    },
+    'legal-notice': {
+      es: 'aviso-legal',
+      en: 'legal-notice',
+      ca: 'avis-legal',
+      fr: 'mentions-legales',
+      pt: 'aviso-legal'
+    },
+    'avis-legal': {
+      es: 'aviso-legal',
+      en: 'legal-notice',
+      ca: 'avis-legal',
+      fr: 'mentions-legales',
+      pt: 'aviso-legal'
+    },
+    'mentions-legales': {
+      es: 'aviso-legal',
+      en: 'legal-notice',
+      ca: 'avis-legal',
+      fr: 'mentions-legales',
+      pt: 'aviso-legal'
+    },
+    'politica-de-privacidad': {
+      es: 'politica-de-privacidad',
+      en: 'privacy-policy',
+      ca: 'politica-de-privacitat',
+      fr: 'politique-de-confidentialite',
+      pt: 'politica-de-privacidade'
+    },
+    'privacy-policy': {
+      es: 'politica-de-privacidad',
+      en: 'privacy-policy',
+      ca: 'politica-de-privacitat',
+      fr: 'politique-de-confidentialite',
+      pt: 'politica-de-privacidade'
+    },
+    'politica-de-privacitat': {
+      es: 'politica-de-privacidad',
+      en: 'privacy-policy',
+      ca: 'politica-de-privacitat',
+      fr: 'politique-de-confidentialite',
+      pt: 'politica-de-privacidade'
+    },
+    'politique-de-confidentialite': {
+      es: 'politica-de-privacidad',
+      en: 'privacy-policy',
+      ca: 'politica-de-privacitat',
+      fr: 'politique-de-confidentialite',
+      pt: 'politica-de-privacidade'
+    },
+    'politica-de-privacidade': {
+      es: 'politica-de-privacidad',
+      en: 'privacy-policy',
+      ca: 'politica-de-privacitat',
+      fr: 'politique-de-confidentialite',
+      pt: 'politica-de-privacidade'
+    },
+    'politica-de-cookies': {
+      es: 'politica-de-cookies',
+      en: 'cookie-policy',
+      ca: 'politica-de-cookies',
+      fr: 'politique-de-cookies',
+      pt: 'politica-de-cookies'
+    },
+    'cookie-policy': {
+      es: 'politica-de-cookies',
+      en: 'cookie-policy',
+      ca: 'politica-de-cookies',
+      fr: 'politique-de-cookies',
+      pt: 'politica-de-cookies'
+    },
+    'politique-de-cookies': {
+      es: 'politica-de-cookies',
+      en: 'cookie-policy',
+      ca: 'politica-de-cookies',
+      fr: 'politique-de-cookies',
+      pt: 'politica-de-cookies'
+    },
+    'politica-de-cancelacion': {
+      es: 'politica-de-cancelacion',
+      en: 'cancellation-policy',
+      ca: 'politica-de-cancel-lacio',
+      fr: 'politique-dannulation',
+      pt: 'politica-de-cancelamento'
+    },
+    'cancellation-policy': {
+      es: 'politica-de-cancelacion',
+      en: 'cancellation-policy',
+      ca: 'politica-de-cancel-lacio',
+      fr: 'politique-dannulation',
+      pt: 'politica-de-cancelamento'
+    },
+    'politica-de-cancel-lacio': {
+      es: 'politica-de-cancelacion',
+      en: 'cancellation-policy',
+      ca: 'politica-de-cancel-lacio',
+      fr: 'politique-dannulation',
+      pt: 'politica-de-cancelamento'
+    },
+    'politique-dannulation': {
+      es: 'politica-de-cancelacion',
+      en: 'cancellation-policy',
+      ca: 'politica-de-cancel-lacio',
+      fr: 'politique-dannulation',
+      pt: 'politica-de-cancelamento'
+    },
+    'politica-de-cancelamento': {
+      es: 'politica-de-cancelacion',
+      en: 'cancellation-policy',
+      ca: 'politica-de-cancel-lacio',
+      fr: 'politique-dannulation',
+      pt: 'politica-de-cancelamento'
+    }
+  };
