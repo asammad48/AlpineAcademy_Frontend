@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Disable automatic directory slash handling
+DirectorySlash Off
+
 # ========================================
 # 1. STATIC FILES - Serve directly
 # ========================================
@@ -21,6 +24,13 @@ RewriteRule ^en/?$ /en/index.html [L]
 RewriteRule ^fr/?$ /fr/index.html [L]
 RewriteRule ^ca/?$ /ca/index.html [L]
 RewriteRule ^pt/?$ /pt/index.html [L]
+
+# Blog index pages - handle before blog articles
+RewriteRule ^blog/?$ /blog.html [L]
+RewriteRule ^en/blog/?$ /en/blog.html [L]
+RewriteRule ^ca/blog/?$ /ca/blog.html [L]
+RewriteRule ^fr/blog/?$ /fr/blog.html [L]
+RewriteRule ^pt/blog/?$ /pt/blog.html [L]
 
 # ========================================
 # 4. BLOG ARTICLES - Cross-Language Redirects & Clean URLs
@@ -779,16 +789,7 @@ RewriteRule ^fr/politique-dannulation/?$ /fr/politique-dannulation.html [L]
 RewriteRule ^pt/politica-de-cancelamento/?$ /pt/politica-de-cancelamento.html [L]
 
 # ========================================
-# 6. BLOG INDEX
-# ========================================
-RewriteRule ^blog/?$ /blog.html [L]
-RewriteRule ^en/blog/?$ /en/blog.html [L]
-RewriteRule ^ca/blog/?$ /ca/blog.html [L]
-RewriteRule ^fr/blog/?$ /fr/blog.html [L]
-RewriteRule ^pt/blog/?$ /pt/blog.html [L]
-
-# ========================================
-# 7. GENERAL FALLBACK - Try .html extension
+# 6. GENERAL FALLBACK - Try .html extension
 # ========================================
 # This handles clean URLs for any page not matched above
 # Example: /some-page -> /some-page.html

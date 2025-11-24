@@ -51,7 +51,18 @@ if (isset($wordMap[$lastSegment])) {
     }
 }
 
-// 4. If it's a directory, try serving index.html from it
+// 4. Handle blog directory requests - serve blog.html instead of blog/index.html
+// Pattern: /blog/, /en/blog/, /fr/blog/, etc.
+if (preg_match('#^/?([a-z]{2}/)?blog/?$#', $uri, $matches)) {
+    $langPrefix = isset($matches[1]) ? $matches[1] : '';
+    $blogFile = __DIR__ . '/' . $langPrefix . 'blog.html';
+    if (file_exists($blogFile) && is_file($blogFile)) {
+        include $blogFile;
+        return true;
+    }
+}
+
+// 5. If it's a directory, try serving index.html from it
 $cleanUri = rtrim($uri, '/');
 $indexFile = __DIR__ . $cleanUri . '/index.html';
 if (is_dir(__DIR__ . $cleanUri) && file_exists($indexFile)) {
