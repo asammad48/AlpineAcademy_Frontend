@@ -1,129 +1,13 @@
 {
-  "timestamp": "2025-11-25T13:00:16.656Z",
+  "timestamp": "2025-11-25T13:02:23.523Z",
   "summary": {
     "totalFiles": 172,
-    "totalIssues": 231,
-    "brokenLinks": 231,
+    "totalIssues": 160,
+    "brokenLinks": 160,
     "missingImages": 0
   },
   "details": {
     "brokenLinks": [
-      {
-        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
-        "link": "precios-clases-esqui-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
-        "link": "precos"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "en/private-ski-lessons-families-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "ca/classes-esqui-particulars-families-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "fr/cours-ski-prives-familles-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "pt/aulas-esqui-privadas-familias-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "en/group-ski-lessons-businesses-schools-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "ca/classes-esqui-grup-empreses-collegis-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "fr/cours-ski-groupe-entreprises-ecoles-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "pt/aulas-esqui-grupo-empresas-escolas-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "clases-esqui-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/empresas-colegios.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-adultos.html",
-        "link": "../contacto"
-      },
       {
         "file": "clases-esqui-baqueira/grupo-adultos.html",
         "link": "en/adult-group-ski-lessons-baqueira"
@@ -139,22 +23,6 @@
       {
         "file": "clases-esqui-baqueira/grupo-adultos.html",
         "link": "pt/aulas-esqui-grupo-adultos-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-adultos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-adultos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-adultos.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-ninos.html",
-        "link": "../contacto"
       },
       {
         "file": "clases-esqui-baqueira/grupo-ninos.html",
@@ -173,46 +41,6 @@
         "link": "pt/aulas-esqui-grupo-criancas-baqueira"
       },
       {
-        "file": "clases-esqui-baqueira/grupo-ninos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-ninos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-ninos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/grupo-ninos.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/index.html",
-        "link": "contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/index.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/index.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/index.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/index.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-adultos.html",
-        "link": "../contacto"
-      },
-      {
         "file": "clases-esqui-baqueira/particulares-adultos.html",
         "link": "en/private-ski-lessons-adults-baqueira"
       },
@@ -229,22 +57,6 @@
         "link": "pt/aulas-particulares-adultos-baqueira"
       },
       {
-        "file": "clases-esqui-baqueira/particulares-adultos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-adultos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-adultos.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-carv.html",
-        "link": "../contacto"
-      },
-      {
         "file": "clases-esqui-baqueira/particulares-carv.html",
         "link": "en/private-ski-lessons-carv-baqueira"
       },
@@ -259,58 +71,6 @@
       {
         "file": "clases-esqui-baqueira/particulares-carv.html",
         "link": "pt/aulas-esqui-privadas-carv-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-carv.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-carv.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-carv.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-carv.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "en/private-ski-lessons-families-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "ca/classes-esqui-particulars-families-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "fr/cours-ski-prives-familles-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "pt/aulas-esqui-privadas-familias-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-familias.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freeride.html",
-        "link": "../contacto"
       },
       {
         "file": "clases-esqui-baqueira/particulares-freeride.html",
@@ -333,22 +93,6 @@
         "link": "nosotros"
       },
       {
-        "file": "clases-esqui-baqueira/particulares-freeride.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freeride.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freeride.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freestyle.html",
-        "link": "../contacto"
-      },
-      {
         "file": "clases-esqui-baqueira/particulares-freestyle.html",
         "link": "en/freestyle-ski-lessons-baqueira"
       },
@@ -363,34 +107,6 @@
       {
         "file": "clases-esqui-baqueira/particulares-freestyle.html",
         "link": "pt/aulas-esqui-freestyle-baqueira"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freestyle.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freestyle.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-freestyle.html",
-        "link": "../Política-de-cancelación"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-ninos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-ninos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-ninos.html",
-        "link": "../contacto"
-      },
-      {
-        "file": "clases-esqui-baqueira/particulares-ninos.html",
-        "link": "../Política-de-cancelación"
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
