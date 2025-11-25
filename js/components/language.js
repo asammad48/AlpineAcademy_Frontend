@@ -348,6 +348,27 @@ document.addEventListener('DOMContentLoaded', function() {
       fr: 'cours-de-snowboard-baqueira',
       pt: 'aulas-de-snowboard-baqueira'
     },
+    'classes-de-snowboard-baqueira': {
+      es: 'clases-de-snowboard-baqueira',
+      en: 'snowboard-lessons-baqueira',
+      ca: 'classes-de-snowboard-baqueira',
+      fr: 'cours-de-snowboard-baqueira',
+      pt: 'aulas-de-snowboard-baqueira'
+    },
+    'cours-de-snowboard-baqueira': {
+      es: 'clases-de-snowboard-baqueira',
+      en: 'snowboard-lessons-baqueira',
+      ca: 'classes-de-snowboard-baqueira',
+      fr: 'cours-de-snowboard-baqueira',
+      pt: 'aulas-de-snowboard-baqueira'
+    },
+    'aulas-de-snowboard-baqueira': {
+      es: 'clases-de-snowboard-baqueira',
+      en: 'snowboard-lessons-baqueira',
+      ca: 'classes-de-snowboard-baqueira',
+      fr: 'cours-de-snowboard-baqueira',
+      pt: 'aulas-de-snowboard-baqueira'
+    },
     'contacto-reservas': {
       es: 'contacto-reservas',
       en: 'contact-booking',
