@@ -2368,3 +2368,31 @@ body {
                 padding: 20px;
             }
         }
+
+/* Fix for mobile navbar with fixed background hero sections */
+@media (max-width: 991px) {
+    .hero-precios,
+    section[style*="background-attachment: fixed"],
+    .hero-section {
+        background-attachment: scroll !important;
+    }
+    
+    /* Ensure navbar is always on top */
+    .navbar {
+        position: fixed !important;
+        top: 0 !important;
+        width: 100% !important;
+        z-index: 1030 !important;
+    }
+    
+    /* Add padding to body to account for fixed navbar on mobile */
+    body {
+        padding-top: 0 !important;
+    }
+    
+    /* Adjust hero sections to account for navbar */
+    .hero-precios,
+    section[class*="hero"] {
+        padding-top: 120px !important;
+    }
+}
