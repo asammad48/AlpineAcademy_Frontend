@@ -1023,6 +1023,11 @@ document.addEventListener('DOMContentLoaded', function() {
       pageName = 'index.html';
     }
     
+    // Add .html extension if not present (for clean URLs)
+    if (pageName && !pageName.endsWith('.html') && !pageName.includes('.')) {
+      pageName = pageName + '.html';
+    }
+    
     // Check if we have a mapping for this page
     if (pageMappings[pageName]) {
       const targetFilename = pageMappings[pageName][lang];

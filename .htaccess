@@ -110,10 +110,25 @@ DirectoryIndex index.html index.htm
     # =====================================
     # Handle gallery variations (galeria/galerie/gallery)
     # =====================================
+    # Spanish root uses 'galeria'
     RewriteRule ^galerie/?$ /galeria.html [L]
     RewriteRule ^gallery/?$ /galeria.html [L]
+    
+    # English uses 'gallery'
     RewriteRule ^en/galeria/?$ /en/gallery.html [L]
+    RewriteRule ^en/galerie/?$ /en/gallery.html [L]
+    
+    # French uses 'galerie'
     RewriteRule ^fr/galeria/?$ /fr/galerie.html [L]
+    RewriteRule ^fr/gallery/?$ /fr/galerie.html [L]
+    
+    # Catalan uses 'galeria'
+    RewriteRule ^ca/gallery/?$ /ca/galeria.html [L]
+    RewriteRule ^ca/galerie/?$ /ca/galeria.html [L]
+    
+    # Portuguese uses 'galeria'
+    RewriteRule ^pt/gallery/?$ /pt/galeria.html [L]
+    RewriteRule ^pt/galerie/?$ /pt/galeria.html [L]
 
     # =====================================
     # General clean URL handling
