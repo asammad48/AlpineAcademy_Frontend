@@ -984,23 +984,41 @@ document.addEventListener('DOMContentLoaded', function() {
   function switchLanguage(lang) {
     const currentPath = window.location.pathname;
     
-    // Check if we're on a blog article
-    const isBlogArticle = currentPath.includes('/blog/') && currentPath.split('/').pop() !== 'blog.html';
+    // Special handling for blogs directory
+    const isBlogsPage = currentPath.includes('/blogs');
+    if (isBlogsPage) {
+      let targetPath;
+      if (lang === 'es') {
+        targetPath = '/blogs';
+      } else {
+        targetPath = '/' + lang + '/blogs';
+      }
+      localStorage.setItem('preferredLanguage', lang);
+      window.location.href = targetPath;
+      return;
+    }
+    
+    // Check if we're on a blog article (in /blogs/ directory)
+    const isBlogArticle = currentPath.includes('/blogs/') && currentPath.split('/').pop() !== 'blog' && currentPath.split('/').pop() !== 'blogs';
     
     if (isBlogArticle) {
-      // Extract the current article filename
-      const currentFilename = currentPath.split('/').pop();
+      // Extract the current article slug (without .html)
+      let currentSlug = currentPath.split('/').pop();
+      // Add .html if needed for mapping lookup
+      let currentFilename = currentSlug.endsWith('.html') ? currentSlug : currentSlug + '.html';
       
       // Look up the mapping for this article
       if (blogArticleMappings[currentFilename]) {
         const targetFilename = blogArticleMappings[currentFilename][lang];
+        // Remove .html extension for clean URL
+        const targetSlug = targetFilename.replace('.html', '');
         
-        // Build the target path
+        // Build the target path (clean URL without .html)
         let targetPath;
         if (lang === 'es') {
-          targetPath = '/blog/' + targetFilename;
+          targetPath = '/blogs/' + targetSlug;
         } else {
-          targetPath = '/' + lang + '/blog/' + targetFilename;
+          targetPath = '/' + lang + '/blogs/' + targetSlug;
         }
         
         localStorage.setItem('preferredLanguage', lang);
@@ -1009,35 +1027,36 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
     
-    // Get the current page filename
-    let pageName = currentPath.split('/').pop() || 'index.html';
+    // Get the current page slug (clean URL handling)
+    let pageSlug = currentPath.split('/').pop() || 'index';
     
-    // If we're in a language subdirectory, get just the filename
-    if (currentPath.includes('/en/') || currentPath.includes('/fr/') || 
-        currentPath.includes('/pt/') || currentPath.includes('/ca/')) {
-      pageName = currentPath.split('/').pop();
+    // Remove .html extension if present
+    if (pageSlug.endsWith('.html')) {
+      pageSlug = pageSlug.replace('.html', '');
     }
     
-    // Default to index.html if no page specified
-    if (!pageName || pageName === '' || pageName.endsWith('/')) {
-      pageName = 'index.html';
+    // Default to index if no page specified or ends with /
+    if (!pageSlug || pageSlug === '' || currentPath.endsWith('/')) {
+      pageSlug = 'index';
     }
     
-    // Add .html extension if not present (for clean URLs)
-    if (pageName && !pageName.endsWith('.html') && !pageName.includes('.')) {
-      pageName = pageName + '.html';
-    }
+    // Add .html for mapping lookup
+    const pageName = pageSlug + '.html';
     
     // Check if we have a mapping for this page
     if (pageMappings[pageName]) {
       const targetFilename = pageMappings[pageName][lang];
+      // Remove .html extension for clean URL
+      const targetSlug = targetFilename.replace('.html', '');
       
-      // Build target path based on language
+      // Build target path based on language (clean URL without .html)
       let targetPath;
       if (lang === 'es') {
-        targetPath = '/' + targetFilename;
+        // Spanish is in root
+        targetPath = '/' + targetSlug;
       } else {
-        targetPath = '/' + lang + '/' + targetFilename;
+        // Other languages in subdirectories
+        targetPath = '/' + lang + '/' + targetSlug;
       }
       
       // Store language preference
@@ -1048,24 +1067,24 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
     
-    // Fallback: use the same filename (for pages not in mapping)
+    // Fallback: use the same slug (for pages not in mapping)
     let targetPath;
     switch(lang) {
       case 'en':
-        targetPath = '/en/' + pageName;
+        targetPath = '/en/' + pageSlug;
         break;
       case 'fr':
-        targetPath = '/fr/' + pageName;
+        targetPath = '/fr/' + pageSlug;
         break;
       case 'pt':
-        targetPath = '/pt/' + pageName;
+        targetPath = '/pt/' + pageSlug;
         break;
       case 'ca':
-        targetPath = '/ca/' + pageName;
+        targetPath = '/ca/' + pageSlug;
         break;
       default:
         // Spanish is in root
-        targetPath = '/' + pageName;
+        targetPath = '/' + pageSlug;
     }
     
     // Store language preference
