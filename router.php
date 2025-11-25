@@ -70,5 +70,13 @@ if (is_dir(__DIR__ . $cleanUri) && file_exists($indexFile)) {
     return true;
 }
 
-// If nothing found, let the server return 404
+// If nothing found, serve 404.html with 404 status code
+http_response_code(404);
+$notFoundFile = __DIR__ . '/404.html';
+if (file_exists($notFoundFile)) {
+    include $notFoundFile;
+    return true;
+}
+
+// Fallback to server 404 if 404.html doesn't exist
 return false;
