@@ -1,100 +1,15 @@
 {
-  "timestamp": "2025-11-25T12:50:23.883Z",
+  "timestamp": "2025-11-25T12:53:31.469Z",
   "summary": {
     "totalFiles": 172,
-    "totalIssues": 2361,
-    "brokenLinks": 1096,
+    "totalIssues": 2294,
+    "brokenLinks": 1041,
     "missingImages": 271,
     "staticFileIssues": 877,
-    "brokenLanguageSwitchers": 117
+    "brokenLanguageSwitchers": 105
   },
   "details": {
     "brokenLinks": [
-      {
-        "file": "blog/alquiler-esqui-snowboard-baqueira.html",
-        "link": "como-llegar-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/alquiler-esqui-snowboard-baqueira.html",
-        "link": "como-aprender-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/alquiler-esqui-snowboard-baqueira.html",
-        "link": "las-mejores-apps-para-esquiar-en-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/como-aprender-esquiar-baqueira.html",
-        "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/como-aprender-esquiar-baqueira.html",
-        "link": "zonas-principiantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/como-aprender-esquiar-baqueira.html",
-        "link": "mejores-hoteles-familias-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/como-aprender-esquiar-baqueira.html",
-        "link": "zonas-principiantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/como-aprender-esquiar-baqueira.html",
-        "link": "mejores-restaurantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/las-mejores-apps-para-esquiar-en-baqueira-beret.html",
-        "link": "como-llegar-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/las-mejores-apps-para-esquiar-en-baqueira-beret.html",
-        "link": "mejores-restaurantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/mejores-hoteles-familias-baqueira-beret.html",
-        "link": "como-llegar-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/mejores-hoteles-familias-baqueira-beret.html",
-        "link": "mejores-restaurantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/zonas-principiantes-baqueira-beret.html",
-        "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/zonas-principiantes-baqueira-beret.html",
-        "link": "como-aprender-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/zonas-principiantes-baqueira-beret.html",
-        "link": "como-aprender-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/zonas-principiantes-baqueira-beret.html",
-        "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "blog/zonas-principiantes-baqueira-beret.html",
-        "link": "como-llegar-baqueira-beret",
-        "type": "html-link"
-      },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
         "link": "../index",
@@ -122,16 +37,6 @@
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "com-aprendre-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "como-aprender-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -142,17 +47,7 @@
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "lloguer-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
         "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "zones-principiants-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -178,21 +73,6 @@
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
         "link": "../contacto-reservas",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "millors-hotels-families-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "zones-principiants-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "link": "millors-restaurants-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -387,11 +267,6 @@
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -542,16 +417,6 @@
       },
       {
         "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
-        "link": "com-arribar-a-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
-        "link": "millors-restaurants-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -593,16 +458,6 @@
       {
         "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
         "link": "../contacte-reserves",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
-        "link": "com-arribar-a-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
-        "link": "millors-restaurants-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -703,11 +558,6 @@
       {
         "file": "ca/blog/zones-principiants-baqueira-beret.html",
         "link": "../clases-esqui-baqueira/empresas-colegios",
-        "type": "html-link"
-      },
-      {
-        "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "link": "zonas-principiantes-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -3452,11 +3302,6 @@
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "link": "zonas-principiantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/beginner-areas-baqueira-beret.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -3612,16 +3457,6 @@
       },
       {
         "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
-        "link": "how-to-get-to-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
-        "link": "best-restaurants-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -3658,16 +3493,6 @@
       {
         "file": "en/blog/best-family-hotels-baqueira-beret.html",
         "link": "../blog",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/best-family-hotels-baqueira-beret.html",
-        "link": "how-to-get-to-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/best-family-hotels-baqueira-beret.html",
-        "link": "best-restaurants-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -3832,11 +3657,6 @@
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "link": "como-aprender-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/how-to-learn-skiing-baqueira.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -3971,16 +3791,6 @@
         "type": "html-link"
       },
       {
-        "file": "en/blog/ski-snowboard-rental-baqueira.html",
-        "link": "how-to-get-to-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "en/blog/ski-snowboard-rental-baqueira.html",
-        "link": "best-apps-for-skiing-baqueira-beret",
-        "type": "html-link"
-      },
-      {
         "file": "en/gallery.html",
         "link": "/en/carv-technology-lessons-baqueira",
         "type": "html-link"
@@ -4028,11 +3838,6 @@
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
         "link": "../clases-esqui-baqueira/empresas-colegios",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "link": "como-aprender-esquiar-baqueira",
         "type": "html-link"
       },
       {
@@ -4262,11 +4067,6 @@
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/location-ski-snowboard-baqueira.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -4417,16 +4217,6 @@
       },
       {
         "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
-        "link": "comment-arriver-a-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
-        "link": "meilleurs-restaurants-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -4463,16 +4253,6 @@
       {
         "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
         "link": "../blog",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
-        "link": "comment-arriver-a-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
-        "link": "meilleurs-restaurants-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -4598,11 +4378,6 @@
       {
         "file": "fr/blog/zones-debutants-baqueira-beret.html",
         "link": "../clases-esqui-baqueira/empresas-colegios",
-        "type": "html-link"
-      },
-      {
-        "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "link": "zonas-principiantes-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -4752,11 +4527,6 @@
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "link": "alquiler-esqui-snowboard-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -4778,11 +4548,6 @@
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
         "link": "como-llegar-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "link": "como-aprender-esquiar-baqueira",
         "type": "html-link"
       },
       {
@@ -4878,11 +4643,6 @@
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
         "link": "../clases-esqui-baqueira/index",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "link": "como-aprender-esquiar-baqueira",
         "type": "html-link"
       },
       {
@@ -5152,16 +4912,6 @@
       },
       {
         "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
-        "link": "como-chegar-a-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
-        "link": "melhores-restaurantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -5198,16 +4948,6 @@
       {
         "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
         "link": "../blog",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
-        "link": "como-chegar-a-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
-        "link": "melhores-restaurantes-baqueira-beret",
         "type": "html-link"
       },
       {
@@ -5352,11 +5092,6 @@
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "link": "zonas-principiantes-baqueira-beret",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
         "link": "../index",
         "type": "html-link"
       },
@@ -5372,17 +5107,7 @@
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "link": "como-aprender-esquiar-baqueira",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
         "link": "../contacto-reservas",
-        "type": "html-link"
-      },
-      {
-        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "link": "como-aprender-esquiar-baqueira",
         "type": "html-link"
       },
       {
@@ -5494,31 +5219,31 @@
     "missingImages": [
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
       },
       {
         "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
       },
       {
         "file": "ca/blog/com-arribar-a-baqueira-beret.html",
@@ -5546,27 +5271,27 @@
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
       },
       {
         "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
       },
       {
         "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
@@ -5630,23 +5355,23 @@
       },
       {
         "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
       },
       {
         "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
       },
       {
         "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
       },
       {
         "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
       },
       {
         "file": "ca/index.html",
@@ -5966,23 +5691,23 @@
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
       },
       {
         "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
       },
       {
         "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
@@ -6070,31 +5795,31 @@
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
       },
       {
         "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
       },
       {
         "file": "en/blog/ski-snowboard-rental-baqueira.html",
@@ -6146,31 +5871,31 @@
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
       },
       {
         "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
       },
       {
         "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
@@ -6198,27 +5923,27 @@
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
       },
       {
         "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
       },
       {
         "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
@@ -6282,23 +6007,23 @@
       },
       {
         "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
       },
       {
         "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
       },
       {
         "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
       },
       {
         "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
       },
       {
         "file": "fr/index.html",
@@ -6362,55 +6087,55 @@
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
       },
       {
         "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "image": "../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
       },
       {
         "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "image": "../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
       },
       {
         "file": "pt/blog/como-chegar-a-baqueira-beret.html",
@@ -6498,23 +6223,23 @@
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "image": "../logo1.jpg"
+        "image": "../../logo1.jpg"
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
       },
       {
         "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "image": "../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
       },
       {
         "file": "pt/index.html",
@@ -10089,16 +9814,6 @@
     ],
     "brokenLanguageSwitchers": [
       {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "lang": "dropdown",
-        "href": "com-aprendre-esquiar-baqueira"
-      },
-      {
-        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
-        "lang": "dropdown",
-        "href": "como-aprender-esquiar-baqueira"
-      },
-      {
         "file": "ca/blog/com-arribar-a-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../blog/como-llegar-baqueira-beret"
@@ -10117,11 +9832,6 @@
         "file": "ca/blog/com-arribar-a-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../pt/blog/como-chegar-a-baqueira-beret"
-      },
-      {
-        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
-        "lang": "dropdown",
-        "href": "alquiler-esqui-snowboard-baqueira"
       },
       {
         "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
@@ -10182,11 +9892,6 @@
         "file": "ca/blog/millors-restaurants-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../pt/blog/melhores-restaurantes-baqueira-beret"
-      },
-      {
-        "file": "ca/blog/zones-principiants-baqueira-beret.html",
-        "lang": "dropdown",
-        "href": "zonas-principiantes-baqueira-beret"
       },
       {
         "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
@@ -10394,11 +10099,6 @@
         "href": "../pt"
       },
       {
-        "file": "en/blog/beginner-areas-baqueira-beret.html",
-        "lang": "dropdown",
-        "href": "zonas-principiantes-baqueira-beret"
-      },
-      {
         "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../blog/las-mejores-apps-para-esquiar-en-baqueira-beret"
@@ -10479,16 +10179,6 @@
         "href": "../../pt/blog/como-chegar-a-baqueira-beret"
       },
       {
-        "file": "en/blog/how-to-learn-skiing-baqueira.html",
-        "lang": "dropdown",
-        "href": "como-aprender-esquiar-baqueira"
-      },
-      {
-        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
-        "lang": "dropdown",
-        "href": "como-aprender-esquiar-baqueira"
-      },
-      {
         "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../blog/como-llegar-baqueira-beret"
@@ -10507,11 +10197,6 @@
         "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../pt/blog/como-chegar-a-baqueira-beret"
-      },
-      {
-        "file": "fr/blog/location-ski-snowboard-baqueira.html",
-        "lang": "dropdown",
-        "href": "alquiler-esqui-snowboard-baqueira"
       },
       {
         "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
@@ -10572,21 +10257,6 @@
         "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../pt/blog/melhores-restaurantes-baqueira-beret"
-      },
-      {
-        "file": "fr/blog/zones-debutants-baqueira-beret.html",
-        "lang": "dropdown",
-        "href": "zonas-principiantes-baqueira-beret"
-      },
-      {
-        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
-        "lang": "dropdown",
-        "href": "alquiler-esqui-snowboard-baqueira"
-      },
-      {
-        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
-        "lang": "dropdown",
-        "href": "como-aprender-esquiar-baqueira"
       },
       {
         "file": "pt/blog/como-chegar-a-baqueira-beret.html",
@@ -10667,11 +10337,6 @@
         "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
         "lang": "dropdown",
         "href": "../../fr/blog/meilleurs-restaurants-baqueira-beret"
-      },
-      {
-        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
-        "lang": "dropdown",
-        "href": "zonas-principiantes-baqueira-beret"
       }
     ]
   }

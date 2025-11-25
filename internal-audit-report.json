@@ -1,0 +1,5155 @@
+{
+  "timestamp": "2025-11-25T12:54:39.385Z",
+  "summary": {
+    "totalFiles": 172,
+    "totalIssues": 1285,
+    "brokenLinks": 1041,
+    "missingImages": 244
+  },
+  "details": {
+    "brokenLinks": [
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../Nosaltres"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../Nosaltres"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../Viatges"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../classes-desqui-baqueira"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../../blog/como-llegar-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../../en/blog/how-to-get-to-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../../fr/blog/comment-arriver-a-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../../pt/blog/como-chegar-a-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../contacte-reserves"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../nosaltres"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../viatges-desqui"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../preus-i-tarifes-baqueira"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "link": "../contacte-reserves"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../Nosaltres"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../Viatges"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../classes-desqui-baqueira"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../../blog/las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../../en/blog/best-apps-for-skiing-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../../fr/blog/meilleures-apps-pour-skier-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-apps-para-esquiar-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../classes-desqui-baqueira"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../../blog/mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../../en/blog/best-family-hotels-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../../fr/blog/meilleurs-hotels-familles-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-hoteis-familias-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../contacte-reserves"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../classes-desqui-baqueira"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../../blog/mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../../en/blog/best-restaurants-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../../fr/blog/meilleurs-restaurants-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../contacte-reserves"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../nosaltres"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../viatges-desqui"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../preus-i-tarifes-baqueira"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "link": "../contacte-reserves"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../Nosaltres"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../Viatges"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/gallery"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/ski-trips"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/webcams-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/ski-snowboard-rental-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/aviso-legal-pt.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/gallery"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/ski-trips"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/webcams-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/ski-snowboard-rental-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "link": "precios-clases-esqui-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/gallery"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/ski-trips"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/webcams-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/ski-snowboard-rental-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "link": "es"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/gallery"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/ski-trips"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/webcams-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/ski-snowboard-rental-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "precos"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-pt.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "ca/classes-esqui-particulars-families-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "fr/cours-ski-prives-familles-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "pt/aulas-esqui-privadas-familias-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/about-us"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/gallery"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/ski-trips"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/webcams-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/ski-snowboard-rental-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../en/contact-booking"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "en/group-ski-lessons-businesses-schools-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "ca/classes-esqui-grup-empreses-collegis-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "fr/cours-ski-groupe-entreprises-ecoles-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "pt/aulas-esqui-grupo-empresas-escolas-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "en/adult-group-ski-lessons-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "ca/classes-esqui-grup-adults-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "fr/cours-ski-groupe-adultes-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "pt/aulas-esqui-grupo-adultos-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "en/group-ski-lessons-children-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "ca/classes-esqui-grup-nens-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "fr/cours-ski-groupe-enfants-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "pt/aulas-esqui-grupo-criancas-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "clases-esqui-baqueria-en"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "classes-esqui-baqueira-ca"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "clases-esqui-baqueria-fr"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "clases-esqui-baqueria-pt"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "ca/classes-esqui-particulars-adults-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "ca/classes-esqui-particulars-carv-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "fr/cours-ski-prives-carv-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "pt/aulas-esqui-privadas-carv-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "ca/classes-esqui-particulars-families-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "fr/cours-ski-prives-familles-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "pt/aulas-esqui-privadas-familias-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "ca/classes-esqui-freeride-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "fr/cours-ski-freeride-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "pt/aulas-esqui-freeride-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "ca/classes-esqui-freestyle-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "fr/cours-ski-freestyle-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "pt/aulas-esqui-freestyle-baqueira"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-familias"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-carv"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-freeride"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-freestyle"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "grupo-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "grupo-adultos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "empresas-colegios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../galeria"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "particulares-ninos"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../en"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../ca"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../fr"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../pt"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../index"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../clases-de-snowboard"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../camaras"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../alquiler"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../Nosotros"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../Viajes"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../precios"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../blog"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../contacto"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "link": "../Política-de-cancelación"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../About Us"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../Trips"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../ski-lessons-baqueira"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../../blog/las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../../ca/blog/millors-apps-per-esquiar-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../../fr/blog/meilleures-apps-pour-skier-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-apps-para-esquiar-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../ski-lessons-baqueira"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../../blog/mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../../ca/blog/millors-hotels-families-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../../fr/blog/meilleurs-hotels-familles-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-hoteis-familias-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../ski-lessons-baqueira"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../../blog/mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../../ca/blog/millors-restaurants-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../../fr/blog/meilleurs-restaurants-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../about-us"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../ski-trips"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "link": "../contact-booking"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../ski-lessons-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../../blog/como-llegar-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../../ca/blog/com-arribar-a-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../../fr/blog/comment-arriver-a-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../../pt/blog/como-chegar-a-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../about-us"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../ski-trips"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../ski-snowboard-lessons-prices-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "link": "../contact-booking"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../About Us"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../About Us"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../Trips"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "en/gallery.html",
+        "link": "/en/carv-technology-lessons-baqueira"
+      },
+      {
+        "file": "en/gallery.html",
+        "link": "/en/freeride-lessons-baqueira"
+      },
+      {
+        "file": "en/gallery.html",
+        "link": "/en/freestyle-lessons-baqueira"
+      },
+      {
+        "file": "en/gallery.html",
+        "link": "/en/corporate-school-lessons-baqueira"
+      },
+      {
+        "file": "en/gallery.html",
+        "link": "cookie-policy"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../À Propos"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../À Propos"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../Voyages"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../cours-de-ski-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../../blog/como-llegar-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../../en/blog/how-to-get-to-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../../ca/blog/com-arribar-a-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../../pt/blog/como-chegar-a-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../a-propos-de-nous"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../voyages-de-ski"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../prix-et-tarifs-baqueira"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "link": "../contact-reservations"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../À Propos"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../Voyages"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../cours-de-ski-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../../blog/las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../../en/blog/best-apps-for-skiing-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../../ca/blog/millors-apps-per-esquiar-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-apps-para-esquiar-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../cours-de-ski-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../../blog/mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../../en/blog/best-family-hotels-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../../ca/blog/millors-hotels-families-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-hoteis-familias-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../cours-de-ski-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../../blog/mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../../en/blog/best-restaurants-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../../ca/blog/millors-restaurants-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../../pt/blog/melhores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../cours-de-ski-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../cours-de-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../cameras-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../location-de-materiel-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../prix-et-tarifs-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../contact-reservations"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../a-propos-de-nous"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../voyages-de-ski"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../prix-et-tarifs-baqueira"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "link": "../contact-reservations"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/grupo-adultos"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/empresas-colegios"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "como-aprender-esquiar-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../À Propos"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../Voyages"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "fr/galerie.html",
+        "link": "/fr/webcams-baqueira"
+      },
+      {
+        "file": "fr/galerie.html",
+        "link": "/fr/location-materiel-baqueira"
+      },
+      {
+        "file": "fr/galerie.html",
+        "link": "politique-de-cookies"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../Sobre Nós"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../Viagens"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/grupo-ninos"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../Sobre Nós"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "zonas-principiantes-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../Sobre Nós"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../Viagens"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../../blog/como-llegar-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../../en/blog/how-to-get-to-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../../ca/blog/com-arribar-a-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../../fr/blog/comment-arriver-a-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../aulas-de-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../cameras-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../aluguel-de-equipamento-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../precos-e-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../contato-reservas"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../sobre-nos"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../viagens-de-esqui"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../precos-e-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "link": "../contato-reservas"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../../blog/las-mejores-apps-para-esquiar-en-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../../en/blog/best-apps-for-skiing-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../../ca/blog/millors-apps-per-esquiar-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../../fr/blog/meilleures-apps-pour-skier-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../../blog/mejores-hoteles-familias-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../../en/blog/best-family-hotels-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../../ca/blog/millors-hotels-families-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../../fr/blog/meilleurs-hotels-familles-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../aulas-de-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../cameras-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../aluguel-de-equipamento-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../precos-e-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "link": "../contato-reservas"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../../blog/mejores-restaurantes-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../../en/blog/best-restaurants-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../../ca/blog/millors-restaurants-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../../fr/blog/meilleurs-restaurants-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../aulas-de-esqui-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../aulas-de-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../cameras-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../aluguel-de-equipamento-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../precos-e-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../contato-reservas"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../sobre-nos"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../viagens-de-esqui"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../precos-e-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "link": "../contato-reservas"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "alquiler-esqui-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "como-llegar-baqueira-beret"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../index"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../clases-esqui-baqueira/index"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../clases-de-snowboard-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../camaras-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../alquiler-de-material-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../Sobre Nós"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../Viagens"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../precios-y-tarifas-baqueira"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../blog"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../contacto-reservas"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../aviso-legal"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../politica-de-privacidad"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../politica-de-cookies"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "link": "../politica-de-cancelacion"
+      },
+      {
+        "file": "pt/blog.html",
+        "link": "/pt/blog/areas-iniciantes-baqueira-beret"
+      },
+      {
+        "file": "pt/galeria.html",
+        "link": "/pt/webcams-baqueira"
+      },
+      {
+        "file": "pt/galeria.html",
+        "link": "/pt/aluguel-de-material-baqueira"
+      }
+    ],
+    "missingImages": [
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/com-aprendre-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/como-llegar-baqueira-beret-carretera-ca.webp"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/puerto-bonaigua-invierno-baqueira-ca.webp"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/ave-lleida-baqueira-esquiadores-ca.webp"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/aeropuerto-toulouse-baqueira-esqui-ca.webp"
+      },
+      {
+        "file": "ca/blog/com-arribar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/baqueira-beret-esqui-familia-ca.webp"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
+      },
+      {
+        "file": "ca/blog/lloguer-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-oficial-baqueira-beret-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-snow-forecast-baqueira-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-ski-tracks-baqueira-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-apps-per-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-carv-digital-ski-coach-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/hotel-cercano-pistas-baqueira-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/habitacion-familiar-baqueira-aran-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/apartamento-chimenea-familiar-baqueira-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-hotels-families-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/desayuno-hotel-familiar-baqueira-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurantes-vielha-nieve-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/olla-aranesa-valle-de-aran-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-arties-valle-de-aran-ca.webp"
+      },
+      {
+        "file": "ca/blog/millors-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-gourmet-bossost-ca.webp"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+      },
+      {
+        "file": "ca/blog/zones-principiants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+      },
+      {
+        "file": "ca/index.html",
+        "image": "../logo1.jpg"
+      },
+      {
+        "file": "ca/index.html",
+        "image": "../clase-particular-carv.webp"
+      },
+      {
+        "file": "ca/index.html",
+        "image": "../dynastar.webp"
+      },
+      {
+        "file": "ca/index.html",
+        "image": "../lange.webp"
+      },
+      {
+        "file": "ca/index.html",
+        "image": "../rossignol.webp"
+      },
+      {
+        "file": "ca/index.html",
+        "image": "../briko.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-en.html",
+        "image": "img/clase-esqui-debutante-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-baqueria-fr.html",
+        "image": "img/clase-esqui-debutante-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "image": "img/Fotos-esqui-familias/familia-portugal-baqueira-nevando.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "image": "img/Fotos-esqui-familias/familia-semana-reyes-esquiando-en-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "image": "img/Fotos-esqui-familias/familia-esquí-baqueira-beret-alpine-ski-academy.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/clases-esqui-particulares-familias-baqueira.html",
+        "image": "img/Fotos-esqui-familias/familia-fuera-de-pista-en-bonaigua.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/classes-esqui-baqueira-ca.html",
+        "image": "img/clase-esqui-debutante-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "image": "img/fotos-team-building-colegios/esqui-empresas-team-building-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "image": "img/fotos-team-building-colegios/grupo-niños-colegio-pla-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "image": "img/fotos-team-building-colegios/clases-esqui- grupo-de-amigos-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/empresas-colegios.html",
+        "image": "img/fotos-team-building-colegios/team-building-empresa-baqueira-winter-lounge.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "image": "img/fotos-clases-grupo-adultos/clases-colectivas-adultos-jovenes-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "image": "img/fotos-clases-grupo-adultos/clases-colectivas-baqueira-beret-adultos.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-adultos.html",
+        "image": "img/fotos-clases-grupo-adultos/clases-colectivas-grupo-adultos-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/clases-colectivas-niños-baqueira-beret-fuera-pista.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/clases-grupo-niñas-baqueira-beret-esquí-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/clases-grupo-niños-baqieira-beret.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/Grrpo-esquiadores-jovenes-clases-colectivas.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/grupo-niños-bonaigua-pla-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/grupo-niños-esqui-clases-baqueira-alpine-ski-academy-bosque.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/grupo-ninos.html",
+        "image": "img/fotos-clases en grupo-niños/niños-adolescentes-grupo-baqueira- 1500.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/index.html",
+        "image": "img/clase-esqui-debutante-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/clase-esqui-mujer-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/pareja-esquiando-baqueira-clases-particulares-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/clase-esqui-nivel-medio-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/Claase-esqui-pararalelo-nivel-medio-baqueira-beret.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/clase-esquí-baqueira-nivel-medio-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/Alumno-alpine-ski-academy-parada-tecnica.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/clases-esquí-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/clase-esqui-nivel-medio-baqueira-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/escuela-esqui-alpine-ski-academy-dias-de-niebla.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-adultos.html",
+        "image": "img/Fotos-Clases-Particulares-adultos/alumna-esquí-dia-de-nieve-recien-caida.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/analis-gobal-carv.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/carv-app.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/analis-gobal-carv.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/metricas-curva-carv.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/iq-carv-profesor-alpine-ski-academy-baqueira (1).jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/clase-esqui-nivel-carv-avanzado-baqueira.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/tecnica-esqui-clases-carv-baqueira.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-carv.html",
+        "image": "img/Fotos-clases-carv/profesor-esqui-alpine-ski-academy-usando-carv-baqueira-beret.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "image": "img/Fotos-esqui-familias/familia-portugal-baqueira-nevando.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "image": "img/Fotos-esqui-familias/familia-esquí-baqueira-beret-alpine-ski-academy.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "image": "img/Fotos-esqui-familias/familia-fuera-de-pista-en-bonaigua.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-familias.html",
+        "image": "img/Fotos-esqui-familias/familia-esquí-bonaigua-alpine-ski-academy.jpg"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/clase-esquí-fuera-pista-baqueira-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/clases-de-nieve-polvo.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/fuera-pista-baqueira-Alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/nieve-polvo-cielo-azul.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/profersor-alpine-ski-academi-nieve--virgen.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/Clases-particulares-nieve-virgen-Baqueira-beret-.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freeride.html",
+        "image": "img/Freeride-Fotos/pareja-feliz-en-clases-fuera-de-pista.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/360-freestyle-adulto-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/clases-esqui-freestyle-era-marmota-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/rail-snowparck-era-marmota-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/salto-snowparck-tail-grab.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/salto-linea-azul-snowparck-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/iniciacion-freestyle-era-marmota-baqueira-niños.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-freestyle.html",
+        "image": "img/Fotos-freestyle/niño-freestile-baqueira-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "image": "img/FOTOS-niños-particulares-webp/clase-particular-niñas-debutantes-esqui-baqueira-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "image": "img/FOTOS-niños-particulares-webp/clases de esqui para niños-pequeños- particulares-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "image": "img/FOTOS-niños-particulares-webp/clase-niños-particular-baqueira-beret-alpine-ski-academy.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "image": "img/FOTOS-niños-particulares-webp/clase-esqui-nina-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "image": "img/FOTOS-niños-particulares-webp/niño-salto-snow-parck-baqueira.webp"
+      },
+      {
+        "file": "clases-esqui-baqueira/particulares-ninos.html",
+        "image": "img/FOTOS-niños-particulares-webp/niñas-funparck-baqueira-beret.webp"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+      },
+      {
+        "file": "en/blog/beginner-areas-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-oficial-baqueira-beret-en.webp"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-snow-forecast-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-ski-tracks-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/best-apps-for-skiing-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-carv-digital-ski-coach-en.webp"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/hotel-cercano-pistas-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/habitacion-familiar-baqueira-aran-en.webp"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/apartamento-chimenea-familiar-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/best-family-hotels-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/desayuno-hotel-familiar-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurantes-vielha-nieve-en.webp"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/olla-aranesa-valle-de-aran-en.webp"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-arties-valle-de-aran-en.webp"
+      },
+      {
+        "file": "en/blog/best-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-gourmet-bossost-en.webp"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/como-llegar-baqueira-beret-carretera-en.webp"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/puerto-bonaigua-invierno-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/ave-lleida-baqueira-esquiadores-en.webp"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/aeropuerto-toulouse-baqueira-esqui-en.webp"
+      },
+      {
+        "file": "en/blog/how-to-get-to-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/baqueira-beret-esqui-familia-en.webp"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "en/blog/how-to-learn-skiing-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+      },
+      {
+        "file": "en/blog/ski-snowboard-rental-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "en/blog/ski-snowboard-rental-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/ski-snowboard-rental-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/ski-snowboard-rental-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/ski-snowboard-rental-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-en.webp"
+      },
+      {
+        "file": "en/blog/ski-snowboard-rental-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-en.webp"
+      },
+      {
+        "file": "en/index.html",
+        "image": "../logo1.jpg"
+      },
+      {
+        "file": "en/index.html",
+        "image": "../clase-particular-carv.webp"
+      },
+      {
+        "file": "en/index.html",
+        "image": "../dynastar.webp"
+      },
+      {
+        "file": "en/index.html",
+        "image": "../lange.webp"
+      },
+      {
+        "file": "en/index.html",
+        "image": "../rossignol.webp"
+      },
+      {
+        "file": "en/index.html",
+        "image": "../briko.webp"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/comment-apprendre-skier-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/como-llegar-baqueira-beret-carretera-fr.webp"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/puerto-bonaigua-invierno-baqueira-fr.webp"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/ave-lleida-baqueira-esquiadores-fr.webp"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/aeropuerto-toulouse-baqueira-esqui-fr.webp"
+      },
+      {
+        "file": "fr/blog/comment-arriver-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/baqueira-beret-esqui-familia-fr.webp"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
+      },
+      {
+        "file": "fr/blog/location-ski-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-oficial-baqueira-beret-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-snow-forecast-baqueira-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-ski-tracks-baqueira-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleures-apps-pour-skier-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-carv-digital-ski-coach-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/hotel-cercano-pistas-baqueira-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/habitacion-familiar-baqueira-aran-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/apartamento-chimenea-familiar-baqueira-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-hotels-familles-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/desayuno-hotel-familiar-baqueira-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurantes-vielha-nieve-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/olla-aranesa-valle-de-aran-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-arties-valle-de-aran-fr.webp"
+      },
+      {
+        "file": "fr/blog/meilleurs-restaurants-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-gourmet-bossost-fr.webp"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+      },
+      {
+        "file": "fr/blog/zones-debutants-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+      },
+      {
+        "file": "fr/index.html",
+        "image": "../logo1.jpg"
+      },
+      {
+        "file": "fr/index.html",
+        "image": "../clase-particular-carv.webp"
+      },
+      {
+        "file": "fr/index.html",
+        "image": "../dynastar.webp"
+      },
+      {
+        "file": "fr/index.html",
+        "image": "../lange.webp"
+      },
+      {
+        "file": "fr/index.html",
+        "image": "../rossignol.webp"
+      },
+      {
+        "file": "fr/index.html",
+        "image": "../briko.webp"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquilar-o-comprar-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/equipo-alquiler-calidad-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tipos-esquis-por-nivel-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/alquiler-experiencia-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/aluguel-esqui-snowboard-baqueira.html",
+        "image": "../../blog/Aticulo5-fotos-blog/tienda-alquiler-esqui-baqueira-ruda-es.webp"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primer-dia-esqui-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/posicion-base-esquiador-principiante-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primera-frenada-cuna-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/primeros-giros-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/clases-esqui-principiantes-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/como-aprender-esquiar-baqueira.html",
+        "image": "../../blog/ARTICULO6-fotos-blog/aventura-aprender-esquiar-baqueira-es.webp"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/como-llegar-baqueira-beret-carretera-pt.webp"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/puerto-bonaigua-invierno-baqueira-pt.webp"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/ave-lleida-baqueira-esquiadores-pt.webp"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/aeropuerto-toulouse-baqueira-esqui-pt.webp"
+      },
+      {
+        "file": "pt/blog/como-chegar-a-baqueira-beret.html",
+        "image": "../../blog/Articulo1-fotos-blog/baqueira-beret-esqui-familia-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-oficial-baqueira-beret-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-snow-forecast-baqueira-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-ski-tracks-baqueira-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-apps-para-esquiar-baqueira-beret.html",
+        "image": "../../blog/ARTICULO4-fotos-blog/app-carv-digital-ski-coach-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/hotel-cercano-pistas-baqueira-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/habitacion-familiar-baqueira-aran-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/apartamento-chimenea-familiar-baqueira-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-hoteis-familias-baqueira-beret.html",
+        "image": "../../blog/Articulo3-Fotos-Blog/desayuno-hotel-familiar-baqueira-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurantes-vielha-nieve-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/olla-aranesa-valle-de-aran-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-arties-valle-de-aran-pt.webp"
+      },
+      {
+        "file": "pt/blog/melhores-restaurantes-baqueira-beret.html",
+        "image": "../../blog/atticulo2-fotos-blog/restaurante-gourmet-bossost-pt.webp"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "image": "../../logo1.jpg"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/baqueira-cinta-debutantes-es.webp"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/beret-pista-verde-ancha-es.webp"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/forfait-debutantes-beret-es.webp"
+      },
+      {
+        "file": "pt/blog/zonas-iniciantes-baqueira-beret.html",
+        "image": "../../blog/Articulo7-fotos-blog/bonaigua-telecorda-principiantes-es.webp"
+      },
+      {
+        "file": "pt/index.html",
+        "image": "../logo1.jpg"
+      },
+      {
+        "file": "pt/index.html",
+        "image": "../clase-particular-carv.webp"
+      },
+      {
+        "file": "pt/index.html",
+        "image": "../dynastar.webp"
+      },
+      {
+        "file": "pt/index.html",
+        "image": "../lange.webp"
+      },
+      {
+        "file": "pt/index.html",
+        "image": "../rossignol.webp"
+      },
+      {
+        "file": "pt/index.html",
+        "image": "../briko.webp"
+      }
+    ]
+  }
+}
