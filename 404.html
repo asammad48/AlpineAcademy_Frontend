@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 - Página no encontrada | Alpine Ski Academy</title>
     <meta name="description" content="La página que buscas no existe. Serás redirigido a la página principal de Alpine Ski Academy.">
-    <meta http-equiv="refresh" content="3; url=/index.html">
+    <meta http-equiv="refresh" content="3; url=/">
     <style>
         * {
             margin: 0;
@@ -115,7 +115,7 @@
         <h1>Página no encontrada</h1>
         <p>Lo sentimos, la página que estás buscando no existe o ha sido movida.</p>
         <p>Serás redirigido automáticamente a la página principal en unos segundos.</p>
-        <a href="/index" class="btn">Ir a la página principal</a>
+        <a href="/" class="btn">Ir a la página principal</a>
         <div class="redirect-info">
             <p>Redirigiendo automáticamente...</p>
         </div>
@@ -124,7 +124,7 @@
     <script>
         // Immediate redirect in case meta refresh doesn't work
         setTimeout(function() {
-            window.location.href = '/index.html';
+            window.location.href = '/';
         }, 3000);
     </script>
 </body>
