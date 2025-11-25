@@ -30,8 +30,10 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
 -   **Blog**: A dedicated section for blog articles.
 
 ### System Design Choices
--   **Deployment**: Configured for autoscale deployment, running on PHP's built-in development server.
+-   **Development Server**: Running on PHP's built-in development server with router.php for local testing.
+-   **Production Deployment**: Optimized for Apache/Webempresa hosting with `.htaccess` for clean URL routing.
 -   **Static Site Generation**: Primarily a static site, reducing server load and improving performance, with dynamic elements limited to the contact form.
+-   **Asset Paths**: All CSS, JavaScript, and image references use root-relative paths (e.g., `/styles.css`, `/images/logo.jpg`) for consistent loading across all directory levels.
 
 ## External Dependencies
 -   **Frontend Libraries**:
