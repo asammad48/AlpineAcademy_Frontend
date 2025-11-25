@@ -51,6 +51,10 @@ php -S 0.0.0.0:5000 router.php
 - ✅ No external dependencies required
 
 ## Recent Changes
+- **2025-11-25**: Completed language.js mapping verification
+  - Verified all 143 HTML files (115 regular pages + 28 blog articles) have language mappings
+  - Added 3 missing snowboard page mappings (Catalan, French, Portuguese)
+  - Language switcher now works correctly from every page in all 5 languages
 - **2025-11-25**: Fixed language switcher across all 146 HTML files
   - Changed hardcoded href values to `href="#"` for JavaScript-driven navigation
   - Language switcher now correctly maps pages (e.g., galeria → gallery, galerie)
