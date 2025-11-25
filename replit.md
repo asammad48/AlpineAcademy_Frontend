@@ -18,6 +18,8 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
 
 ### Technical Implementations
 -   **Multilingual Structure**: The site employs a consistent subdirectory structure for each language (e.g., `/en/`, `/pt/`). Spanish is the default language in the root directory.
+-   **Clean URL Routing**: Implemented via `router.php` to enable SEO-friendly URLs without .html extensions. The router automatically appends .html when serving files while maintaining clean URLs in the browser.
+-   **Blog Structure**: Blog articles are organized in `/blogs/` directories (one per language: root, `/en/blogs/`, `/fr/blogs/`, `/ca/blogs/`, `/pt/blogs/`) with clean URLs like `/blogs/article-name` instead of `/blogs/article-name.html`.
 -   **Contact Form**: Frontend validation and submission handled by `js/contact-form-handler.js`, with `send-email.php` on the backend processing email submissions.
 -   **Asset Management**: All languages share root-relative paths for CSS, JavaScript, and image assets to ensure consistency and efficient caching.
 -   **SEO**: Implements Schema.org markup, meta tags, and Open Graph protocols, with SEO-friendly, language-specific URLs.
