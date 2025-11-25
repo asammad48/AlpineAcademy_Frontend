@@ -51,9 +51,18 @@ php -S 0.0.0.0:5000 router.php
 - ✅ No external dependencies required
 
 ## Recent Changes
+- **2025-11-25**: Fixed language switcher across all 146 HTML files
+  - Changed hardcoded href values to `href="#"` for JavaScript-driven navigation
+  - Language switcher now correctly maps pages (e.g., galeria → gallery, galerie)
+- **2025-11-25**: Fixed asset paths in 25 Spanish HTML files
+  - Changed relative paths to absolute paths for CSS/JS files
+  - All pages now use `/styles.css`, `/script.js`, `/js/components/language.js`
+- **2025-11-25**: Implemented 404 error handling
+  - Updated router.php to serve 404.html with HTTP 404 status
+  - 404 page automatically redirects to Spanish homepage (ES language fallback)
 - **2025-11-24**: Project imported to Replit environment
-- Configured workflow to run PHP development server
-- Verified all pages and assets load correctly
+  - Configured workflow to run PHP development server
+  - Verified all pages and assets load correctly
 
 ## Contact Information
 - **Phone**: +34669911342
