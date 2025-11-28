@@ -4785,3 +4785,166 @@ section:last-of-type {
         gap: 1.5rem;
     }
 }
+
+/* ============================================
+   GLOBAL IMAGE CONTAINMENT FIXES
+   Ensures all images fit within their containers
+   ============================================ */
+
+/* Universal image containment */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure images in cards and containers don't overflow */
+.card img,
+.blog-card img,
+.team-member-card img,
+.gallery-card img,
+.material-card img,
+.service-card img,
+.feature-card img,
+.benefit-card img,
+.lesson-card img,
+.price-card img,
+.pricing-card img,
+.contact-card img,
+.info-card img,
+article img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Blog images containment */
+.blog-card .blog-image,
+.blog-card img.blog-image,
+article.blog-card img {
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Team member images containment */
+.team-member-card .team-member-img,
+.team-member-card img {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+/* Gallery images containment */
+.gallery-card img,
+.gallery-card-image img,
+.gallery-section img,
+.galeria-card img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+/* Material/Equipment card images */
+.material-card img,
+.material-img,
+.material-img-container img {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Container overflow control */
+.card,
+.blog-card,
+.team-member-card,
+.gallery-card,
+.material-card,
+.service-card,
+.feature-card,
+.benefit-card,
+.lesson-card,
+.price-card,
+.pricing-card,
+.contact-card,
+.info-card,
+.material-img-container,
+.image-container,
+.img-container {
+    overflow: hidden;
+}
+
+/* Column images containment */
+.row img,
+.col img,
+.col-lg-4 img,
+.col-lg-6 img,
+.col-md-4 img,
+.col-md-6 img,
+.col-sm-6 img,
+.col-12 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure sections don't overflow horizontally */
+section,
+.container,
+.container-fluid {
+    overflow-x: hidden;
+}
+
+/* Fix for images in flex containers */
+.d-flex img,
+.flex-row img,
+.flex-column img {
+    max-width: 100%;
+    flex-shrink: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .team-member-card img,
+    .team-member-card .team-member-img {
+        height: 250px;
+    }
+    
+    .material-card img,
+    .material-img,
+    .material-img-container img {
+        height: 200px;
+    }
+    
+    .blog-card .blog-image,
+    .blog-card img.blog-image {
+        height: 180px;
+    }
+}
+
+@media (max-width: 576px) {
+    .team-member-card img,
+    .team-member-card .team-member-img {
+        height: 200px;
+    }
+    
+    .material-card img,
+    .material-img {
+        height: 180px;
+    }
+    
+    .blog-card .blog-image,
+    .blog-card img.blog-image {
+        height: 160px;
+    }
+}
