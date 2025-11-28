@@ -872,6 +872,10 @@ body {
 /* Make navbar slightly lower to accommodate top bar */
 .navbar {
     top: 28px; /* Height of top info bar */
+    position: fixed !important;
+    left: 0;
+    right: 0;
+    z-index: 1030;
 }
 
 /* Mobile responsive styling for top-info-bar */
@@ -913,6 +917,17 @@ body {
     
     .navbar {
         top: 45px;
+        position: fixed !important;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+        width: 100%;
+    }
+    
+    /* Ensure navbar stays fixed when scrolling on mobile */
+    .navbar.fixed-top {
+        position: fixed !important;
+        top: 45px;
     }
 }
 
@@ -929,6 +944,25 @@ body {
     
     .top-info-item {
         margin: 0;
+    }
+    
+    /* Ensure navbar stays fixed on small mobile screens */
+    body {
+        padding-top: 140px;
+    }
+    
+    .navbar {
+        top: 60px;
+        position: fixed !important;
+        left: 0;
+        right: 0;
+        z-index: 1030;
+        width: 100%;
+    }
+    
+    .navbar.fixed-top {
+        position: fixed !important;
+        top: 60px;
     }
 }
 
