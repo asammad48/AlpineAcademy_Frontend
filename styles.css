@@ -5005,10 +5005,38 @@ section:last-of-type {
 .final-cta-buttons-flex .btn.me-2,
 .final-cta-buttons-flex .btn.ms-3,
 .final-cta-buttons-flex .btn.ms-2,
+.final-cta-buttons .btn.me-3,
+.final-cta-buttons .btn.me-2,
+.final-cta-buttons .btn.ms-3,
+.final-cta-buttons .btn.ms-2,
 .cta-buttons-flex .btn.me-3,
 .cta-buttons-flex .btn.me-2,
 .cta-buttons-flex .btn.ms-3,
 .cta-buttons-flex .btn.ms-2 {
+    margin: 0 !important;
+}
+
+/* Final CTA buttons (non-flex variant) */
+.final-cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.final-cta-buttons .btn,
+.final-cta-buttons .btn-primary,
+.final-cta-buttons .btn-outline-primary,
+.final-cta-buttons .btn-outline-light {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 56px !important;
+    min-height: 56px !important;
+    padding: 14px 28px !important;
+    box-sizing: border-box !important;
+    line-height: 1.5 !important;
     margin: 0 !important;
 }
 
