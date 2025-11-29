@@ -51,6 +51,17 @@ php -S 0.0.0.0:5000 router.php
 - ✅ No external dependencies required
 
 ## Recent Changes
+- **2025-11-29**: Fixed mobile image overflow issues
+  - Added global CSS to prevent images from overflowing on mobile screens
+  - Fixed image overflow on precios-y-tarifas-baqueira and other pages with large images
+  - Added scoped overflow prevention for intro, pricing, specialties, and included sections
+  - Changed hero background-attachment to scroll for mobile performance
+- **2025-11-29**: Fixed hero and CTA button alignment
+  - Added unified CSS for .hero-buttons, .final-cta-buttons-flex, .final-cta-buttons, .cta-buttons
+  - All buttons now have consistent height (min-height: 56px) and proper alignment
+  - Mobile responsive with 12px gap when buttons stack vertically
+- **2025-11-29**: Fixed testimonial section white space issues
+  - Ensured testimonial cards have white background even with bg-light class
 - **2025-11-25**: Completed language.js mapping verification
   - Verified all 143 HTML files (115 regular pages + 28 blog articles) have language mappings
   - Added 3 missing snowboard page mappings (Catalan, French, Portuguese)
