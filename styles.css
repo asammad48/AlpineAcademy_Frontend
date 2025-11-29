@@ -30,9 +30,10 @@
             height: auto;
         }
         
-        /* Ensure all containers don't cause horizontal overflow */
-        .container, .container-fluid, .row, section, div {
+        /* Ensure main containers don't cause horizontal overflow - scoped to avoid breaking Bootstrap grid */
+        .container, .container-fluid {
             max-width: 100%;
+            overflow-x: hidden;
         }
         
         /* Prevent any element from causing horizontal scroll */
@@ -41,51 +42,38 @@
             width: 100%;
         }
         
-        /* Mobile-specific image and container fixes */
+        /* Mobile-specific image fixes - scoped to avoid breaking Bootstrap grid */
         @media (max-width: 576px) {
+            /* Ensure images stay within bounds */
             img, .img-fluid {
                 max-width: 100% !important;
-                width: 100% !important;
                 height: auto !important;
             }
             
-            .container {
-                padding-left: 15px;
-                padding-right: 15px;
-                overflow: hidden;
-            }
-            
-            .row {
-                margin-left: -15px;
-                margin-right: -15px;
-            }
-            
-            .col-lg-6, .col-md-6, .col-lg-4, .col-md-4 {
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-            
-            /* Ensure intro section images fit properly */
-            .intro-section .col-lg-6 img {
+            /* Intro section specific image fixes */
+            .intro-section img {
                 max-width: 100% !important;
                 height: auto !important;
                 margin-bottom: 20px;
             }
             
-            /* Fix section overflow */
-            section {
+            /* Fix section overflow - only apply to specific sections with known issues */
+            .intro-section,
+            .pricing-section,
+            .specialties-section,
+            .included-section {
                 overflow-x: hidden;
             }
             
-            /* Hero section mobile fixes */
+            /* Hero section mobile fixes - background-attachment scroll for performance */
             .hero-section,
             .hero-precios,
-            [class*="hero"] {
+            [class*="hero-"] {
                 background-attachment: scroll !important;
             }
         }
         
-        /* Tablet-specific fixes */
+        /* Tablet-specific image fixes */
         @media (max-width: 768px) {
             .intro-section img,
             .about-section img,
@@ -182,40 +170,24 @@
 
 /* Mobile view adjustments */
 @media (max-width: 991px) {
-    /* Mobile image overflow fixes */
+    /* Mobile image overflow fixes - scoped to specific elements */
     img, picture, video, canvas, svg {
-        max-width: 100% !important;
-        height: auto !important;
+        max-width: 100%;
+        height: auto;
     }
     
     .img-fluid {
-        max-width: 100% !important;
-        width: 100% !important;
-        height: auto !important;
+        max-width: 100%;
+        height: auto;
     }
     
-    /* Ensure intro section images don't overflow */
+    /* Ensure section images don't overflow */
     .intro-section img,
-    section img,
-    .container img {
-        max-width: 100% !important;
-        height: auto !important;
+    .about-section img,
+    .pricing-section img {
+        max-width: 100%;
+        height: auto;
         object-fit: cover;
-    }
-    
-    /* Fix row overflow on mobile */
-    .row {
-        margin-left: 0;
-        margin-right: 0;
-        overflow: hidden;
-    }
-    
-    .col-lg-6 img,
-    .col-lg-4 img,
-    .col-md-6 img,
-    .col-md-4 img {
-        max-width: 100% !important;
-        height: auto !important;
     }
 
     .language-switcher {
