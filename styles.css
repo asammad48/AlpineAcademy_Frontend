@@ -4948,6 +4948,7 @@ section:last-of-type {
     box-sizing: border-box !important;
     line-height: 1.5 !important;
     vertical-align: middle !important;
+    margin: 0 !important;
 }
 
 .final-cta-buttons-flex .btn-lg,
@@ -4992,6 +4993,23 @@ section:last-of-type {
     box-sizing: border-box !important;
     line-height: 1.5 !important;
     flex-shrink: 0;
+    margin: 0 !important;
+}
+
+/* Reset Bootstrap margin utilities for button containers */
+.hero-buttons .btn.me-3,
+.hero-buttons .btn.me-2,
+.hero-buttons .btn.ms-3,
+.hero-buttons .btn.ms-2,
+.final-cta-buttons-flex .btn.me-3,
+.final-cta-buttons-flex .btn.me-2,
+.final-cta-buttons-flex .btn.ms-3,
+.final-cta-buttons-flex .btn.ms-2,
+.cta-buttons-flex .btn.me-3,
+.cta-buttons-flex .btn.me-2,
+.cta-buttons-flex .btn.ms-3,
+.cta-buttons-flex .btn.ms-2 {
+    margin: 0 !important;
 }
 
 /* Mobile Responsive Button Fixes */
