@@ -15,6 +15,8 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
 -   **Navigation**: Dynamic dropdown menus and a scroll-to-top button enhance user experience.
 -   **Styling**: Custom CSS variables, Font Awesome for icons, and Google Fonts (Montserrat, Open Sans) for typography.
 -   **Image Handling**: All content images are responsive (`img-fluid`) while logos and flag icons maintain fixed sizes.
+-   **Button Alignment**: Hero buttons use flexbox with `justify-content: center` and responsive wrapping. CTA sections use `.final-cta-buttons-flex` and `.cta-buttons-flex` classes. Mobile views stack buttons vertically with max-width constraints.
+-   **Testimonial Cards**: Single testimonial cards in centered containers (`.col-lg-8.mx-auto`) have reduced bottom margin to prevent excess whitespace; multi-card layouts retain default spacing.
 
 ### Technical Implementations
 -   **Multilingual Structure**: The site employs a consistent subdirectory structure for each language (e.g., `/en/`, `/pt/`). Spanish is the default language in the root directory.
