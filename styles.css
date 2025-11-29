@@ -24,6 +24,77 @@
             line-height: 1.6;
         }
         
+        /* Global image overflow prevention */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Ensure all containers don't cause horizontal overflow */
+        .container, .container-fluid, .row, section, div {
+            max-width: 100%;
+        }
+        
+        /* Prevent any element from causing horizontal scroll */
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+        }
+        
+        /* Mobile-specific image and container fixes */
+        @media (max-width: 576px) {
+            img, .img-fluid {
+                max-width: 100% !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+            
+            .container {
+                padding-left: 15px;
+                padding-right: 15px;
+                overflow: hidden;
+            }
+            
+            .row {
+                margin-left: -15px;
+                margin-right: -15px;
+            }
+            
+            .col-lg-6, .col-md-6, .col-lg-4, .col-md-4 {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            
+            /* Ensure intro section images fit properly */
+            .intro-section .col-lg-6 img {
+                max-width: 100% !important;
+                height: auto !important;
+                margin-bottom: 20px;
+            }
+            
+            /* Fix section overflow */
+            section {
+                overflow-x: hidden;
+            }
+            
+            /* Hero section mobile fixes */
+            .hero-section,
+            .hero-precios,
+            [class*="hero"] {
+                background-attachment: scroll !important;
+            }
+        }
+        
+        /* Tablet-specific fixes */
+        @media (max-width: 768px) {
+            .intro-section img,
+            .about-section img,
+            .specialty-card img,
+            .pricing-card img {
+                max-width: 100% !important;
+                height: auto !important;
+            }
+        }
      
         h1, h2, h3, h4, h5, h6 {
             font-family: 'Montserrat', sans-serif;
@@ -111,6 +182,42 @@
 
 /* Mobile view adjustments */
 @media (max-width: 991px) {
+    /* Mobile image overflow fixes */
+    img, picture, video, canvas, svg {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    .img-fluid {
+        max-width: 100% !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Ensure intro section images don't overflow */
+    .intro-section img,
+    section img,
+    .container img {
+        max-width: 100% !important;
+        height: auto !important;
+        object-fit: cover;
+    }
+    
+    /* Fix row overflow on mobile */
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+        overflow: hidden;
+    }
+    
+    .col-lg-6 img,
+    .col-lg-4 img,
+    .col-md-6 img,
+    .col-md-4 img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
     .language-switcher {
         margin-left: 0;
         padding-left: 0;
