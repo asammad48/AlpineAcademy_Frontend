@@ -215,9 +215,29 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: stretch;
+            align-items: center;
             gap: 1rem;
             margin-top: 30px;
+        }
+        
+        .hero-buttons .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            min-height: 52px;
+            padding: 12px 24px;
+            vertical-align: middle;
+        }
+        
+        .hero-buttons .btn-lg {
+            min-height: 56px;
+            padding: 14px 28px;
+        }
+        
+        .hero-buttons .btn i {
+            display: inline-flex;
+            align-items: center;
         }
         
         .hero-badge {
