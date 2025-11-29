@@ -4379,6 +4379,19 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
+.kids-private-hero .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.kids-private-hero .hero-buttons .btn {
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     .kids-private-hero {
         padding: 120px 0 80px;
@@ -4391,6 +4404,16 @@ body {
     
     .kids-private-hero .lead {
         font-size: 1.2rem;
+    }
+    
+    .kids-private-hero .hero-buttons {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .kids-private-hero .hero-buttons .btn {
+        width: 100%;
+        max-width: 280px;
     }
 }
 
