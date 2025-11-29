@@ -221,28 +221,45 @@
         }
         
         .hero-buttons .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 56px;
-            padding: 12px 24px;
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            min-height: 56px !important;
+            height: auto;
+            padding: 14px 28px !important;
             white-space: normal;
             text-align: center;
+            margin: 0 !important;
+            box-sizing: border-box !important;
+            line-height: 1.4 !important;
+            border-width: 2px !important;
         }
         
         .hero-buttons .btn-lg {
-            min-height: 56px;
+            min-height: 56px !important;
+            padding: 14px 28px !important;
+        }
+        
+        .hero-buttons .btn-outline-light {
+            border: 2px solid white !important;
+            background: transparent !important;
+        }
+        
+        .hero-buttons .btn-outline-light:hover {
+            background: rgba(255, 255, 255, 0.1) !important;
         }
         
         @media (max-width: 768px) {
             .hero-buttons {
                 flex-direction: column;
                 align-items: center;
+                gap: 12px;
             }
             
             .hero-buttons .btn {
                 width: 100%;
                 max-width: 320px;
+                margin-bottom: 0 !important;
             }
         }
         
