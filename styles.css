@@ -273,6 +273,66 @@
             margin-bottom: 20px;
             font-size: 0.9rem;
         }
+
+        /* Unified Button Container Styles - applies to all CTA button groups */
+        .final-cta-buttons-flex,
+        .final-cta-buttons,
+        .cta-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: stretch;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .final-cta-buttons-flex .btn,
+        .final-cta-buttons .btn,
+        .cta-buttons .btn {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            min-height: 56px !important;
+            height: auto;
+            padding: 14px 28px !important;
+            white-space: normal;
+            text-align: center;
+            margin: 0 !important;
+            box-sizing: border-box !important;
+            line-height: 1.4 !important;
+            border-width: 2px !important;
+        }
+
+        .final-cta-buttons-flex .btn-lg,
+        .final-cta-buttons .btn-lg,
+        .cta-buttons .btn-lg {
+            min-height: 56px !important;
+            padding: 14px 28px !important;
+        }
+
+        .final-cta-buttons-flex .btn-outline-primary,
+        .final-cta-buttons .btn-outline-primary,
+        .cta-buttons .btn-outline-primary {
+            border: 2px solid var(--primary-dark, #2a4c66) !important;
+        }
+
+        @media (max-width: 768px) {
+            .final-cta-buttons-flex,
+            .final-cta-buttons,
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 12px;
+            }
+
+            .final-cta-buttons-flex .btn,
+            .final-cta-buttons .btn,
+            .cta-buttons .btn {
+                width: 100%;
+                max-width: 320px;
+                margin-bottom: 0 !important;
+            }
+        }
         
         .about-section {
             background-color: var(--light);
