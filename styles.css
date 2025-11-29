@@ -215,7 +215,7 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
+            align-items: stretch;
             gap: 1rem;
             margin-top: 30px;
         }
@@ -4637,6 +4637,62 @@ body {
     }
 }
 
+/* Specific Hero Sections Button Alignment (no !important for flexibility) */
+.groups-hero .hero-buttons,
+.page-hero .hero-buttons,
+.freeride-hero .hero-buttons,
+.hero-precios .hero-buttons,
+.classes-hero-section .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+.groups-hero .hero-buttons .btn,
+.page-hero .hero-buttons .btn,
+.freeride-hero .hero-buttons .btn,
+.hero-precios .hero-buttons .btn,
+.classes-hero-section .hero-buttons .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 12px 24px;
+}
+
+/* Hero buttons without wrapper - direct child buttons */
+.groups-hero > .container .btn,
+.page-hero > .container .btn,
+.freeride-hero > .container .btn,
+.hero-precios > .container .btn {
+    min-height: 52px;
+    padding: 12px 24px;
+}
+
+@media (max-width: 576px) {
+    .groups-hero .hero-buttons,
+    .page-hero .hero-buttons,
+    .freeride-hero .hero-buttons,
+    .hero-precios .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .groups-hero .hero-buttons .btn,
+    .page-hero .hero-buttons .btn,
+    .freeride-hero .hero-buttons .btn,
+    .hero-precios .hero-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 /* Fix pricing card footer overlap */
 .pricing-card {
     margin-bottom: 2rem;
@@ -4832,35 +4888,82 @@ section:last-of-type {
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    min-height: 52px;
+    padding: 12px 24px;
 }
 
+/* Hero Buttons - Equal Height and Alignment (Enhanced baseline) */
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1rem;
+    margin-top: 30px;
+}
+
+/* Ensure buttons in hero-buttons have equal height and proper alignment */
+.hero-buttons .btn,
+.hero-buttons > a.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 12px 24px;
+    flex-shrink: 0;
+}
+
+/* Mobile Responsive Button Fixes */
 @media (max-width: 576px) {
     .final-cta-buttons-flex,
     .cta-buttons-flex {
         flex-direction: column;
         align-items: center;
+        gap: 0.75rem;
     }
     
     .final-cta-buttons-flex .btn,
     .cta-buttons-flex .btn {
         width: 100%;
-        max-width: 280px;
+        max-width: 300px;
+        margin-bottom: 0;
     }
     
     .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 0.75rem;
+    }
+    
+    .hero-buttons .btn,
+    .hero-buttons > a.btn {
+        width: 100%;
+        max-width: 300px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* Remove horizontal margin classes on mobile */
+    .hero-buttons .btn.me-3,
+    .hero-buttons > a.me-3 {
+        margin-right: 0 !important;
+    }
+}
+
+/* Tablet view button adjustments */
+@media (max-width: 768px) and (min-width: 577px) {
+    .hero-buttons {
+        gap: 0.75rem;
     }
     
     .hero-buttons .btn {
-        width: 100%;
-        max-width: 280px;
+        padding: 10px 20px;
     }
 }
 
 /* Testimonial Card Fixes - Keep height auto but preserve margins */
 .testimonial-card {
     height: auto;
+    padding: 1.5rem !important;
 }
 
 .testimonial-card p:last-child {
@@ -4870,4 +4973,45 @@ section:last-of-type {
 /* Single testimonial card in centered container - reduce excess spacing */
 .col-lg-8.mx-auto > .testimonial-card {
     margin-bottom: 0;
+}
+
+/* Testimonial section spacing fix */
+.section-py.bg-light .testimonial-card {
+    background-color: #fff;
+}
+
+/* Mobile Image Overflow Fixes */
+@media (max-width: 768px) {
+    img,
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .intro-section img,
+    .pricing-section img,
+    .hero-precios img,
+    section img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .navbar-brand img {
+        max-height: 50px;
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        max-height: 40px;
+        width: auto;
+    }
+    
+    img.rounded.shadow,
+    .intro-section img {
+        max-width: 100%;
+        height: auto;
+    }
 }
