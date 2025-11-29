@@ -222,29 +222,57 @@ body {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            align-items: center;
+            align-items: stretch;
             gap: 1rem;
             margin-top: 30px;
         }
         
-        .hero-buttons .btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            height: auto;
-            min-height: 52px;
-            padding: 12px 24px;
-            vertical-align: middle;
+        .hero-buttons .btn,
+        .hero-buttons .btn-primary,
+        .hero-buttons .btn-outline-light,
+        .hero-buttons .btn-outline-primary {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            height: 56px !important;
+            min-height: 56px !important;
+            padding: 14px 28px !important;
+            vertical-align: middle !important;
+            box-sizing: border-box !important;
+            line-height: 1.5 !important;
         }
         
-        .hero-buttons .btn-lg {
-            min-height: 56px;
-            padding: 14px 28px;
+        .hero-buttons .btn-lg,
+        .hero-buttons .btn-lg.btn-primary,
+        .hero-buttons .btn-lg.btn-outline-light,
+        .hero-buttons .btn-lg.btn-outline-primary {
+            height: 56px !important;
+            min-height: 56px !important;
+            padding: 14px 28px !important;
         }
         
-        .hero-buttons .btn i {
+        .hero-buttons .btn i,
+        .hero-buttons .btn .fab,
+        .hero-buttons .btn .fas {
             display: inline-flex;
             align-items: center;
+            line-height: 1;
+        }
+        
+        /* CTA section buttons alignment */
+        .cta-buttons-flex .btn,
+        .cta-buttons-flex .btn-primary,
+        .cta-buttons-flex .btn-outline-primary,
+        .final-cta-buttons .btn,
+        .final-cta-buttons .btn-primary,
+        .final-cta-buttons .btn-outline-primary {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            height: 56px !important;
+            min-height: 56px !important;
+            padding: 14px 28px !important;
+            box-sizing: border-box !important;
         }
         
         .hero-badge {
