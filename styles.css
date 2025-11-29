@@ -4948,3 +4948,104 @@ section,
         height: 160px;
     }
 }
+
+/* ============================================
+   HORIZONTAL BUTTON ALIGNMENT FIX
+   Ensures buttons are properly aligned when placed horizontally
+   ============================================ */
+
+/* Fix for horizontal button groups */
+.hero-buttons,
+.cta-buttons,
+.action-buttons,
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-buttons .btn,
+.cta-buttons .btn,
+.action-buttons .btn,
+.button-group .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 48px;
+    vertical-align: middle;
+}
+
+/* Fix for buttons in flex containers */
+.d-flex .btn,
+.d-flex > a.btn,
+.d-flex > button.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fix for buttons with me-3 class (Bootstrap margin) */
+.btn.me-3,
+a.btn.me-3 {
+    margin-right: 1rem !important;
+}
+
+/* Ensure button text is vertically centered */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Fix for btn-lg alignment */
+.btn-lg {
+    min-height: 52px;
+    padding: 0.75rem 1.5rem;
+}
+
+/* Responsive button alignment */
+@media (max-width: 768px) {
+    .hero-buttons,
+    .cta-buttons,
+    .action-buttons,
+    .button-group {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0.75rem;
+    }
+    
+    .hero-buttons .btn,
+    .cta-buttons .btn,
+    .action-buttons .btn,
+    .button-group .btn {
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    
+    .btn.me-3,
+    a.btn.me-3 {
+        margin-right: 0 !important;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Fix alignment for inline buttons in sections */
+section .btn + .btn,
+.container .btn + .btn,
+.row .btn + .btn {
+    margin-left: 0;
+}
+
+/* CTA section button fixes */
+.cta-section .btn,
+.final-cta .btn,
+.contact-cta .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
