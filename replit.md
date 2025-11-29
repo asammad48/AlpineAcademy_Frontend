@@ -15,7 +15,7 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
 -   **Navigation**: Dynamic dropdown menus and a scroll-to-top button enhance user experience.
 -   **Styling**: Custom CSS variables, Font Awesome for icons, and Google Fonts (Montserrat, Open Sans) for typography.
 -   **Image Handling**: All content images are responsive (`img-fluid`) while logos and flag icons maintain fixed sizes.
--   **Button Alignment**: Hero buttons use flexbox with `justify-content: center` and responsive wrapping. All hero buttons have a fixed 54px height with `box-sizing: border-box`. Primary buttons use transparent 2px borders to match outline button dimensions, ensuring consistent visual heights. CTA sections use `.final-cta-buttons-flex` and `.cta-buttons-flex` classes. Mobile views stack buttons vertically with max-width constraints.
+-   **Button Alignment**: Hero buttons use flexbox with `justify-content: center` and responsive wrapping. CTA sections use `.final-cta-buttons-flex` and `.cta-buttons-flex` classes. Mobile views stack buttons vertically with max-width constraints.
 -   **Testimonial Cards**: Single testimonial cards in centered containers (`.col-lg-8.mx-auto`) have reduced bottom margin to prevent excess whitespace; multi-card layouts retain default spacing.
 
 ### Technical Implementations

@@ -4659,11 +4659,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 54px;
-    min-height: 54px;
-    padding: 0 24px;
-    box-sizing: border-box;
-    line-height: 1.2;
+    min-height: 52px;
+    padding: 12px 24px;
 }
 
 /* Hero buttons without wrapper - direct child buttons */
@@ -4671,26 +4668,8 @@ body {
 .page-hero > .container .btn,
 .freeride-hero > .container .btn,
 .hero-precios > .container .btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 54px !important;
-    min-height: 54px !important;
-    max-height: 54px !important;
-    padding: 0 24px !important;
-    box-sizing: border-box !important;
-    line-height: 1.2 !important;
-    border-width: 2px !important;
-    border-style: solid !important;
-    vertical-align: middle;
-}
-
-/* Primary buttons in hero sections (without wrapper) need transparent border */
-.groups-hero > .container .btn-primary,
-.page-hero > .container .btn-primary,
-.freeride-hero > .container .btn-primary,
-.hero-precios > .container .btn-primary {
-    border-color: transparent !important;
+    min-height: 52px;
+    padding: 12px 24px;
 }
 
 @media (max-width: 576px) {
@@ -4909,11 +4888,8 @@ section:last-of-type {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 54px;
-    min-height: 54px;
-    padding: 0 24px;
-    box-sizing: border-box;
-    line-height: 1.2;
+    min-height: 52px;
+    padding: 12px 24px;
 }
 
 /* Hero Buttons - Equal Height and Alignment (Enhanced baseline) */
@@ -4925,41 +4901,15 @@ section:last-of-type {
     margin-top: 30px;
 }
 
-/* Ensure buttons in hero-buttons have EXACT equal height and proper alignment */
+/* Ensure buttons in hero-buttons have equal height and proper alignment */
 .hero-buttons .btn,
 .hero-buttons > a.btn {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    height: 54px !important;
-    min-height: 54px !important;
-    max-height: 54px !important;
-    padding: 0 24px !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 52px;
+    padding: 12px 24px;
     flex-shrink: 0;
-    box-sizing: border-box !important;
-    line-height: 1.2 !important;
-    border-width: 2px !important;
-    border-style: solid !important;
-}
-
-/* Primary buttons need transparent border to match outline buttons */
-.hero-buttons .btn-primary {
-    border-color: transparent !important;
-}
-
-/* Ensure ALL button variants in hero have exact same height */
-.hero-buttons .btn-primary,
-.hero-buttons .btn-outline-light,
-.hero-buttons .btn-outline-primary,
-.hero-buttons .btn-secondary,
-.hero-buttons .btn-lg {
-    height: 54px !important;
-    min-height: 54px !important;
-    max-height: 54px !important;
-    padding: 0 24px !important;
-    box-sizing: border-box !important;
-    line-height: 1.2 !important;
-    border-width: 2px !important;
 }
 
 /* Mobile Responsive Button Fixes */
