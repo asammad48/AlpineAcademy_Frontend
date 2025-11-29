@@ -212,6 +212,11 @@
         }
         
         .hero-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
             margin-top: 30px;
         }
         
@@ -4810,4 +4815,59 @@ section:last-of-type {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
+}
+
+/* CTA Buttons Flex Alignment - Scoped to specific containers */
+.final-cta-buttons-flex,
+.cta-buttons-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+
+.final-cta-buttons-flex .btn,
+.cta-buttons-flex .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 576px) {
+    .final-cta-buttons-flex,
+    .cta-buttons-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .final-cta-buttons-flex .btn,
+    .cta-buttons-flex .btn {
+        width: 100%;
+        max-width: 280px;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 280px;
+    }
+}
+
+/* Testimonial Card Fixes - Keep height auto but preserve margins */
+.testimonial-card {
+    height: auto;
+}
+
+.testimonial-card p:last-child {
+    margin-bottom: 0;
+}
+
+/* Single testimonial card in centered container - reduce excess spacing */
+.col-lg-8.mx-auto > .testimonial-card {
+    margin-bottom: 0;
 }
