@@ -1,0 +1,36 @@
+<section id="partners" class="partners-section">
+        <div class="container">
+            <h2 class="section-title text-center">Partners de Confianza: Calidad Garantizada en Tu Equipo</h2>
+            <p><a href="/">En Alpine Ski Academy</a>, la excelencia es un estándar. Nuestra sólida relación de más de 10 años con marcas
+                líderes del esquí y snowboard como Rossignol, Dynastar, Briko y Lange se fundamenta en la confianza y el
+                beneficio mutuo. Agradecemos profundamente su continuo apoyo, una colaboración que nos permite ofrecerte
+                acceso al mejor material y equipamiento durante tus clases y experiencias en Baqueira, asegurando
+                rendimiento, seguridad y confort en cada descenso.</p>
+            <div class="row justify-content-center align-items-center">
+                <!-- Partner 1 -->
+                <div class="col-md-3 col-6">
+                    <div class="partner-item d-flex justify-content-center align-items-center">
+                        <img src="/dynastar.webp" alt="Partner 1" class="partner-logo img-fluid">
+                    </div>
+                </div>
+                <!-- Partner 2 -->
+                <div class="col-md-3 col-6">
+                    <div class="partner-item d-flex justify-content-center align-items-center">
+                        <img src="/lange.webp" alt="Partner 2" class="partner-logo img-fluid">
+                    </div>
+                </div>
+                <!-- Partner 3 -->
+                <div class="col-md-3 col-6">
+                    <div class="partner-item d-flex justify-content-center align-items-center">
+                        <img src="/rossignol.webp" alt="Partner 3" class="partner-logo img-fluid">
+                    </div>
+                </div>
+                <!-- Partner 4 -->
+                <div class="col-md-3 col-6">
+                    <div class="partner-item d-flex justify-content-center align-items-center">
+                        <img src="/briko.webp" alt="Partner 4" class="partner-logo img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
