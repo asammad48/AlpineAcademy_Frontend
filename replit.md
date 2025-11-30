@@ -30,6 +30,7 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
 -   **Lesson Categories**: Comprehensive listings for private ski (kids, adults, families), group ski (kids, adults), specialty (Freeride, Freestyle, CARV technology), and snowboard lessons.
 -   **Additional Services**: Information on equipment rental, ski trips, webcams, and corporate/school programs.
 -   **Blog**: A dedicated section for blog articles.
+-   **Seasonal Snowfall Effect**: Animated snowflake effect displayed during winter months (December, January, February) via `/js/snowfall.js`. The script automatically detects the current month and only activates during the ski season.
 
 ### System Design Choices
 -   **Development Server**: Running on PHP's built-in development server with router.php for local testing.
