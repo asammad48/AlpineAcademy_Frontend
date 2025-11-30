@@ -635,21 +635,24 @@
 }
 
 .partner-item {
-    height: 120px;
-    padding: 10px;
-    overflow: visible;
+    height: auto;
+    min-height: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .partner-logo {
-    max-width: 100%;
-    max-height: 100px;
-    height: auto;
+    max-width: 150px;
+    max-height: 80px;
     width: auto;
+    height: auto;
     object-fit: contain;
+    object-position: center;
     filter: grayscale(100%);
     opacity: 0.7;
     transition: all 0.3s ease;
-    padding: 8px;
 }
 
 .partner-logo:hover {
@@ -661,14 +664,13 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .partner-item {
-        height: auto;
-        min-height: 80px;
+        min-height: 70px;
         padding: 10px;
     }
     
     .partner-logo {
-        max-height: 70px;
-        padding: 5px;
+        max-width: 120px;
+        max-height: 60px;
     }
 }
         
