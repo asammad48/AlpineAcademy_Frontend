@@ -1,8 +1,16 @@
 (function() {
     'use strict';
     
-    const currentMonth = new Date().getMonth();
-    const isWinterMonth = (currentMonth === 11 || currentMonth === 0 || currentMonth === 1);
+    const now = new Date();
+    const currentMonth = now.getMonth();
+    const currentDay = now.getDate();
+    
+    const isWinterMonth = (
+        (currentMonth === 10 && currentDay >= 20) ||
+        currentMonth === 11 ||
+        currentMonth === 0 ||
+        currentMonth === 1
+    );
     
     if (!isWinterMonth) {
         return;
