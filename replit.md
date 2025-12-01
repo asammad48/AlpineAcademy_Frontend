@@ -49,6 +49,16 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
     -   PHP 8.2 (for `send-email.php`)
 
 ## Recent Changes
+- **2025-12-01**: Portuguese Kids Lessons Page Complete Translation
+  - Fixed pt/aulas-particulares-criancas-baqueira.html with comprehensive translation from French to Portuguese
+  - Translated all content sections: hero, benefits, age levels, methodology, equipment, testimonials, FAQ, CTA
+  - Fixed navigation bar with Portuguese labels and correct /pt/*.html URLs
+  - Fixed footer with Portuguese translations and proper internal links
+  - Corrected SEO metadata: canonical URL, Open Graph, Twitter URLs with .html extensions
+  - Fixed JSON-LD BreadcrumbList schema with correct Portuguese URLs
+  - Fixed language switcher data-lang attributes (Spanish was incorrectly set to "fr")
+  - All internal links verified to use correct Portuguese file paths with .html extensions
+
 - **2025-12-01**: SEO Meta Description and Title Optimization
   - Updated meta descriptions and titles across 72 pages (18 pages x 4 languages: EN, FR, CA, PT)
   - Shortened all meta descriptions to under 160 characters for optimal search engine display
