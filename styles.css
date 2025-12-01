@@ -14,6 +14,9 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
+        html {
+            overflow-x: hidden;
+        }
            
         body {
             /*font-family: 'Open Sans', sans-serif;*/
@@ -22,6 +25,8 @@
             background-color: #f8f9fa;
             color: #333;
             line-height: 1.6;
+            width: 100%;
+            max-width: 100vw;
         }
         
         img {
@@ -5064,28 +5069,73 @@ section:last-of-type {
     .final-cta-buttons-flex .btn,
     .cta-buttons-flex .btn {
         width: 100%;
-        max-width: 300px;
+        max-width: 90%;
         margin-bottom: 0;
+        height: auto !important;
+        min-height: 48px !important;
+        white-space: normal !important;
+        padding: 12px 20px !important;
+        text-align: center;
     }
     
     .hero-buttons {
         flex-direction: column;
         align-items: center;
         gap: 0.75rem;
+        width: 100%;
+        padding: 0 15px;
     }
     
     .hero-buttons .btn,
     .hero-buttons > a.btn {
         width: 100%;
-        max-width: 300px;
+        max-width: 90%;
         margin-left: 0;
         margin-right: 0;
+        height: auto !important;
+        min-height: 48px !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+        padding: 12px 20px !important;
+        text-align: center;
+        line-height: 1.4 !important;
     }
     
     /* Remove horizontal margin classes on mobile */
     .hero-buttons .btn.me-3,
     .hero-buttons > a.me-3 {
         margin-right: 0 !important;
+    }
+    
+    /* Hero section mobile fixes */
+    .hero-section {
+        padding: 120px 0 60px;
+        overflow: hidden;
+    }
+    
+    .hero-section .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .hero-content {
+        padding: 0 10px;
+    }
+    
+    .hero-content h1,
+    .hero-section h1 {
+        font-size: 1.75rem !important;
+        line-height: 1.3;
+    }
+    
+    .hero-content .lead,
+    .hero-section .lead {
+        font-size: 1rem !important;
+    }
+    
+    .hero-badge {
+        font-size: 0.8rem;
+        padding: 6px 15px;
     }
 }
 

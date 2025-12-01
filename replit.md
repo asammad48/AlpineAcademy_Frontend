@@ -47,3 +47,11 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
     -   Google Fonts (Montserrat, Open Sans)
 -   **Backend**:
     -   PHP 8.2 (for `send-email.php`)
+
+## Recent Changes
+- **2025-12-01**: Fixed hero section mobile overflow issues
+  - Fixed hero buttons text overflow by removing fixed height and enabling text wrap
+  - Added `height: auto` and `white-space: normal` for buttons on mobile
+  - Added global `overflow-x: hidden` on html element to prevent horizontal scrolling
+  - Made hero title and lead text responsive on mobile screens
+  - Added proper padding and container constraints for hero section on mobile
