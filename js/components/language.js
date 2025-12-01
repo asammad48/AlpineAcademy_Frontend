@@ -1103,20 +1103,42 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
   
-  // Check for stored language preference
-  const preferredLanguage = localStorage.getItem('preferredLanguage');
-  if (preferredLanguage) {
-    // Update UI to reflect preferred language
+  // Function to detect language from current URL
+  function detectLanguageFromURL() {
+    const path = window.location.pathname;
+    const segments = path.split('/').filter(s => s.length > 0);
+    
+    // Check if first segment is a language code
+    const languageCodes = ['en', 'fr', 'ca', 'pt'];
+    if (segments.length > 0 && languageCodes.includes(segments[0])) {
+      return segments[0];
+    }
+    
+    // Default to Spanish (root level pages)
+    return 'es';
+  }
+  
+  // Function to update the language switcher UI
+  function updateLanguageSwitcherUI(lang) {
     const button = document.querySelector('.language-switcher .dropdown-toggle');
     if (button) {
-      button.innerHTML = `<i class="fas fa-globe me-1"></i> ${preferredLanguage.toUpperCase()}`;
+      button.innerHTML = `<i class="fas fa-globe me-1"></i> ${lang.toUpperCase()}`;
     }
     
     document.querySelectorAll('.language-option').forEach(option => {
       option.classList.remove('active');
-      if (option.getAttribute('data-lang') === preferredLanguage) {
+      if (option.getAttribute('data-lang') === lang) {
         option.classList.add('active');
       }
     });
   }
+  
+  // Detect language from URL first (priority over stored preference)
+  const detectedLanguage = detectLanguageFromURL();
+  
+  // Update localStorage to match current page language
+  localStorage.setItem('preferredLanguage', detectedLanguage);
+  
+  // Update the UI to reflect the current page's language
+  updateLanguageSwitcherUI(detectedLanguage);
 });
