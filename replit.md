@@ -49,6 +49,19 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
     -   PHP 8.2 (for `send-email.php`)
 
 ## Recent Changes
+- **2025-12-01**: Performance Optimization - Cache-Control Headers in .htaccess
+  - Added Cache-Control headers for Apache production server
+  - HTML files: `no-cache, no-store, must-revalidate` (always fresh content)
+  - CSS/JS files: `public, max-age=31536000, immutable` (1 year browser cache)
+  - Images (jpg, png, webp, svg, ico, gif): 1 year browser cache
+  - Fonts (woff, woff2, ttf, otf, eot): 1 year browser cache
+  - Complements existing mod_expires and mod_deflate (gzip) configuration
+
+- **2025-12-01**: Automatic Language Detection
+  - Updated js/components/language.js to detect current page language from URL
+  - Language dropdown now shows correct language based on URL path (/en/, /fr/, /ca/, /pt/)
+  - Spanish pages (root directory) default to "ES" in the dropdown
+
 - **2025-12-01**: Portuguese Kids Lessons Page Complete Translation
   - Fixed pt/aulas-particulares-criancas-baqueira.html with comprehensive translation from French to Portuguese
   - Translated all content sections: hero, benefits, age levels, methodology, equipment, testimonials, FAQ, CTA
