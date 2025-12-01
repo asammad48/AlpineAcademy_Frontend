@@ -118,7 +118,7 @@
     `;
     document.head.appendChild(style);
     
-    let snowfallEnabled = localStorage.getItem('snowfallEnabled') !== 'false';
+    let snowfallEnabled = localStorage.getItem('snowfallEnabled') === 'true';
     let container = null;
     let snowInterval = null;
     
