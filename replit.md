@@ -49,6 +49,14 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
     -   PHP 8.2 (for `send-email.php`)
 
 ## Recent Changes
+- **2025-12-01**: SEO Meta Description and Title Optimization
+  - Updated meta descriptions and titles across 72 pages (18 pages x 4 languages: EN, FR, CA, PT)
+  - Shortened all meta descriptions to under 160 characters for optimal search engine display
+  - Optimized titles for SEO with concise, keyword-rich content
+  - Fixed language attribute error in pt/aulas-particulares-criancas-baqueira.html (was incorrectly set to French)
+  - Fixed French schema/structured data content in Portuguese page with correct Portuguese translations
+  - All translations verified for accuracy in English, French, Catalan, and Portuguese
+
 - **2025-12-01**: Fixed hero section mobile overflow issues
   - Fixed hero buttons text overflow by removing fixed height and enabling text wrap
   - Added `height: auto` and `white-space: normal` for buttons on mobile
