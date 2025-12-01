@@ -237,21 +237,21 @@
             display: inline-flex !important;
             align-items: center !important;
             justify-content: center !important;
-            height: 56px !important;
-            min-height: 56px !important;
-            padding: 14px 28px !important;
+            min-height: 56px;
+            padding: 14px 28px;
             vertical-align: middle !important;
             box-sizing: border-box !important;
             line-height: 1.5 !important;
+            white-space: normal;
+            text-align: center;
         }
         
         .hero-buttons .btn-lg,
         .hero-buttons .btn-lg.btn-primary,
         .hero-buttons .btn-lg.btn-outline-light,
         .hero-buttons .btn-lg.btn-outline-primary {
-            height: 56px !important;
-            min-height: 56px !important;
-            padding: 14px 28px !important;
+            min-height: 56px;
+            padding: 14px 28px;
         }
         
         .hero-buttons .btn i,
@@ -272,10 +272,11 @@
             display: inline-flex !important;
             align-items: center !important;
             justify-content: center !important;
-            height: 56px !important;
-            min-height: 56px !important;
-            padding: 14px 28px !important;
+            min-height: 56px;
+            padding: 14px 28px;
             box-sizing: border-box !important;
+            white-space: normal;
+            text-align: center;
         }
         
         .hero-badge {
@@ -4959,20 +4960,20 @@ section:last-of-type {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    height: 56px !important;
-    min-height: 56px !important;
-    padding: 14px 28px !important;
+    min-height: 56px;
+    padding: 14px 28px;
     box-sizing: border-box !important;
     line-height: 1.5 !important;
     vertical-align: middle !important;
     margin: 0 !important;
+    white-space: normal;
+    text-align: center;
 }
 
 .final-cta-buttons-flex .btn-lg,
 .cta-buttons-flex .btn-lg {
-    height: 56px !important;
-    min-height: 56px !important;
-    padding: 14px 28px !important;
+    min-height: 56px;
+    padding: 14px 28px;
 }
 
 .final-cta-buttons-flex .btn i,
@@ -5004,13 +5005,14 @@ section:last-of-type {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    height: 56px !important;
-    min-height: 56px !important;
-    padding: 14px 28px !important;
+    min-height: 56px;
+    padding: 14px 28px;
     box-sizing: border-box !important;
     line-height: 1.5 !important;
     flex-shrink: 0;
     margin: 0 !important;
+    white-space: normal;
+    text-align: center;
 }
 
 /* Reset Bootstrap margin utilities for button containers */
@@ -5049,12 +5051,13 @@ section:last-of-type {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
-    height: 56px !important;
-    min-height: 56px !important;
-    padding: 14px 28px !important;
+    min-height: 56px;
+    padding: 14px 28px;
     box-sizing: border-box !important;
     line-height: 1.5 !important;
     margin: 0 !important;
+    white-space: normal;
+    text-align: center;
 }
 
 /* Mobile Responsive Button Fixes */
