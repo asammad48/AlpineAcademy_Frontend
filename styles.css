@@ -5527,18 +5527,30 @@ section:last-of-type {
     opacity: 0.9;
 }
 
-/* Page transition effects - NO TRANSFORM on body to preserve fixed positioning */
+/* Page transition effects - using visibility to not affect fixed floating elements */
 .page-transition-ready {
-    opacity: 0;
-    transition: opacity 0.4s ease;
+    visibility: hidden;
 }
 
 .page-transition-ready.page-loaded {
-    opacity: 1;
+    visibility: visible;
 }
 
 .page-transition-ready.page-leaving {
-    opacity: 0;
+    visibility: hidden;
+}
+
+/* Ensure floating elements are always visible regardless of page transition */
+.page-transition-ready .whatsapp-float,
+.page-transition-ready #scrollToTop,
+.page-transition-ready .snow-toggle-btn,
+.page-transition-ready .cookie-consent-banner,
+body .whatsapp-float,
+body #scrollToTop,
+body .snow-toggle-btn,
+body .cookie-consent-banner {
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 /* ============================================
