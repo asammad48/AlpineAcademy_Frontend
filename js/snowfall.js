@@ -108,11 +108,23 @@
         
         @media (max-width: 768px) {
             .snow-toggle-btn {
+                position: fixed !important;
                 width: 44px;
                 height: 44px;
                 font-size: 20px;
-                bottom: 15px;
-                left: 15px;
+                bottom: 20px !important;
+                left: 15px !important;
+                z-index: 9998 !important;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .snow-toggle-btn {
+                width: 42px;
+                height: 42px;
+                font-size: 18px;
+                bottom: 15px !important;
+                left: 10px !important;
             }
         }
     `;
