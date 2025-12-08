@@ -86,3 +86,10 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
   - Added global `overflow-x: hidden` on html element to prevent horizontal scrolling
   - Made hero title and lead text responsive on mobile screens
   - Added proper padding and container constraints for hero section on mobile
+
+- **2025-12-08**: Added Cookie Consent Banner, Footer Verification, Page Transitions, and Blog Mobile Fix
+  - **Cookie Consent Banner** (`js/cookie-consent.js`): GDPR-compliant cookie consent banner with 5-language support (ES, EN, FR, CA, PT), localStorage persistence (365 days), and localized cookie policy links
+  - **SalvonixTech Footer Verification** (`js/footer-check.js`): Script that dynamically adds "Powered by SalvonixTech" to footer if not present
+  - **Page Transition Loader** (`js/page-transition.js`): Smooth page transition animations with loading spinner for internal navigation
+  - **Blog Mobile Image Fix**: Added CSS in styles.css for mobile blog image containment; Fixed HTML structure of en/blog.html, fr/blog.html, pt/blog.html to wrap blog-grid in container section (ca/blog.html already had correct structure)
+  - All 3 JavaScript files added to all 174 HTML pages via deferred script tags before </head>
