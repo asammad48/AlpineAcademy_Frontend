@@ -70,9 +70,9 @@
         }
         
         .snow-toggle-btn {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
+            position: fixed !important;
+            bottom: 25px !important;
+            left: 25px !important;
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -80,13 +80,15 @@
             border: 2px solid #fff;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             cursor: pointer;
-            z-index: 10000;
-            display: flex;
+            z-index: 99997 !important;
+            display: flex !important;
             align-items: center;
             justify-content: center;
             font-size: 24px;
             transition: all 0.3s ease;
             pointer-events: auto;
+            visibility: visible !important;
+            opacity: 1 !important;
         }
         
         .snow-toggle-btn:hover {
@@ -114,7 +116,9 @@
                 font-size: 20px;
                 bottom: 20px !important;
                 left: 15px !important;
-                z-index: 9998 !important;
+                z-index: 99997 !important;
+                visibility: visible !important;
+                opacity: 1 !important;
             }
         }
         
@@ -124,7 +128,8 @@
                 height: 42px;
                 font-size: 18px;
                 bottom: 15px !important;
-                left: 10px !important;
+                left: 12px !important;
+                z-index: 99997 !important;
             }
         }
     `;

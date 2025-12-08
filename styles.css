@@ -5527,21 +5527,18 @@ section:last-of-type {
     opacity: 0.9;
 }
 
-/* Page transition effects */
+/* Page transition effects - NO TRANSFORM on body to preserve fixed positioning */
 .page-transition-ready {
     opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.4s ease, transform 0.4s ease;
+    transition: opacity 0.4s ease;
 }
 
 .page-transition-ready.page-loaded {
     opacity: 1;
-    transform: translateY(0);
 }
 
 .page-transition-ready.page-leaving {
     opacity: 0;
-    transform: translateY(-10px);
 }
 
 /* ============================================
@@ -5602,36 +5599,91 @@ section:last-of-type {
 }
 
 /* ============================================
-   FLOATING ELEMENTS - MOBILE FIXES
-   These elements should float fixed at the bottom 
-   of the viewport, NOT under the footer
+   FLOATING ELEMENTS - GLOBAL FIXES
+   These elements MUST float fixed at the bottom 
+   of the viewport on ALL screen sizes
    ============================================ */
 
-/* Ensure WhatsApp button stays visible on mobile */
+/* WhatsApp Floating Button - ALL SCREENS */
+.whatsapp-float {
+    position: fixed !important;
+    bottom: 25px !important;
+    right: 25px !important;
+    width: 60px !important;
+    height: 60px !important;
+    z-index: 99999 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.whatsapp-link {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #25D366 !important;
+    color: white !important;
+    border-radius: 50% !important;
+    text-decoration: none !important;
+    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.5) !important;
+}
+
+.whatsapp-link i {
+    font-size: 32px !important;
+    color: white !important;
+}
+
+/* Scroll to Top Button - ALL SCREENS */
+#scrollToTop {
+    position: fixed !important;
+    bottom: 100px !important;
+    right: 30px !important;
+    z-index: 99998 !important;
+}
+
+#scrollToTop.show {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Cookie Consent Banner - ALL SCREENS */
+.cookie-consent-banner {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    z-index: 999999 !important;
+}
+
+/* MOBILE SPECIFIC - Tablet */
 @media (max-width: 768px) {
     .whatsapp-float {
-        position: fixed !important;
         bottom: 20px !important;
         right: 15px !important;
         width: 55px !important;
         height: 55px !important;
-        z-index: 9998 !important;
-    }
-    
-    .whatsapp-link {
-        width: 100% !important;
-        height: 100% !important;
     }
     
     .whatsapp-link i {
         font-size: 28px !important;
     }
+    
+    #scrollToTop {
+        bottom: 85px !important;
+        right: 15px !important;
+        width: 45px !important;
+        height: 45px !important;
+    }
 }
 
+/* MOBILE SPECIFIC - Phone */
 @media (max-width: 576px) {
     .whatsapp-float {
         bottom: 15px !important;
-        right: 10px !important;
+        right: 12px !important;
         width: 50px !important;
         height: 50px !important;
     }
@@ -5639,59 +5691,11 @@ section:last-of-type {
     .whatsapp-link i {
         font-size: 26px !important;
     }
-}
-
-/* Ensure scroll-to-top button stays above WhatsApp on mobile */
-@media (max-width: 768px) {
-    #scrollToTop {
-        position: fixed !important;
-        bottom: 85px !important;
-        right: 15px !important;
-        z-index: 9997 !important;
-    }
-}
-
-@media (max-width: 576px) {
+    
     #scrollToTop {
         bottom: 75px !important;
-        right: 10px !important;
+        right: 12px !important;
         width: 42px !important;
         height: 42px !important;
-    }
-}
-
-/* Ensure cookie banner floats at bottom of viewport */
-.cookie-consent-banner {
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    z-index: 9999 !important;
-}
-
-/* When cookie banner is visible, push floating buttons up */
-.cookie-consent-banner.cookie-banner-visible ~ .whatsapp-float,
-body.cookie-banner-active .whatsapp-float {
-    bottom: 100px !important;
-}
-
-@media (max-width: 768px) {
-    .cookie-consent-banner.cookie-banner-visible ~ .whatsapp-float,
-    body.cookie-banner-active .whatsapp-float {
-        bottom: 90px !important;
-    }
-    
-    body.cookie-banner-active #scrollToTop {
-        bottom: 155px !important;
-    }
-}
-
-@media (max-width: 576px) {
-    body.cookie-banner-active .whatsapp-float {
-        bottom: 85px !important;
-    }
-    
-    body.cookie-banner-active #scrollToTop {
-        bottom: 145px !important;
     }
 }
