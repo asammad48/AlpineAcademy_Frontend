@@ -70,6 +70,11 @@
 
 .navbar-brand img {
     height: 40px; /* Reduced logo size */
+    width: auto;
+    min-width: 120px; /* Prevent shrinking */
+    max-width: 200px; /* Prevent excessive growth */
+    display: block;
+    object-fit: contain;
     transition: all 0.3s;
 }
 
@@ -116,6 +121,11 @@
     
     .navbar-brand img {
         height: 35px; /* Even smaller logo */
+        width: auto;
+        min-width: 100px; /* Prevent shrinking */
+        max-width: 180px;
+        display: block;
+        object-fit: contain;
     }
 }
 
@@ -640,25 +650,66 @@
     padding: 50px 0;
 }
 
-.partner-item {
-    height: auto;
-    min-height: 100px;
-    padding: 15px;
+.partners-section .container {
+    max-width: 1200px;
+}
+
+.partners-section .row {
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
+.partners-section .col-md-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.partner-item {
+    width: 100%;
+    height: auto;
+    min-height: 120px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
 .partner-logo {
-    max-width: 150px;
-    max-height: 80px;
+    max-width: 100%;
     width: auto;
     height: auto;
+    max-height: 100px;
     object-fit: contain;
     object-position: center;
     filter: grayscale(100%);
     opacity: 0.7;
     transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.partner-logo.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Specific fix for Rossignol image */
+.partner-logo[src*="rossignol"],
+.partner-logo[src*="Rossignol"] {
+    max-height: 120px !important;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.partners-section .col-md-3:nth-child(3) .partner-item {
+    min-height: 140px;
 }
 
 .partner-logo:hover {
@@ -668,15 +719,64 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .partner-item {
-        min-height: 70px;
-        padding: 10px;
+        min-height: 100px;
+        padding: 15px 10px;
     }
     
     .partner-logo {
-        max-width: 120px;
+        max-height: 80px;
+    }
+    
+    /* Rossignol specific on medium screens */
+    .partner-logo[src*="rossignol"],
+    .partner-logo[src*="Rossignol"] {
+        max-height: 100px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .partners-section .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .partner-item {
+        min-height: 90px;
+        padding: 15px 10px;
+    }
+    
+    .partner-logo {
+        max-height: 70px;
+    }
+    
+    /* Rossignol specific on small screens */
+    .partner-logo[src*="rossignol"],
+    .partner-logo[src*="Rossignol"] {
+        max-height: 85px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .partners-section .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+    .partner-item {
+        min-height: 80px;
+        padding: 10px 5px;
+    }
+    
+    .partner-logo {
         max-height: 60px;
+    }
+    
+    /* Rossignol specific on extra small screens */
+    .partner-logo[src*="rossignol"],
+    .partner-logo[src*="Rossignol"] {
+        max-height: 75px !important;
     }
 }
         
@@ -941,8 +1041,16 @@ body {
 }
 
 /* Make navbar slightly lower to accommodate top bar */
-.navbar {
-    top: 28px; /* Height of top info bar */
+.navbar.fixed-top {
+    top: 28px !important; /* Height of top info bar */
+    position: fixed !important;
+    z-index: 1030 !important; /* Below top-info-bar which is 1035 */
+}
+
+/* Ensure blog hero sections account for navbar and top info bar */
+.blog-hero {
+    margin-top: 0 !important;
+    padding-top: 140px !important; /* Account for top bar (28px) + navbar (~76px) + extra spacing */
 }
 
 /* Mobile responsive styling for top-info-bar */
@@ -982,8 +1090,10 @@ body {
         padding-top: 120px;
     }
     
-    .navbar {
-        top: 45px;
+    .navbar.fixed-top {
+        top: 45px !important;
+        position: fixed !important;
+        z-index: 1030 !important;
     }
 }
 
@@ -1881,6 +1991,13 @@ body {
     transition: all 0.3s ease;
 }
 
+.certificate-horizontal-container .col-lg-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .certificate-horizontal-container:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
@@ -1893,6 +2010,14 @@ body {
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.certificate-caption {
+    text-align: center;
+    width: 100%;
 }
 
 .certificate-horizontal-image:hover {
@@ -1933,6 +2058,7 @@ body {
 @media (max-width: 992px) {
     .certificate-horizontal-image {
         max-width: 200px;
+        margin: 0 auto;
     }
 }
 
@@ -1943,7 +2069,7 @@ body {
     
     .certificate-horizontal-image {
         max-width: 180px;
-        margin-top: 20px;
+        margin: 20px auto 0;
     }
     
     .certificate-content {
@@ -2552,7 +2678,7 @@ body {
 
          /* Additional CSS for Alquiler page */
         .hero-alquiler {
-            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/alquiler/Alquiler-de-esquis-en-baqueira-ruda.webp');
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/alquiler/alquiler-esquis-baqueira-1500.webp');
             background-size: cover;
             background-position: center;
             padding: 150px 0 100px;
@@ -4518,7 +4644,12 @@ body {
     width: 100%;
     height: 250px;
     object-fit: cover;
-    object-position: center;
+    object-position: center top;
+}
+
+/* Specific styling for "Aprendizaje Divertido" card image */
+.kids-card-equal:nth-child(3) img {
+    object-position: center top;
 }
 
 .kids-card-equal h4 {
@@ -4778,7 +4909,7 @@ section:last-of-type {
 /* Grid layouts for images should be responsive */
 .row img, .col img, .col-md-6 img {
     width: 100%;
-    height: auto;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -5192,14 +5323,24 @@ section:last-of-type {
     
     .navbar-brand img {
         max-height: 50px;
+        height: 50px;
         width: auto;
+        min-width: 120px; /* Prevent shrinking */
+        max-width: 200px;
+        display: block;
+        object-fit: contain;
     }
 }
 
 @media (max-width: 576px) {
     .navbar-brand img {
         max-height: 40px;
+        height: 40px;
         width: auto;
+        min-width: 100px; /* Prevent shrinking */
+        max-width: 180px;
+        display: block;
+        object-fit: contain;
     }
     
     img.rounded.shadow,

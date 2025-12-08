@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -424,7 +424,7 @@
                     <h2 class="section-title">About Alpine Ski Academy</h2>
                     <p class="lead">We are passionate about winter sports and dedicated to providing the highest quality ski and snowboard instruction.</p>
                     <p>Alpine Ski Academy welcomes you to Baqueira Beret, the perfect setting for your next great ski and snowboard adventure. If you dream of gliding for the first time, perfecting your technique or exploring exciting freeride, our school offers you an unforgettable experience.</p>
-                    <p><a href="/en/ski-lessons-baqueira">We teach ski lessons</a> and snowboard for all levels and ages, from children's lessons to advanced programs for adults, ensuring real, safe progression and always with a smile.</p>
+                    <p>We teach ski lessons and snowboard for all levels and ages, from children's lessons to advanced programs for adults, ensuring real, safe progression and always with a smile.</p>
                     <a href="#contact" class="btn btn-primary mt-3">More information about us</a>
                 </div>
                 <div class="col-lg-6">
@@ -467,7 +467,7 @@
                                     <i class="fas fa-mountain fa-3x text-primary"></i>
                                 </div>
                                 <h4>100% Personalized Attention</h4>
-                                <p>Every skier is a world. We adapt each <a href="/en/ski-lessons-baqueira">ski lesson</a>, private or group, to your objectives, pace and style, whether you're an adult or child, so you make the most of every minute in Baqueira.</p>
+                                <p>Every skier is a world. We adapt each ski lesson, private or group, to your objectives, pace and style, whether you're an adult or child, so you make the most of every minute in Baqueira.</p>
                             </div>
                         </div>
 
@@ -537,7 +537,7 @@
 
                     <!-- Info Container (simplified structure) -->
                     <div class="info-container">
-                        <h3 class="info-title">Essential Skiing Information</h3>
+                        <h3 class="info-title">Additional Services to your Reservation</h3>
 
                         <div class="info-item">
                             <div class="info-icon">
@@ -633,7 +633,7 @@
                 <div class="col-md-4">
                     <div class="blog-card">
                         <div class="blog-img"
-                             style="background-image: url('/images/clases-esquí-alpine-ski-academy.webp');"
+                             style="background-image: url('/images/esqui-baqueria-profesor-alumna.webp');"
                              aria-label="Private ski lessons in Baqueira for children, adults and families with certified instructors"></div>
                         <div class="blog-content">
                             <h4>Private Ski Lessons in Baqueira (Kids, Adults and Families)</h4>
@@ -662,7 +662,7 @@
                              aria-label="Group ski lessons for adults in Baqueira"></div>
                         <div class="blog-content">
                             <h4>Group Ski Lessons in Baqueira (Kids and Adults)</h4>
-                            <p>Learn and share the passion for skiing in a fun environment. Our <a href="/en/private-ski-lessons-kids-baqueira">group ski lessons for children</a> in Baqueira or our <a href="/en/group-ski-lessons-adults-baqueira">ski lessons for adults</a> are organized by homogeneous levels</p>
+                            <p>Learn and share the passion for skiing in a fun environment. Our group ski lessons for children in Baqueira or our <a href="/en/group-ski-lessons-adults-baqueira">ski lessons for adults</a> are organized by homogeneous levels</p>
                             <a href="/en/group-ski-lessons-kids-baqueira" class="btn btn-sm btn-primary">Read more</a>
                         </div>
                     </div>
@@ -793,7 +793,7 @@
     <section id="blog" class="blog-section bg-light">
         <div class="container">
             <h2 class="section-title text-center">Stay Informed: Our Ski and Snowboard Blog in Baqueira</h2>
-            <p class="member-desc">Immerse yourself in the world of snow with our blog. Find the best tips to improve your technique, detailed guides about Baqueira Beret, Alpine Ski Academy news and much more. Articles like our recommendations of the <a href="/en/blog">best restaurants in Baqueira and the Aran Valley</a> among many others that will interest you.</p>
+            <p class="member-desc">Immerse yourself in the world of snow with our blog. Find the best tips to improve your technique, detailed guides about Baqueira Beret, Alpine Ski Academy news and much more. Articles like our recommendations of the best restaurants in Baqueira and the Aran Valley among many others that will interest you.</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="blog-card">
@@ -839,34 +839,38 @@
             <p class="member-desc">Your adventure on the spectacular slopes of Baqueira Beret is one step away. Booking your ski or snowboard lessons with Alpine Ski Academy is simple and guarantees an unforgettable experience.</p>
             <div class="row">
                 <div class="col-lg-6">
-                    <form>
+                    <form id="contactForm">
+                        <div id="formMessage" class="alert d-none" role="alert"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="firstName" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="firstName" required>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="lastName" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="lastName" required>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
                                 </div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email Address</label>
-                            <input type="email" class="form-control" id="email" required>
+                            <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="phone">
+                            <input type="tel" class="form-control" id="phone" name="phone">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            <span class="btn-text">Send Message</span>
+                        </button>
                     </form>
                 </div>
                 <div class="col-lg-6">
@@ -1004,6 +1008,9 @@
                     <p class="copyright">
                         © <span id="currentYear"></span> Alpine Ski Academy. All rights reserved.
                     </p>
+                    <p class="powered-by" style="margin-top: 10px; font-size: 0.9em; color: rgba(255, 255, 255, 0.7);">
+                        Powered by <a href="https://salvonixtech.net" target="_blank" rel="noopener noreferrer" style="color: rgba(255, 255, 255, 0.8); text-decoration: none;">SalvonixTech</a>
+                    </p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="legal-notice">Alpine Ski Academy S.L. is an independent company. We are not linked to or part of Baqueira Beret, S.A. The use of the name Baqueira is strictly to locate the place where we provide our services as a ski school.</p>
@@ -1036,6 +1043,68 @@
 
         // Set current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Contact Form Handler
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const formMessage = document.getElementById('formMessage');
+            const submitBtn = document.getElementById('submitBtn');
+            const spinner = submitBtn ? submitBtn.querySelector('.spinner-border') : null;
+            const btnText = submitBtn ? submitBtn.querySelector('.btn-text') : null;
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    // Reset message
+                    formMessage.classList.add('d-none');
+                    formMessage.classList.remove('alert-success', 'alert-danger');
+                    
+                    // Disable submit button and show spinner
+                    submitBtn.disabled = true;
+                    if (spinner) spinner.classList.remove('d-none');
+                    if (btnText) btnText.textContent = 'Sending...';
+                    
+                    // Get form data
+                    const formData = new FormData(contactForm);
+                    
+                    try {
+                        const response = await fetch('/contact-form-handler.php', {
+                            method: 'POST',
+                            body: formData
+                        });
+                        
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            // Success
+                            formMessage.classList.remove('d-none');
+                            formMessage.classList.add('alert-success');
+                            formMessage.textContent = data.message || 'Message sent successfully! We will respond soon.';
+                            contactForm.reset();
+                        } else {
+                            // Error
+                            formMessage.classList.remove('d-none');
+                            formMessage.classList.add('alert-danger');
+                            formMessage.textContent = data.error || 'There was a problem sending your message. Please try again.';
+                        }
+                    } catch (error) {
+                        // Network or other error
+                        formMessage.classList.remove('d-none');
+                        formMessage.classList.add('alert-danger');
+                        formMessage.textContent = 'Connection error. Please check your internet connection and try again.';
+                    } finally {
+                        // Re-enable submit button and hide spinner
+                        submitBtn.disabled = false;
+                        if (spinner) spinner.classList.add('d-none');
+                        if (btnText) btnText.textContent = 'Send Message';
+                        
+                        // Scroll to message
+                        formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                });
+            }
+        });
     </script>
 
 </body>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt">
 
 <head>
@@ -440,8 +440,7 @@
                         técnica ou explorar o emocionante freeride, nossa escola oferece uma experiência
                         inesquecível.
                     </p>
-                    <p>
-                        <a href="/pt/aulas-de-esqui-baqueira">Ministramos aulas de esqui</a> e snowboard para todos os níveis e idades, desde
+                    <p>Ministramos aulas de esqui e snowboard para todos os níveis e idades, desde
                         aulas para crianças até programas avançados para adultos, assegurando uma progressão real, segura
                         e sempre com um sorriso.
                     </p>
@@ -505,7 +504,7 @@
                                 </div>
                                 <h4>Atenção 100% Personalizada</h4>
                                 <p>
-                                    Cada esquiador é um mundo. Adaptamos cada <a href="/pt/aulas-de-esqui-baqueira">aula de esqui</a>, particular ou em grupo a
+                                    Cada esquiador é um mundo. Adaptamos cada aula de esqui, particular ou em grupo a
                                     seus objetivos, ritmo e estilo, seja você adulto ou criança, para que aproveite cada
                                     minuto ao máximo em Baqueira.
                                 </p>
@@ -592,7 +591,7 @@
 
                     <!-- Info Container (simplified structure) -->
                     <div class="info-container">
-                        <h3 class="info-title">Informação Essencial de Esqui</h3>
+                        <h3 class="info-title">Serviços Adicionais à sua Reserva</h3>
 
                         <div class="info-item">
                             <div class="info-icon">
@@ -691,7 +690,7 @@
                 <div class="col-md-4">
                     <div class="blog-card">
                         <div class="blog-img"
-                             style="background-image: url('/images/clases-esquí-alpine-ski-academy.webp');"
+                             style="background-image: url('/images/esqui-baqueria-profesor-alumna.webp');"
                              aria-label="Aulas particulares de esqui em Baqueira para crianças, adultos e famílias com instrutores titulados"></div>
                         <div class="blog-content">
                             <h4>Aulas Particulares de Esqui em Baqueira (Crianças, Adultos e Famílias)</h4>
@@ -730,7 +729,7 @@
                             <h4>Aulas Coletivas de Esqui em Baqueira (Crianças e Adultos)</h4>
                             <p>
                                 Aprenda e compartilhe a paixão pelo esqui em um ambiente divertido. Nossas aulas de
-                                <a href="/pt/aulas-particulares-criancas-baqueira">esqui em grupo para crianças</a> em Baqueira ou nossas <a href="/pt/aulas-grupo-adultos-baqueira">aulas de esqui para adultos</a>, se
+                                esqui em grupo para crianças em Baqueira ou nossas <a href="/pt/aulas-grupo-adultos-baqueira">aulas de esqui para adultos</a>, se
                                 organizam por níveis homogêneos
                             </p>
                             <a href="/pt/aulas-grupo-criancas-baqueira" class="btn btn-sm btn-primary">Ler mais</a>
@@ -928,7 +927,7 @@
             <p class="member-desc">
                 Mergulhe no mundo da neve com nosso blog. Encontre os melhores conselhos
                 para melhorar sua técnica, guias detalhadas sobre Baqueira Beret, novidades da Alpine Ski Academy e muito
-                mais. Artigos como nossas recomendações dos <a href="/pt/blog">melhores restaurantes de Baqueira e do Vale de Aran</a> entre muitos
+                mais. Artigos como nossas recomendações dos melhores restaurantes de Baqueira e do Vale de Aran entre muitos
                 outros que lhe interessarão.
             </p>
             <div class="row">
@@ -980,34 +979,38 @@
             </p>
             <div class="row">
                 <div class="col-lg-6">
-                    <form>
+                    <form id="contactForm">
+                        <div id="formMessage" class="alert d-none" role="alert"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="firstName" class="form-label">Primeiro nome</label>
-                                    <input type="text" class="form-control" id="firstName" required>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="lastName" class="form-label">Sobrenome</label>
-                                    <input type="text" class="form-control" id="lastName" required>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
                                 </div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Endereço de correio eletrônico</label>
-                            <input type="email" class="form-control" id="email" required>
+                            <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="form-label">Número de telefone</label>
-                            <input type="tel" class="form-control" id="phone">
+                            <input type="tel" class="form-control" id="phone" name="phone">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Mensagem</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            <span class="btn-text">Enviar mensagem</span>
+                        </button>
                     </form>
                 </div>
                 <div class="col-lg-6">
@@ -1165,6 +1168,9 @@
                         © <span id="currentYear"></span> Alpine Ski Academy. Todos os direitos
                         reservados.
                     </p>
+                    <p class="powered-by" style="margin-top: 10px; font-size: 0.9em; color: rgba(255, 255, 255, 0.7);">
+                        Powered by <a href="https://salvonixtech.net" target="_blank" rel="noopener noreferrer" style="color: rgba(255, 255, 255, 0.8); text-decoration: none;">SalvonixTech</a>
+                    </p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="legal-notice">
@@ -1201,6 +1207,68 @@
 
         // Set current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Contact Form Handler
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const formMessage = document.getElementById('formMessage');
+            const submitBtn = document.getElementById('submitBtn');
+            const spinner = submitBtn ? submitBtn.querySelector('.spinner-border') : null;
+            const btnText = submitBtn ? submitBtn.querySelector('.btn-text') : null;
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    // Reset message
+                    formMessage.classList.add('d-none');
+                    formMessage.classList.remove('alert-success', 'alert-danger');
+                    
+                    // Disable submit button and show spinner
+                    submitBtn.disabled = true;
+                    if (spinner) spinner.classList.remove('d-none');
+                    if (btnText) btnText.textContent = 'Enviando...';
+                    
+                    // Get form data
+                    const formData = new FormData(contactForm);
+                    
+                    try {
+                        const response = await fetch('/contact-form-handler.php', {
+                            method: 'POST',
+                            body: formData
+                        });
+                        
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            // Success
+                            formMessage.classList.remove('d-none');
+                            formMessage.classList.add('alert-success');
+                            formMessage.textContent = data.message || 'Mensagem enviada com sucesso! Responderemos em breve.';
+                            contactForm.reset();
+                        } else {
+                            // Error
+                            formMessage.classList.remove('d-none');
+                            formMessage.classList.add('alert-danger');
+                            formMessage.textContent = data.error || 'Houve um problema ao enviar sua mensagem. Por favor, tente novamente.';
+                        }
+                    } catch (error) {
+                        // Network or other error
+                        formMessage.classList.remove('d-none');
+                        formMessage.classList.add('alert-danger');
+                        formMessage.textContent = 'Erro de conexão. Por favor, verifique sua conexão com a internet e tente novamente.';
+                    } finally {
+                        // Re-enable submit button and hide spinner
+                        submitBtn.disabled = false;
+                        if (spinner) spinner.classList.add('d-none');
+                        if (btnText) btnText.textContent = 'Enviar mensagem';
+                        
+                        // Scroll to message
+                        formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                });
+            }
+        });
     </script>
 
 </body>

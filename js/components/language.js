@@ -984,28 +984,25 @@ document.addEventListener('DOMContentLoaded', function() {
   function switchLanguage(lang) {
     const currentPath = window.location.pathname;
     
-    // Special handling for blogs directory
-    const isBlogsPage = currentPath.includes('/blogs');
-    if (isBlogsPage) {
-      let targetPath;
-      if (lang === 'es') {
-        targetPath = '/blogs';
-      } else {
-        targetPath = '/' + lang + '/blogs';
-      }
-      localStorage.setItem('preferredLanguage', lang);
-      window.location.href = targetPath;
-      return;
-    }
+    // Normalize the path - remove trailing slash and handle both with/without .html
+    let normalizedPath = currentPath.replace(/\/$/, '');
+    const pathSegments = normalizedPath.split('/').filter(s => s.length > 0);
+    const lastSegment = pathSegments[pathSegments.length - 1];
     
-    // Check if we're on a blog article (in /blogs/ directory)
-    const isBlogArticle = currentPath.includes('/blogs/') && currentPath.split('/').pop() !== 'blog' && currentPath.split('/').pop() !== 'blogs';
+    // IMPORTANT: Check for blog articles FIRST (before blog listing pages)
+    // A blog article has /blogs/ in the path AND the last segment is not 'blog' or 'blogs'
+    const isBlogListing = lastSegment === 'blog' || lastSegment === 'blogs' || normalizedPath === '/blog' || normalizedPath === '/blogs';
+    const isBlogArticle = normalizedPath.includes('/blogs/') && !isBlogListing;
     
     if (isBlogArticle) {
       // Extract the current article slug (without .html)
-      let currentSlug = currentPath.split('/').pop();
-      // Add .html if needed for mapping lookup
-      let currentFilename = currentSlug.endsWith('.html') ? currentSlug : currentSlug + '.html';
+      let currentSlug = lastSegment;
+      // Remove .html extension if present
+      if (currentSlug.endsWith('.html')) {
+        currentSlug = currentSlug.replace('.html', '');
+      }
+      // Add .html for mapping lookup
+      let currentFilename = currentSlug + '.html';
       
       // Look up the mapping for this article
       if (blogArticleMappings[currentFilename]) {
@@ -1024,7 +1021,23 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('preferredLanguage', lang);
         window.location.href = targetPath;
         return;
+      } else {
+        // If mapping not found, log warning but don't break
+        console.warn('Blog article mapping not found for:', currentFilename, 'Current path:', normalizedPath);
       }
+    }
+    
+    // Special handling for blog listing pages (blog.html)
+    if (isBlogListing || normalizedPath.includes('/blog') && !normalizedPath.includes('/blogs/')) {
+      let targetPath;
+      if (lang === 'es') {
+        targetPath = '/blog';
+      } else {
+        targetPath = '/' + lang + '/blog';
+      }
+      localStorage.setItem('preferredLanguage', lang);
+      window.location.href = targetPath;
+      return;
     }
     
     // Get the current page slug (clean URL handling)

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ca">
 
 <head>
@@ -440,8 +440,7 @@
                         tècnica o explorar l'emocionant freeride, la nostra escola t'ofereix una experiència
                         inoblidable.
                     </p>
-                    <p>
-                        <a href="/ca/classes-desqui-baqueira">Impartim classes d'esquí </a> i snowboard per a tots els nivells i edats, des de
+                    <p>Impartim classes d'esquí i snowboard per a tots els nivells i edats, des de
                         classes per a nens fins a programes avançats per a adults, assegurant una progressió real, segura
                         i sempre amb un somriure.
                     </p>
@@ -505,7 +504,7 @@
                                 </div>
                                 <h4>Atenció 100% Personalitzada</h4>
                                 <p>
-                                    Cada esquiador és un món. Adaptem cada <a href="/ca/classes-desqui-baqueira">classe d'esquí</a>, particular o en grup a
+                                    Cada esquiador és un món. Adaptem cada classe d'esquí, particular o en grup a
                                     els teus objectius, ritme i estil, ja siguis adult o nen, perquè aprofitis cada
                                     minut al màxim a Baqueira.
                                 </p>
@@ -592,7 +591,7 @@
 
                     <!-- Info Container (simplified structure) -->
                     <div class="info-container">
-                        <h3 class="info-title">Informació Essencial d'Esquí</h3>
+                        <h3 class="info-title">Serveis Addicionals a la Reserva</h3>
 
                         <div class="info-item">
                             <div class="info-icon">
@@ -691,7 +690,7 @@
                 <div class="col-md-4">
                     <div class="blog-card">
                         <div class="blog-img"
-                             style="background-image: url('/images/clases-esquí-alpine-ski-academy.webp');"
+                             style="background-image: url('/images/esqui-baqueria-profesor-alumna.webp');"
                              aria-label="Classes particulars d'esquí a Baqueira per a nens, adults i famílies amb instructors titulats"></div>
                         <div class="blog-content">
                             <h4>Classes Particulars d'Esquí a Baqueira (Nens, Adults i Famílies)</h4>
@@ -730,7 +729,7 @@
                             <h4>Classes Col·lectives d'Esquí a Baqueira (Nens i Adults)</h4>
                             <p>
                                 Aprèn i comparteix la passió per l'esquí en un ambient divertit. Les nostres classes de
-                                <a href="/ca/classes-particulars-nens-baqueira">esquí en grup per a nens </a> a Baqueira o les nostres <a href="/ca/classes-grup-adults-baqueira">classes d'esquí per a adults</a>, es
+                                esquí en grup per a nens a Baqueira o les nostres <a href="/ca/classes-grup-adults-baqueira">classes d'esquí per a adults</a>, es
                                 organitzen per nivells homogènis
                             </p>
                             <a href="/ca/classes-grup-nens-baqueira" class="btn btn-sm btn-primary">Llegeix més</a>
@@ -928,7 +927,7 @@
             <p class="member-desc">
                 Submergeix-te en el món de la neu amb el nostre blog. Troba els millors consells
                 per millorar la teva tècnica, guies detallades sobre Baqueira Beret, novetats d'Alpine Ski Academy i molt
-                més. Articles com les nostres recomanacions dels <a href="/ca/blog">millors restaurants de Baqueira i de la Vall d'Aran </a> entre molts
+                més. Articles com les nostres recomanacions dels millors restaurants de Baqueira i de la Vall d'Aran  entre molts
                 altres que t'interessaran.
             </p>
             <div class="row">
@@ -980,34 +979,38 @@
             </p>
             <div class="row">
                 <div class="col-lg-6">
-                    <form>
+                    <form id="contactForm">
+                        <div id="formMessage" class="alert d-none" role="alert"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="firstName" class="form-label">Nom de pila</label>
-                                    <input type="text" class="form-control" id="firstName" required>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="lastName" class="form-label">Cognom</label>
-                                    <input type="text" class="form-control" id="lastName" required>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
                                 </div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Adreça de correu electrònic</label>
-                            <input type="email" class="form-control" id="email" required>
+                            <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="form-label">Número de telèfon</label>
-                            <input type="tel" class="form-control" id="phone">
+                            <input type="tel" class="form-control" id="phone" name="phone">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Missatge</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar missatge</button>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            <span class="btn-text">Enviar missatge</span>
+                        </button>
                     </form>
                 </div>
                 <div class="col-lg-6">
@@ -1165,6 +1168,9 @@
                         © <span id="currentYear"></span> Alpine Ski Academy. Tots els drets
                         reservats.
                     </p>
+                    <p class="powered-by" style="margin-top: 10px; font-size: 0.9em; color: rgba(255, 255, 255, 0.7);">
+                        Powered by <a href="https://salvonixtech.net" target="_blank" rel="noopener noreferrer" style="color: rgba(255, 255, 255, 0.8); text-decoration: none;">SalvonixTech</a>
+                    </p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="legal-notice">
@@ -1201,6 +1207,68 @@
 
         // Set current year in footer
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Contact Form Handler
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const formMessage = document.getElementById('formMessage');
+            const submitBtn = document.getElementById('submitBtn');
+            const spinner = submitBtn ? submitBtn.querySelector('.spinner-border') : null;
+            const btnText = submitBtn ? submitBtn.querySelector('.btn-text') : null;
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', async function(e) {
+                    e.preventDefault();
+                    
+                    // Reset message
+                    formMessage.classList.add('d-none');
+                    formMessage.classList.remove('alert-success', 'alert-danger');
+                    
+                    // Disable submit button and show spinner
+                    submitBtn.disabled = true;
+                    if (spinner) spinner.classList.remove('d-none');
+                    if (btnText) btnText.textContent = 'Enviant...';
+                    
+                    // Get form data
+                    const formData = new FormData(contactForm);
+                    
+                    try {
+                        const response = await fetch('/contact-form-handler.php', {
+                            method: 'POST',
+                            body: formData
+                        });
+                        
+                        const data = await response.json();
+                        
+                        if (data.success) {
+                            // Success
+                            formMessage.classList.remove('d-none');
+                            formMessage.classList.add('alert-success');
+                            formMessage.textContent = data.message || 'Missatge enviat amb èxit! Respondrem aviat.';
+                            contactForm.reset();
+                        } else {
+                            // Error
+                            formMessage.classList.remove('d-none');
+                            formMessage.classList.add('alert-danger');
+                            formMessage.textContent = data.error || 'Hi ha hagut un problema en enviar el teu missatge. Si us plau, torna-ho a intentar.';
+                        }
+                    } catch (error) {
+                        // Network or other error
+                        formMessage.classList.remove('d-none');
+                        formMessage.classList.add('alert-danger');
+                        formMessage.textContent = 'Error de connexió. Si us plau, comprova la teva connexió a Internet i torna-ho a intentar.';
+                    } finally {
+                        // Re-enable submit button and hide spinner
+                        submitBtn.disabled = false;
+                        if (spinner) spinner.classList.add('d-none');
+                        if (btnText) btnText.textContent = 'Enviar missatge';
+                        
+                        // Scroll to message
+                        formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                    }
+                });
+            }
+        });
     </script>
 
 </body>

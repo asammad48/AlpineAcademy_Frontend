@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -395,10 +395,9 @@
     <section class="hero-section">
         <div class="container">
             <div class="hero-content">
-                <span class="hero-badge">Instrucción de esquí de clase mundial</span>
                 <h1 class="display-3 fw-bold mb-4">Alpine Ski Academy: Tu Escuela de Esquí y Snowboard en Baqueira Beret
                 </h1>
-                <p class="lead mb-5">Vive la nieve al máximo: clases personalizadas, progreso garantizado y experiencias
+                <p class="lead mb-5">Vive La Nieve Al Máximo: Clases Personalizadas, Progreso Garantizado y Experiencias
                     unicas en Baqueira</p>
                 <div class="hero-buttons">
                     <a href="/contacto-reservas" class="btn btn-primary btn-lg me-3">Consultanos lo que necesites o reserva tu
@@ -421,7 +420,7 @@
                         gran aventura en esquí y snowboard. Si sueñas con deslizarte por primera vez, perfeccionar tu
                         técnica o explorar el emocionante freeride, nuestra escuela te ofrece una experiencia
                         inolvidable.</p>
-                    <p><a href="/clases-de-esqui-baqueira">Impartimos clases de esquí </a> y snowboard para todos los niveles y edades, desde
+                    <p>Impartimos clases de esquí y snowboard para todos los niveles y edades, desde
                         clases para niños hasta programas avanzados para adultos, asegurando una progresión real, segura
                         y siempre con una sonrisa.</p>
                     <a href="#contact" class="btn btn-primary mt-3">Más información sobre nosotros</a>
@@ -477,7 +476,7 @@
                                     <i class="fas fa-mountain fa-3x text-primary"></i>
                                 </div>
                                 <h4>Atención 100% Personalizada</h4>
-                                <p>Cada esquiador es un mundo. Adaptamos cada <a href="/clases-de-esqui-baqueira">clase de esquí</a>, particular o en grupo a
+                                <p>Cada esquiador es un mundo. Adaptamos cada clase de esquí, particular o en grupo a
                                     tus objetivos, ritmo y estilo, ya seas adulto o niño, para que aproveches cada
                                     minuto al máximo en Baqueira.</p>
                             </div>
@@ -556,7 +555,7 @@
 
         <!-- Info Container (simplified structure) -->
         <div class="info-container">
-            <h3 class="info-title">Essential Skiing Information</h3>
+            <h3 class="info-title">Servicios adicionales a tu reserva</h3>
             
             <div class="info-item">
                 <div class="info-icon">
@@ -653,7 +652,7 @@
                 <div class="col-md-4">
                     <div class="blog-card">
                         <div class="blog-img"
-                            style="background-image: url('/images/clases-esquí-alpine-ski-academy.webp');"
+                            style="background-image: url('/images/esqui-baqueria-profesor-alumna.webp');"
                             aria-label="Clases particulares de esquí en Baqueira para niños, adultos y familias con instructores titulados"></div>
                         <div class="blog-content">
                             <h4>Clases Particulares de Esquí en Baqueira (Niños, Adultos y Familias)</h4>
@@ -687,7 +686,7 @@
                         <div class="blog-content">
                             <h4>Clases Colectivas de Esquí en Baqueira (Niños y Adultos)</h4>
                             <p>Aprende y comparte la pasión por el esquí en un ambiente divertido. Nuestras clases de
-                                <a href="/clases-particulares-ninos-baqueira">esquí en grupo para niños </a> en Baqueira o nuestras <a href="/clases-grupo-adultos-baqueira">clases de esquí para adultos</a>, se
+                                esquí en grupo para niños en Baqueira o nuestras <a href="/clases-grupo-adultos-baqueira">clases de esquí para adultos</a>, se
                                 organizan por niveles homogéneos</p>
                                 <a href="/clases-grupo-ninos-baqueira" class="btn btn-sm btn-primary">Leer más</a>
                         </div>
@@ -857,7 +856,7 @@
             <h2 class="section-title text-center">Mantente Informado: Nuestro Blog de Esquí y Snowboard en Baqueira</h2>
             <p class="member-desc">Sumérgete en el mundo de la nieve con nuestro blog. Encuentra los mejores consejos
                 para mejorar tu técnica, guías detalladas sobre Baqueira Beret, novedades de Alpine Ski Academy y mucho
-                más. Atriculos como nuestras recomendaciones de los <a href="/blog">mejores restaurantes de Baqueira y del Valle de Aran </a> entre muchos
+                más. Atriculos como nuestras recomendaciones de los mejores restaurantes de Baqueira y del Valle de Aran entre muchos
                 otros que te interesaran.</p>
             <div class="row">
                 <div class="col-md-4">
@@ -906,34 +905,38 @@
                 inolvidable.</p>
             <div class="row">
                 <div class="col-lg-6">
-                    <form>
+                    <form id="contactForm">
+                        <div id="formMessage" class="alert d-none" role="alert"></div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="firstName" class="form-label">Nombre de pila</label>
-                                    <input type="text" class="form-control" id="firstName" required>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="mb-3">
                                     <label for="lastName" class="form-label">Apellido</label>
-                                    <input type="text" class="form-control" id="lastName" required>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required>
                                 </div>
                             </div>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Dirección de correo electrónico</label>
-                            <input type="email" class="form-control" id="email" required>
+                            <input type="email" class="form-control" id="email" name="email" required>
                         </div>
                         <div class="mb-3">
                             <label for="phone" class="form-label">Número de teléfono</label>
-                            <input type="tel" class="form-control" id="phone">
+                            <input type="tel" class="form-control" id="phone" name="phone">
                         </div>
                         <div class="mb-3">
                             <label for="message" class="form-label">Mensaje</label>
-                            <textarea class="form-control" id="message" rows="5" required></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <span class="spinner-border spinner-border-sm d-none" role="status" aria-hidden="true"></span>
+                            <span class="btn-text">Enviar mensaje</span>
+                        </button>
                     </form>
                 </div>
                 <div class="col-lg-6">
@@ -1083,6 +1086,9 @@
                     <p class="copyright">© <span id="currentYear"></span> Alpine Ski Academy. Todos los derechos
                         reservados.
                     </p>
+                    <p class="powered-by" style="margin-top: 10px; font-size: 0.9em; color: rgba(255, 255, 255, 0.7);">
+                        Powered by <a href="https://salvonixtech.net" target="_blank" rel="noopener noreferrer" style="color: rgba(255, 255, 255, 0.8); text-decoration: none;">SalvonixTech</a>
+                    </p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="legal-notice">Alpine Ski Academy S.L. es una empresa independiente. No estamos vinculados
@@ -1117,6 +1123,68 @@ function toggleFaq(element) {
 
 // Set current year in footer
 document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+// Contact Form Handler
+document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contactForm');
+    const formMessage = document.getElementById('formMessage');
+    const submitBtn = document.getElementById('submitBtn');
+    const spinner = submitBtn.querySelector('.spinner-border');
+    const btnText = submitBtn.querySelector('.btn-text');
+
+    if (contactForm) {
+        contactForm.addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            // Reset message
+            formMessage.classList.add('d-none');
+            formMessage.classList.remove('alert-success', 'alert-danger');
+            
+            // Disable submit button and show spinner
+            submitBtn.disabled = true;
+            spinner.classList.remove('d-none');
+            btnText.textContent = 'Enviando...';
+            
+            // Get form data
+            const formData = new FormData(contactForm);
+            
+            try {
+                        const response = await fetch('/contact-form-handler.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    // Success
+                    formMessage.classList.remove('d-none');
+                    formMessage.classList.add('alert-success');
+                    formMessage.textContent = data.message || '¡Mensaje enviado con éxito! Te responderemos pronto.';
+                    contactForm.reset();
+                } else {
+                    // Error
+                    formMessage.classList.remove('d-none');
+                    formMessage.classList.add('alert-danger');
+                    formMessage.textContent = data.error || 'Hubo un problema al enviar tu mensaje. Por favor, intenta nuevamente.';
+                }
+            } catch (error) {
+                // Network or other error
+                formMessage.classList.remove('d-none');
+                formMessage.classList.add('alert-danger');
+                formMessage.textContent = 'Error de conexión. Por favor, verifica tu conexión a internet e intenta nuevamente.';
+            } finally {
+                // Re-enable submit button and hide spinner
+                submitBtn.disabled = false;
+                spinner.classList.add('d-none');
+                btnText.textContent = 'Enviar mensaje';
+                
+                // Scroll to message
+                formMessage.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        });
+    }
+});
 </script>
 
 </body>
