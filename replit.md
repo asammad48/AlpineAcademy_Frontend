@@ -93,3 +93,9 @@ The website is built on a static HTML, CSS, and JavaScript frontend with a PHP b
   - **Page Transition Loader** (`js/page-transition.js`): Smooth page transition animations with loading spinner for internal navigation
   - **Blog Mobile Image Fix**: Added CSS in styles.css for mobile blog image containment; Fixed HTML structure of en/blog.html, fr/blog.html, pt/blog.html to wrap blog-grid in container section (ca/blog.html already had correct structure)
   - All 3 JavaScript files added to all 174 HTML pages via deferred script tags before </head>
+
+- **2025-12-08**: Single Link Script and Logo Update
+  - **Single Link Script** (`js/single-link.js`): Ensures "En Alpine Ski Academy" text only has a link on ONE randomly selected instance per page (prevents duplicate internal links for SEO)
+  - **Logo Update**: Replaced `logo1.jpg` with new transparent PNG logo (`/images/logo-new.png`) across all 173 HTML files
+  - Updated `404-redirect.js` fallback image reference to use new logo
+  - Logo styling remains responsive with CSS constraints (height: 40px, min-width: 100-120px, max-width: 180-200px)

@@ -17,7 +17,7 @@
             console.log('Image not found:', e.target.src);
             // Optionally set a default image
             e.target.onerror = null;
-            e.target.src = '/logo1.jpg'; // Fallback logo
+            e.target.src = '/images/logo-new.png'; // Fallback logo
         }
     }, true);
     
